@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 
+title: Home
 cv: passive
 research: passive
 contact: passive
