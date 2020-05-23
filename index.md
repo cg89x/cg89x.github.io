@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Christian Kontz
+title: 
 cv: passive
 research: passive
 contact: passive

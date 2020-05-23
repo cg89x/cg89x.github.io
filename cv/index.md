@@ -8,9 +8,14 @@ notes: passive
 contact: passive
 ---
 
+<br>
+My CV is rendered below. You can also download it directly <a href="../files/ChristianKontzCV.pdf">here</a>.
+
+<br>
+
 <object data="../files/ChristianKontzCV.pdf" type="application/pdf" style="min-height:100vh;width:100%">
     <p>It appears you don't have a PDF plugin for this browser.
-    No biggie... you can <a href="myfile.pdf">click here to
+    No biggie... you can <a href="../files/ChristianKontzCV.pdf">click here to
     download the PDF file.</a></p>
 </object>
 
