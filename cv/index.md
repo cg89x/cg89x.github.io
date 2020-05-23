@@ -8,7 +8,7 @@ notes: passive
 contact: passive
 ---
 
-<br>
+
 You download my CV <a href="../files/ChristianKontzCV.pdf">here</a>.
 
 <br>
