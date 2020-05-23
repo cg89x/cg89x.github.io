@@ -9,7 +9,7 @@ contact: passive
 ---
 
 
-You download my CV <a href="../files/ChristianKontzCV.pdf">here</a>.
+You can download my CV <a href="../files/ChristianKontzCV.pdf">here</a>.
 
 <br>
 
