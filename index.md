@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ckontz.com
+title: Christian Kontz
 cv: passive
 notes: passive
 contact: passive
