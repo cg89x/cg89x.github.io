@@ -9,7 +9,7 @@ contact: passive
 
 <br>
 
-| ![Christian Kontz](img/ckontz-300px.png){:.img-circle avatar}{: style="max-width: 200px; height: auto;"}| | **Hi, I'm Christian Kontz. I am a Ph.D. student in Finance at the Stanford Graduate School of Business.** | 
+| ![Christian Kontz](img/ckontz-300px.png){:.img-circle avatar}{: style="max-width: 200px; height: auto;"}| | **Hi, I'm Christian Kontz. I'm a Ph.D. student in Finance at the Stanford Graduate School of Business.** | 
 
   
 
