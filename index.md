@@ -15,7 +15,7 @@ contact: passive
 
 <br>
 
-I spend most of my time thinking about finance, household balance sheets, banking, and how broker dealers influence the real economy... I mean, who doesn't?
+I spend most of my time thinking about household balance sheets, banking, and how broker dealers influence the real economy... I mean, who doesn't?
 
 <br>
 <br>
