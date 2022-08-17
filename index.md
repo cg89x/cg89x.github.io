@@ -15,7 +15,7 @@ contact: passive
 
 <br>
 
-I spend most of my time thinking about household balance sheets, banking, and international finance. 
+I spend most of my time thinking about innovation, climate finance, and international finance. 
 
 <br>
 <br>
