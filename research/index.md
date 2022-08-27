@@ -5,7 +5,7 @@ home: passive
 cv: passive
 research: active
 contact: passive
-publis: false
+published: false
 ---
 
 ## Working Papers
