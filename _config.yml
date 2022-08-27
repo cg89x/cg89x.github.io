@@ -5,6 +5,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.christiankontz.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ChristianKontz
 github_username:  cg89x
-google_analytics: "UA-CL595QMXQ-9"
+google_analytics: "G-CL595QMXQ9"
 permalink: /notes/:year/:month/:day/:title
 markdown: kramdown
