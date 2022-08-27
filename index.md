@@ -1,11 +1,20 @@
 ---
 layout: default
 title: Home
+home: active
 cv: passive
 research: passive
 contact: passive
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CL595QMXQ9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-CL595QMXQ9');
+</script>
 
 <br>
 
@@ -15,7 +24,7 @@ contact: passive
 
 <br>
 
-I spend most of my time thinking about innovation, climate finance, and international finance. 
+I spend most of my time thinking about climate finance, international finance, and innovation. You can learn more about my research <a href="/research">here</a>.
 
 <br>
 <br>

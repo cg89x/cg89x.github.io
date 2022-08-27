@@ -1,12 +1,20 @@
 ---
 layout: default
 title: Contact
+home: passive
 cv: passive
-projects: passive
-notes: passive
+research: passive
 contact: active
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CL595QMXQ9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-CL595QMXQ9');
+</script>
 <br>
 <br>
 
