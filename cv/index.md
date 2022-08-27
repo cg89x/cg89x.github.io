@@ -6,15 +6,7 @@ cv: active
 research: passive
 contact: passive
 ---
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CL595QMXQ9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-CL595QMXQ9');
-</script>
 
 You can download my CV <a href="../files/ChristianKontzCV.pdf">here</a>.
 

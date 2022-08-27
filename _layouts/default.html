@@ -5,7 +5,9 @@
 	
 	<body>
 		<div class="container">
-			
+			{% if jekyll.environment == 'production' and site.google_analytics %}
+			{% include analytics.html %}
+			{% endif %}
 			{% include header.html %}
 			
 			{{ content }}
@@ -16,7 +18,7 @@
 	
 	
 		{% include scripts.html %}
-	
+		
 	</body>
 
 </html>

@@ -6,16 +6,6 @@ cv: passive
 research: passive
 contact: passive
 ---
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CL595QMXQ9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CL595QMXQ9');
-</script>
-
 <br>
 
 | ![Christian Kontz](img/ckontz-300px.png){:.img-circle avatar}{: style="max-width: 200px; height: auto;"}| | **Hi, I'm Christian Kontz. I'm a Ph.D. student in Finance at the Stanford Graduate School of Business.** | 
