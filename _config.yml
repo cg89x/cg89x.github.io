@@ -2,10 +2,9 @@ title: Christian Kontz
 email: ckontz@stanford.edu
 description: Website of Christian Kontz, Finance PhD student at Stanford Graduate School of Business
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.christiankontz.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ChristianKontz
 github_username:  cg89x
 google_analytics: "G-CL595QMXQ9"
-
 permalink: /notes/:year/:month/:day/:title
 markdown: kramdown
