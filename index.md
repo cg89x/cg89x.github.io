@@ -14,7 +14,8 @@ contact: passive
 
 <br>
 
-I spend most of my time thinking about climate finance, international finance, and innovation. You can learn more about my research <a href="/research">here</a>.
+I spend most of my time thinking about climate finance, international finance, and innovation. 
+<!-- You can learn more about my research <a href="/research">here</a>. -->
 
 <br>
 <br>
