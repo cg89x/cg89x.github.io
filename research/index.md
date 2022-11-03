@@ -5,7 +5,7 @@ home: passive
 cv: passive
 research: active
 contact: passive
-published: true
+published: false
 ---
 
 ## Work in Progress
