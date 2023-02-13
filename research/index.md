@@ -5,24 +5,21 @@ home: passive
 cv: passive
 research: active
 contact: passive
-published: false
+published: true
 ---
 
-## Work in Progress
+## Working Papers
 <br>
 
-#### Do financial markets price carbon emissions? Evidence from auto ABS
+#### <a href="../files/Kontz_ESG_auto_ABS.pdf"> Do ESG investors care about carbon emissions? Evidence from securitized auto loans</a>
 
 **Abstract:**
 <img style="float: right;max-width: 450px; height: auto;" src="../img/autoABS.png">
 <br>
 <div style="text-align: justify;font-size: 14px;" >
-Securitized auto loans contain substantial amounts of non-taxed externalities in the form of CO2 emissions. The emissions content of auto ABS varies substantially across and within issuer. 
-I provide evidence that primary and secondary security markets <i>do not</i> price these differences despite the massive rise in ESG investing over the past decade. 
-If markets were to fully internalize the emissions embedded in auto ABS, average issuance spreads would need to increase seven fold if the true current social cost of carbon (SCC) is $51 per tonne of CO2. 
-This additional spread is heterogeneous across issuers and consumer groups with sub-prime issues seeing the largest increases. 
-Lastly, I find no evidence that commitments to reduce emissions by banks that serve as active book runners have an effect on issuance spreads or security design.
+Over the last decade, assets under management using environmental, social, and governance (ESG) criteria have increased tenfold. This paper shows that financial markets <i>do not</i> price differences in CO2 emissions of auto loans despite the rise of ESG investing. I argue that securitized auto loans present a clean empirical setting to measure ESG preferences in price and quantity data. I find that securities with high-emission pools have, on average, 5 basis points (11%) lower cost of capital. Mutual funds marketed as ESG (i) hold positions across the full distribution of CO2 emissions and (ii) invest more in higher-emission deals. Neither (i) nor (ii) are consistent with common ESG strategies.
 </div>
+<a href="https://ssrn.com/abstract=4357312">[SSRN]</a>
 
 <br>
 <br>
