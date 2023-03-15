@@ -14,7 +14,7 @@ contact: passive
 
 <br>
 
-I spend most of my time thinking about climate finance, ESG and sustainability, and innovation. 
+I spend most of my time thinking about the implications of climate change, ESG and sustainability, and innovation for asset prices and corporate finance. 
 You can learn more about my research <a href="/research">here</a>.
 
 <br>
