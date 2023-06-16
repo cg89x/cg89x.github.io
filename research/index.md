@@ -17,7 +17,7 @@ published: true
 <img style="float: right;max-width: 450px; height: auto;" src="../img/autoABS.png">
 <br>
 <div style="text-align: justify;font-size: 14px;" >
-Over the last decade, assets under management using environmental, social, and governance (ESG) criteria have increased tenfold. This paper shows that financial markets <i>do not</i> price differences in CO2 emissions of auto loans despite the rise of ESG investing. I argue that securitized auto loans present a clean empirical setting to measure ESG preferences in price and quantity data. I find that securities with high-emission pools have, on average, 5 basis points (11%) lower cost of capital. Mutual funds marketed as ESG (i) hold positions across the full distribution of CO2 emissions and (ii) invest more in higher-emission deals compared to non-ESG funds. Neither (i) nor (ii) are consistent with common ESG strategies.
+Over the last decade, assets managed by funds using environmental, social, and governance (ESG) criteria have increased tenfold. Securitized auto loans present a clean empirical setting to measure preferences for greenness in price and quantity data. I document three puzzling facts: (i) Brown securities which finance high-emission loans have a 6.5% lower cost of capital. Mutual funds marketed as ESG (ii) hold positions across the full distribution of CO2 emissions and (iii) invest more in higher-emission deals compared to non-ESG funds. I attribute these findings in part to the use of ESG ratings by issuers instead of direct measures of emissions.
 </div>
 <a href="https://ssrn.com/abstract=4357312">[SSRN]</a>
 
