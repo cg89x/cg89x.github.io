@@ -11,7 +11,7 @@ published: true
 ## Working Papers
 <br>
 
-#### <a href="../files/Kontz_ESG_auto_ABS.pdf"> Do ESG investors care about carbon emissions? Evidence from securitized auto loans</a>
+#### <a href="https://ssrn.com/abstract=4357312"> Do ESG investors care about carbon emissions? Evidence from securitized auto loans</a>
 
 **Abstract:**
 <a href="https://ssrn.com/abstract=4357312"><img style="float: right;max-width: 450px; height: auto;" src="../img/autoABS.png"></a>
