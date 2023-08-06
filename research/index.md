@@ -23,7 +23,7 @@ Securitized auto loans present a clean empirical setting to measure preferences 
 <a href="../files/Kontz_ESG_auto_ABS_slides.pdf">[Slides]</a>
 
 
-<div style="text-align: justify;font-size: 12px;">Presented at NYU Shanghai/SoFiE Summer School (scheduled), USC Marshall PhD Conference, Harvard Climate Economics Pipeline Workshop, UChicago/MFR "Assessing the Economic and Environmental Consequences of Climate Change" Conference, German Economist Abroad Conference 2022</div>
+<div style="text-align: justify;font-size: 12px;">Presented at NYU Shanghai/SoFiE Summer School, USC Marshall, Harvard Climate Economics Pipeline Workshop, UChicago/MFR "Assessing the Economic and Environmental Consequences of Climate Change" Conference, German Economist Abroad Conference 2022</div>
 
 <br>
 <br>
