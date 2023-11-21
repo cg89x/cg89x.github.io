@@ -6,16 +6,25 @@ cv: passive
 research: passive
 contact: passive
 ---
+<style>
+@media screen and (max-width: 480px) {
+	.body{ 
+		font-size:30px;
+	}
+}
+</style>
 <br>
 
-| ![Christian Kontz](img/ckontz-300px.png){:.img-circle avatar}{: style="max-width: 200px; height: auto;"}| | **Hi, I'm Christian Kontz. I'm a Ph.D. candidate in Finance at the Stanford Graduate School of Business.** | 
+| ![Christian Kontz](img/ckontz-300px.png){:.img-circle avatar}{: style="max-width: 100%; height: auto;"}| | **Hi, I'm Christian Kontz. I'm a Ph.D. candidate in Finance at the Stanford Graduate School of Business.** | 
 
 	
 
 <br>
 
+
 I spend most of my time thinking about the implications of climate change, ESG and sustainability, and innovation for asset prices and corporate finance. 
 You can learn more about my research <a href="/research">here</a>.
+
 
 <br>
 <br>
