@@ -11,7 +11,7 @@ contact: active
 <br>
 
 You can contact me by email at [ckontz@stanford.edu](mailto:ckontz@stanford.edu)
-or find me on twitter at the handle [@ChristianKontz](https://twitter.com/ChristianKontz).
+or find me on twitter at the handle <a href="https://twitter.com/ChristianKontz" target="_blank">@ChristianKontz</a>.
 
 <br>
 <br>
