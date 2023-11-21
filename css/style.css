@@ -1,19 +1,14 @@
 /*
 * @Author: Christian Kontz
-* @Date:   2023-11-21 10:44:47
+* @Date:   2023-11-21 14:58:27
 * @Last Modified by:   Christian Kontz
-* @Last Modified time: 2023-11-21 14:07:19
+* @Last Modified time: 2023-11-21 15:18:42
 */
+
 @import url(http://fonts.googleapis.com/css?family=Helvetica:300,300italic,400,400italic,700,700italic);
-@import url("jumbotron-narrow.css") screen and (max-device-width: 479px);
 @import url("jumbotron-wide.css") screen and (min-device-width: 480px);
+@import url("jumbotron-narrow.css") screen and (max-device-width: 479px);
 
-
-
-/*body { padding-top: 20px; padding-bottom: 40px;
-	font-family: 'Helvetica Neue'; font-size: 16px;
-}
-*/
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { 
 	font-family: 'Helvetica Neue'; font-weight: 700; color:#9A0000;}
 
@@ -26,10 +21,8 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 
 /* Navigation */
 a {text-decoration: none; color: #9A0000; }
-
 h3.text-muted a {text-decoration: none; color: #9A0000; }
 h3.text-muted a:hover { text-decoration: none; color: #000000; }
-
 
 img.avatar { margin-bottom: 30px;}
 
@@ -40,14 +33,48 @@ img.avatar { margin-bottom: 30px;}
 		background-image: none;
 }
 
+/* E-Mail */
+.obfuscate { unicode-bidi: bidi-override; direction: rtl; }
+
+
+* {
+	box-sizing: border-box;
+}
+
+/* Column container */
+.colnew {  
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+	flex: 45%;
+	background-color: white;
+	padding: 0px;
+}
+
+/* Main column */
+.main {
+	flex: 55%;
+	background-color: white;
+	padding: 10px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+	.row, .navbar {   
+		flex-direction: column;
+	}
+}
+
 
 /* Custom container 
 .container > hr { margin: 30px 0; }
 .container > hr.footer {margin-bottom: 15px; }
 */
 
-/* E-Mail */
-.obfuscate { unicode-bidi: bidi-override; direction: rtl; }
 
 /* Jumbotron */
 /*.jumbotron { margin: 80px 0; }
@@ -108,3 +135,4 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
 
 
 */
+

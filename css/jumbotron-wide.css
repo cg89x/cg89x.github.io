@@ -2,12 +2,13 @@
 * @Author: Christian Kontz
 * @Date:   2023-11-21 10:50:51
 * @Last Modified by:   Christian Kontz
-* @Last Modified time: 2023-11-21 14:07:46
+* @Last Modified time: 2023-11-21 14:27:31
 */
 /* Space out content a bit */
 body {
 	padding-top: 20px;
 	padding-bottom: 20px;
+	font-family: 'Helvetica Neue';
 	font-size: 16px;
 }
 
@@ -42,7 +43,6 @@ body {
 @media (min-width: 900px) {
 	.container {
 		max-width: 1000px;
-/*		max-width: 900px;*/
 	}
 }
 .container-narrow > hr {
@@ -85,3 +85,5 @@ body {
 		border-bottom: 0;
 	}
 }
+
+
