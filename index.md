@@ -7,8 +7,6 @@ research: passive
 contact: passive
 ---
 
-
-
 <div class="colnew">
 	<div class="side">
 		<img src="img/ckontz-300px.png" alt="Christian Kontz" class="img-circle" style="float: center; padding:25px; max-width: 95%;  min-width: 65%; height: auto;">
