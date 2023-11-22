@@ -1,0 +1,8 @@
+@techreport{kontz2023esg,
+	title={Do ESG investors care about carbon emissions? Evidence from securitized auto loans},
+	author={Kontz, Christian},
+	type={Working Paper},
+	institution={Stanford University},
+	year={2023},
+	url={"https://www.christiankontz.com/files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf"}
+}
