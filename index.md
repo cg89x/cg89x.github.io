@@ -29,8 +29,7 @@ contact: passive
 </div>
 <br>
 <br>
-
-
+<hr class="styled-hr" style="width:100%;">
 <div>
 <h2> Working Papers </h2>
 <!-- <br> -->
