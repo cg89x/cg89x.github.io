@@ -37,7 +37,7 @@ published: true
 }<br>
 </div> 
 	<br>
-	<div style="text-align: justify;font-size: smaller;">Presented at NYU Shanghai/SoFiE Summer School, USC Marshall, Harvard Climate Economics Pipeline Workshop, UChicago/MFR "Assessing the Economic and Environmental Consequences of Climate Change" Conference, German Economist Abroad Conference 2022
+	<div style="text-align: justify;font-size: smaller;">Presented at FIRS 2024 (scheduled), Inter-Finance PhD Seminar, NYU Shanghai/SoFiE Summer School, USC Marshall, Harvard Climate Economics Pipeline Workshop, UChicago, MFR "Assessing the Economic and Environmental Consequences of Climate Change" Conference, German Economist Abroad Conference 2022
 </div>
 	</div>
 	<div class="side">
