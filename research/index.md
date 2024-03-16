@@ -22,17 +22,18 @@ published: true
 	<!-- <a href="../files/Kontz_ESG_auto_ABS_slides.pdf" target="_blank" style="font-size: 15px;">[Slides]</a> -->
 	&#160;
 	<a id="[BibTex]" href="#" onclick="show('kontz2023esg');" style="font-size: 15px;">[BibTex]</a>
-	<br>
 	<div id="kontz2023esg" style="display: none;">
+		<br>
 @techreport{kontz2023esg,<br>
 	&#160;&#160;&#160;title={Do ESG investors care about carbon emissions? Evidence from securitized auto loans},<br>
 	&#160;&#160;&#160;author={Kontz, Christian},<br>
 	&#160;&#160;&#160;type={Working Paper},<br>
 	&#160;&#160;&#160;institution={Stanford University},<br>
 	&#160;&#160;&#160;year={2023},<br>
-}<br>
+}
+<br>
 </div> 
-	<!-- <br> -->
+	<br>
 	<div style="text-align: justify;font-size: small;">
 		<i>Presented at FIRS 2024 (scheduled), Harvard Climate Economics Workshop, UChicago, USC Marshall, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, German Economist Abroad Conference 2022</i> 
 </div>
@@ -61,7 +62,7 @@ published: true
 			We use an instrumental variable design to show that firms which experience higher CAPM &beta;s because of higher benchmarking intensity have 5% less capital and hold 15% more cash after 5 years.
 			Our results suggest that benchmarking has important real effects on firm behavior and that these effects are driven by changes in the perceived cost of capital. 
 		</div>
-		<br>
+		<!-- <br> -->
 	<a href="mailto:ckontz@stanford.edu" target="_blank" style="font-size: 15px;">[Preliminary draft available upon request]</a>
 	</div>
 	<div class="side">
