@@ -13,7 +13,11 @@ published: true
 	<div class="main">
 		<h4 style="color: black; font-size: 16px;">Abstract:</h4>
 		<div style="text-align: justify; min-width: 375px; max-width: 100%; display: grid; font-size: 15px;" >
-			Securitized auto loans present a clean empirical setting for studying the effects of ESG investing on asset prices and quantities. I show that auto ABS of issuers with high ESG scores have 10% lower issuance spreads. The observed differences in spreads imply that investors derive ESG convenience yields of 0.28% per annum, on average. This convenience yield nearly tripled from 0.14% in 2017 to 0.39% in 2022. However, I show that the focus on issuer ESG scores instead of CO2 emission also lowers the cost of capital for high-emission auto ABS by 6%, which is likely driven by the fact that commonly used ESG scores are positively correlated with the CO2 emission of collateral pools. I further document that ESG mutual funds hold positions across the full distribution of CO2 emissions and invest more in auto ABS whose issuers have higher ESG scores, even if those securities have a higher CO2 emission intensity. These findings raise questions about the effectiveness of ESG investment strategies in addressing environmental externalities.
+			Securitized auto loans present a clean empirical setting to study the effects of ESG investing on equilibrium asset prices and quantities. 
+			I estimate that the convenience yield of ESG investments increased almost threefold from 0.14% in 2017 to 0.39% p.a. in 2022.
+			However, I document that ESG mutual funds invest more in auto ABS whose issuers have higher ESG scores, even if those securities finance higher emissions vehicles.
+			The market's focus on ESG scores instead of CO2 emissions lowers the cost of capital for high-emission auto ABS by 6%; likely driven by the positive correlation of ESG scores and CO2 emissions.
+			These findings raise questions about the effectiveness of ESG investing in addressing environmental externalities.
 		</div>
 		<!-- <br> -->
 	<a href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank" style="font-size: 15px;">[Draft]</a>
@@ -35,7 +39,7 @@ published: true
 </div> 
 	<br>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presented at FIRS 2024 (scheduled), Harvard Climate Economics Workshop, UChicago, USC Marshall, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, German Economist Abroad Conference 2022</i> 
+		<i>Presented at FIRS Conference 2024 (scheduled), SoFiE Conference 2024 (scheduled), UC Santa Barbara (scheduled), Harvard Climate Economics Workshop, UChicago, USC Marshall, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, German Economist Abroad Conference 2022</i> 
 </div>
 	</div>
 	<div class="side">
