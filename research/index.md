@@ -11,6 +11,7 @@ published: true
 <div class="colnew">
 	<h4 style="font-size: 22px; padding: 10px;"> <a href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank"> Do ESG investors care about carbon emissions? Evidence from securitized auto loans</a></h4>
 	<div class="main">
+	<!-- <p>Christian Kontz (2023)</p> -->
 		<h4 style="color: black; font-size: 16px;">Abstract:</h4>
 		<div style="text-align: justify; min-width: 375px; max-width: 100%; display: grid; font-size: 15px;" >
 			Securitized auto loans present a clean empirical setting to study the effects of ESG investing on equilibrium asset prices and quantities. 
@@ -57,17 +58,14 @@ published: true
 <div class="colnew">
 	<div class="main">
 		<h4 style="font-size: 22px;"> The Real Cost of Benchmarking</h4>
+		<!-- <p><a href="https://shanson93.github.io/">Sebastian Hanson</a> and Christian Kontz (2024)</p> -->
 		<p>with <a href="https://shanson93.github.io/">Sebastian Hanson</a></p>
 		<h4 style="color: black; font-size: 16px;">Abstract:</h4>
 		<div style="text-align: justify; min-width: 375px; max-width: 100%; display: grid; font-size: 15px;">
-			We document a new channel through which passive investing and benchmarking affect firm behavior.
-			We causally show that increases in a stock's benchmarking intensity lead to higher CAPM &beta;. Stocks whose benchmarking intensity increases by more than 5p.p. have 17% higher CAPM &beta;s after 9 months. 
-			We confirm that the change in CAPM &beta; is not driven by changes in firm fundamentals. We argue that the change in CAPM &beta; is due to the fact that firms with higher benchmarking intensity are exposed to correlated investor demand shocks.
-			We use an instrumental variable design to show that firms which experience higher CAPM &beta;s because of higher benchmarking intensity have 5% less capital and hold 15% more cash after 5 years.
-			Our results suggest that benchmarking has important real effects on firm behavior and that these effects are driven by changes in the perceived cost of capital. 
+				This paper documents a novel channel through which benchmarking of asset managers affects firm behavior. We causally show that increases in a stock's benchmarking intensity lead to a higher CAPM &beta;. Stocks whose benchmarking intensity increases by more than 5p.p. have 17% higher CAPM &beta;s after 9 months. These changes in CAPM &beta;s are not driven by changes in firm fundamentals. Using an instrumental variable design, we show that firms which experience higher CAPM &beta;s because of higher benchmarking intensity have 5% less capital and hold 15% more cash after 5 years. The results suggest that benchmarking has important effects on firm behavior and real quantities, driven by changes in the perceived cost of capital.
 		</div>
 		<!-- <br> -->
-	<a href="mailto:ckontz@stanford.edu" target="_blank" style="font-size: 15px;">[Preliminary draft available upon request]</a>
+	<a href="mailto:ckontz@stanford.edu" target="_blank" style="font-size: 15px;">[Draft available upon request]</a>
 	</div>
 	<div class="side">
 			<br>
@@ -83,6 +81,7 @@ published: true
 <div class="colnew">
 	<h4 style="font-size: 22px; padding: 10px;"> ESG induced capital misallocation: Is ESG doing good, by doing well?</h4>
 	<div class="main">
+		<!-- <p>Christian Kontz (2024)</p> -->
 		<h4 style="color: black; font-size: 16px;">Abstract:</h4>
 		<div style="text-align: justify; min-width: 375px; max-width: 100%; display: grid; font-size: 15px;">
 			<p style="margin-bottom:.5cm;">

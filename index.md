@@ -69,11 +69,7 @@ contact: passive
 </li>
 <a id="[Abstract]" href="#" onclick="show('bmiabstract');">[Abstract]</a>
 <div id="bmiabstract" style="display: none; text-align: justify;">
-		We document a new channel through which passive investing and benchmarking affect firm behavior.
-			We causally show that increases in a stock's benchmarking intensity lead to higher CAPM &beta;. Stocks whose benchmarking intensity increases by more than 5p.p. have 17% higher CAPM &beta;s after 9 months. 
-			We confirm that the change in CAPM &beta; is not driven by changes in firm fundamentals. We argue that the change in CAPM &beta; is due to the fact that firms with higher benchmarking intensity are exposed to correlated investor demand shocks.
-			We use an instrumental variable design to show that firms which experience higher CAPM &beta;s because of higher benchmarking intensity have 5% less capital and hold 15% more cash after 5 years.
-			Our results suggest that benchmarking has important real effects on firm behavior and that these effects are driven by changes in the perceived cost of capital. 
+		This paper documents a novel channel through which benchmarking of asset managers affects firm behavior. We causally show that increases in a stock's benchmarking intensity lead to a higher CAPM &beta;. Stocks whose benchmarking intensity increases by more than 5p.p. have 17% higher CAPM &beta;s after 9 months. These changes in CAPM &beta;s are not driven by changes in firm fundamentals. Using an instrumental variable design, we show that firms which experience higher CAPM &beta;s because of higher benchmarking intensity have 5% less capital and hold 15% more cash after 5 years. The results suggest that benchmarking has important effects on firm behavior and real quantities, driven by changes in the perceived cost of capital.
 	</div>
 <br>
 <br>
