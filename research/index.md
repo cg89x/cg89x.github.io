@@ -40,7 +40,7 @@ published: true
 </div> 
 	<br>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presented at FIRS Conference 2024 (scheduled), SoFiE Conference 2024 (scheduled), UC Santa Cruz (scheduled), Harvard Climate Economics Workshop, UChicago, USC Marshall, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, German Economist Abroad Conference 2022</i> 
+		<i>Presented at FIRS Conference 2024 (scheduled), GRASFI 2024(scheduled), SoFiE Conference 2024 (scheduled), UC Santa Cruz, Harvard Climate Economics Workshop, UChicago, USC Marshall, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, German Economist Abroad Conference 2022</i> 
 </div>
 	</div>
 	<div class="side">
