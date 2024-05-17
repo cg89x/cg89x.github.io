@@ -14,11 +14,7 @@ published: true
 	<!-- <p>Christian Kontz (2023)</p> -->
 		<h4 style="color: black; font-size: 16px;">Abstract:</h4>
 		<div style="text-align: justify; min-width: 375px; max-width: 100%; display: grid; font-size: 15px;" >
-			Securitized auto loans present a clean empirical setting to study the effects of ESG investing on equilibrium asset prices and quantities. 
-			I estimate that the convenience yield of ESG investments increased almost threefold from 0.14% in 2017 to 0.39% p.a. in 2022.
-			However, I document that ESG mutual funds invest more in auto ABS whose issuers have higher ESG scores, even if those securities finance higher emissions vehicles.
-			The market's focus on ESG scores instead of CO2 emissions lowers the cost of capital for high-emission auto ABS by 6%; likely driven by the positive correlation of ESG scores and CO2 emissions.
-			These findings raise questions about the effectiveness of ESG investing in addressing environmental externalities.
+			Securitized auto loans present a clean empirical setting to study the effects of ESG investing on equilibrium asset prices and quantities. I find that the convenience yield of ESG investments increased almost threefold from 0.14% in 2017 to 0.39% p.a. in 2022. The pass-through of this convenience yield to consumer interest rates can be substantial for captive lenders, with implied changes in consumer loan demand ranging from 1.05% to 4.77%. However, I document that the market's focus on firm-level ESG scores, rather than the collateral's CO2 emissions, lowers the cost of capital for high-emission auto ABS by 6 basis points; due to a positive correlation between ESG scores and CO2 emissions. ESG mutual funds allocate more capital to auto ABS from issuers with higher ESG scores, even if those securities finance higher-emission vehicles. These findings highlight that while green premia can have a meaningful impact, they do not necessarily increase the cost of emitting CO2.
 		</div>
 		<!-- <br> -->
 	<a href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank" style="font-size: 15px;">[Draft]</a>
