@@ -83,6 +83,10 @@ contact: passive
 <li>
 <a style="color:black; font-weight: bold;" >"Explaining Prices"</a> (with <a href="https://shanson93.github.io/">Sebastian Hanson</a> and <a href="https://gsb-faculty.stanford.edu/hanno-lustig/">Hanno Lustig</a>)
 </li>
+<br>
+<li>
+<a style="color:black; font-weight: bold;" >"The Term Structure of Transition Risk"</a> (with Florian Fiaux)
+</li>
 </ul>
 <br>
 <br>
