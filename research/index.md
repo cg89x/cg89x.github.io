@@ -35,14 +35,19 @@ published: true
 <br>
 </div> 
 	<br>
+	<br>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presented at FIRS Conference 2024 (scheduled), GRASFI 2024 (scheduled), SoFiE Conference 2024 (scheduled), CEPR-ESSEC-Luxembourg conference Sustainable Financial Intermediation (scheduled), UC Santa Cruz, Harvard Climate Economics Workshop, UChicago, USC Marshall, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, German Economist Abroad Conference 2022</i> 
+		<i>Presentations: FIRS Conference 2024 (scheduled), GRASFI 2024 (scheduled), SoFiE Conference 2024 (scheduled), CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (scheduled), UC Santa Cruz, Harvard Climate Economics Workshop, UChicago, USC Marshall, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, German Economist Abroad Conference 2022</i> 
+</div>
+<br>
+<div style="text-align: justify;font-size: small;">
+		<i>Awards: Myron S. Scholes PhD Prize 2024</i> 
 </div>
 	</div>
 	<div class="side">
 			<br>
 			<br>
-			<a href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank"><img style="float: center;max-width: 100%; min-width: 75%; height: auto;max-height: 75%; display: flex;" src="../img/autoABS.png"></a>
+			<a href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank"><img style="float: center;max-width: 110%; min-width: 75%; height: auto;max-height: 75%; display: flex;" src="../img/autoABS.png"></a>
 	</div>
 </div>
 
@@ -62,13 +67,20 @@ published: true
 		</div>
 		<!-- <br> -->
 	<a href="mailto:ckontz@stanford.edu" target="_blank" style="font-size: 15px;">[Draft available upon request]</a>
+	<br>
+	<br>
+	<div style="text-align: justify;font-size: small;">
+		<i>Presentations: Inter-Finance PhD Seminar (scheduled)</i> 
+	</div>
 	</div>
 	<div class="side">
 			<br>
 			<br>
-			<a target="_blank"><img style="float: center;max-width: 100%; min-width: 75%; height: auto;max-height: 75%; display: flex;" src="../img/beta_did.png"></a>
+			<a target="_blank"><img style="float: center;max-width: 120%; min-width: 85%; height: auto;max-height: 75%; display: flex;" src="../img/beta_did.png"></a>
 	</div>
 </div>
+
+
 
 <!-- Horizontal Rule -->
 <hr class="styled-hr" style="width:100%;">
@@ -90,7 +102,7 @@ published: true
 	<div class="side">
 			<br>
 			<br>
-			<a target="_blank"><img style="float: center;max-width: 100%; min-width: 75%; height: auto;max-height: 75%; display: flex;" src="../img/esg_co2_mpk.png"></a>
+			<a target="_blank"><img style="float: center;max-width: 110%; min-width: 75%; height: auto;max-height: 75%; display: flex;" src="../img/esg_co2_mpk.png"></a>
 	</div>
 </div>
 

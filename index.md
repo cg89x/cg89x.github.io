@@ -67,6 +67,8 @@ contact: passive
 <div id="bmiabstract" style="display: none; text-align: justify;">
 		This paper documents a novel channel through which benchmarking of asset managers affects firm behavior. We causally show that increases in a stock's benchmarking intensity lead to a higher CAPM &beta;. Stocks whose benchmarking intensity increases by more than 5p.p. have 17% higher CAPM &beta;s after 9 months. These changes in CAPM &beta;s are not driven by changes in firm fundamentals. Using an instrumental variable design, we show that firms which experience higher CAPM &beta;s because of higher benchmarking intensity have 5% less capital and hold 15% more cash after 5 years. The results suggest that benchmarking has important effects on firm behavior and real quantities, driven by changes in the perceived cost of capital.
 	</div>
+	&#160;
+	<a href="mailto:ckontz@stanford.edu" target="_blank">[Draft available upon request]</a>
 <br>
 <br>
 <li>
@@ -76,10 +78,15 @@ contact: passive
 <div id="mrkabstract" style="display: none; text-align: justify;">
 	This paper studies the impact of environmental, social, and governance (ESG) investing on the real economy. Using within industry-year variation, I show that 1.) firms with high ESG ratings have low marginal revenue products of capital (MRPK), while, 2.) firms with high sales per tCO2 emission have high MRPKs. This implies that reallocating capital to firms with high ESG ratings lowers allocative efficiency while reallocating capital to greener firms increases it. I further document that 3.) capital investment by firms with high ESG ratings is less sensitive to Tobin’s Q, 4.) capital allocation decisions of ESG mutual funds are not sensitive to the MRPK of their portfolio firms. Motivated by these facts, I structurally estimate a dynamic investment model featuring convenience yields on ESG assets and a CO2 externality. I use the model to explore the implications of ESG investing for misallocation of capital, aggregate total factor productivity, and as a tool for climate change mitigation. I simulate a counterfactual economy where capital investors internalize the CO2 emission instead of ESG convenience yields.
 	</div>
-</ul>		
 <br>
 <br>
+<li>
+<a style="color:black; font-weight: bold;" >"Explaining Prices"</a> (with <a href="https://shanson93.github.io/">Sebastian Hanson</a> and <a href="https://gsb-faculty.stanford.edu/hanno-lustig/">Hanno Lustig</a>)
+</li>
+</ul>
 <br>
+<br>
+
 <!-- BIBTEX SCRIPTS -->
 <script>
 function show(id) {
