@@ -41,7 +41,7 @@ published: true
 </div>
 <br>
 <div style="text-align: justify;font-size: small;">
-		<i>Awards: Myron S. Scholes PhD Prize 2024</i> 
+		<i>Awards: FIRS Conference 2024 Prize for PhD Students, Myron S. Scholes PhD Prize 2024</i> 
 </div>
 	</div>
 	<div class="side">
