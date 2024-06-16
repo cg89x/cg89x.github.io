@@ -70,7 +70,7 @@ published: true
 	<br>
 	<br>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presentations: Inter-Finance PhD Seminar (scheduled)</i> 
+		<i>Presentations: 2024 MFR Summer Session for Young Scholars (scheduled) Inter-Finance PhD Seminar (scheduled)</i> 
 	</div>
 	</div>
 	<div class="side">
