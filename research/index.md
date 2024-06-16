@@ -37,7 +37,7 @@ published: true
 	<br>
 	<br>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presentations: FIRS Conference 2024 (main program), GRASFI 2024 (main program, scheduled), SoFiE Conference 2024 (main program, scheduled), CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (scheduled), UC Santa Cruz, Harvard Climate Economics Workshop, UChicago, USC Marshall, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, German Economist Abroad Conference 2022</i> 
+		<i>Presentations: FIRS Conference 2024 (main program), GRASFI 2024 (main program, scheduled), SoFiE Conference 2024 (main program), CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (scheduled), UC Santa Cruz, Harvard Climate Economics Workshop, UChicago, USC Marshall, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, German Economist Abroad Conference 2022</i> 
 </div>
 <br>
 <div style="text-align: justify;font-size: small;">
