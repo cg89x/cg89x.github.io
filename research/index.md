@@ -70,7 +70,7 @@ published: true
 	<br>
 	<br>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presentations: Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars (scheduled), Inter-Finance PhD Seminar (scheduled)</i> 
+		<i>Presentations: Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars (scheduled), Inter-Finance PhD Seminar</i> 
 	</div>
 	</div>
 	<div class="side">
