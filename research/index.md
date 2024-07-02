@@ -34,12 +34,11 @@ published: true
 }
 <br>
 </div> 
-	<br>
-	<br>
+	<div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presentations: FIRS Conference 2024 (main program), GRASFI 2024 (main program, scheduled), SoFiE Conference 2024 (main program), CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (scheduled), UC Santa Cruz, Harvard Climate Economics Workshop, UChicago, USC Marshall, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, German Economist Abroad Conference 2022</i> 
+		<i>Presentations: FIRS Conference 2024 (main program), GRASFI 2024 (main program, scheduled), SoFiE Conference 2024 (main program), CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (scheduled), UC Santa Cruz, Harvard Climate Economics Workshop, UChicago, USC Marshall, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Conference 2022</i> 
 </div>
-<br>
+<div class="half-br"></div>
 <div style="text-align: justify;font-size: small;">
 		<i>Awards: FIRS Conference 2024 Prize for PhD Students, Myron S. Scholes PhD Prize 2024</i> 
 </div>
@@ -47,39 +46,52 @@ published: true
 	<div class="side">
 			<br>
 			<br>
-			<a href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank"><img style="float: center;max-width: 110%; min-width: 75%; height: auto;max-height: 75%; display: flex;" src="../img/autoABS.png"></a>
+			<a href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank"><img style="float: center;max-width: 100%; min-width: 75%; height: auto;max-height: 75%; display: flex;" src="../img/autoABS.png"></a>
 	</div>
 </div>
 
 <!-- Horizontal Rule -->
 <hr class="styled-hr" style="width:100%;">
-<!-- ### <span style="color:#2A3132">Work in Progress</span> -->
 
 <!-- /* The Real Cost of Benchmarking  */ -->
 <div class="colnew">
 	<div class="main">
-		<h4 style="font-size: 22px;"> The Real Cost of Benchmarking</h4>
-		<!-- <p><a href="https://shanson93.github.io/">Sebastian Hanson</a> and Christian Kontz (2024)</p> -->
+		<h4 style="font-size: 22px; padding: 0px;"> <a href="../files/Hanson_Kontz_TheRealCostOfBenchmarking.pdf" target="_blank">The Real Cost of Benchmarking</a></h4>
 		<p>with <a href="https://shanson93.github.io/">Sebastian Hanson</a></p>
 		<h4 style="color: black; font-size: 16px;">Abstract:</h4>
 		<div style="text-align: justify; min-width: 375px; max-width: 100%; display: grid; font-size: 15px;">
-				This paper documents a novel channel through which benchmarking of asset managers affects firm behavior. We causally show that increases in a stock's benchmarking intensity lead to a higher CAPM &beta;. Stocks whose benchmarking intensity increases by more than 5p.p. have 17% higher CAPM &beta;s after 9 months. These changes in CAPM &beta;s are not driven by changes in firm fundamentals. Using an instrumental variable design, we show that firms which experience higher CAPM &beta;s because of higher benchmarking intensity have 5% less capital and hold 15% more cash after 5 years. The results suggest that benchmarking has important effects on firm behavior and real quantities, driven by changes in the perceived cost of capital.
+				This paper documents a novel channel through which the benchmarking of fund managers affects firm behavior. Using a difference-in-differences design, we show that increases in a stock's benchmarking intensity cause its CAPM &beta; to rise. Stocks with a benchmarking in- tensity increase of more than 5 percentage points due to index inclusion subsequently have 15% higher CAPM &beta;s. These changes in CAPM &beta;s are not driven by changes in firm fundamentals and persist for at least seven years. Using an instrumental variable design, we find that firms with higher CAPM &beta;s due to index inclusion reduce investment and have 7.1% less physical capital after six years. Instead of investing, these firms hold more cash and gradually increase payouts to shareholders. Consistent with this mechanism, we show that increasing benchmarking intensity predicts a higher perceived cost of capital by firm managers. From 2006 to 2016, increases in CAPM &beta;s due to higher benchmarking caused a 7.6% reduction in capital accumulation at the aggregate level. Our findings highlight the significant influence of fund manager benchmarking on firm behavior and real quantities through changes in the perceived cost of capital.
 		</div>
 		<!-- <br> -->
-	<a href="mailto:ckontz@stanford.edu" target="_blank" style="font-size: 15px;">[Draft available upon request]</a>
+	<!-- <a href="mailto:ckontz@stanford.edu" target="_blank" style="font-size: 15px;">[Draft available upon request]</a> -->
+	<a href="../files/Hanson_Kontz_TheRealCostOfBenchmarking.pdf" target="_blank" style="font-size: 15px;">[Draft]</a>
+&#160;
+<a href="https://ssrn.com/abstract=4883489" target="_blank" style="font-size: 15px;">[SSRN]</a>
+&#160;
+	<a id="[BibTex]" href="#" onclick="show('hansonkontz2024');" style="font-size: 15px;">[BibTex]</a>
+&#160;
 	<br>
-	<br>
+	<div id="hansonkontz2024" style="display: none;">
+		<br>
+@techreport{hansonkontz2024,<br>
+	&#160;&#160;&#160;title={The Real Cost of Benchmarking},<br>
+	&#160;&#160;&#160;author={Hanson, Sebastian and Kontz, Christian},<br>
+	&#160;&#160;&#160;type={Working Paper},<br>
+	&#160;&#160;&#160;institution={Stanford University},<br>
+	&#160;&#160;&#160;year={2024},<br>
+}<br>
+</div>
+<div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
 		<i>Presentations: Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars (scheduled), Inter-Finance PhD Seminar</i> 
 	</div>
 	</div>
 	<div class="side">
 			<br>
-			<br>
-			<a target="_blank"><img style="float: center;max-width: 120%; min-width: 85%; height: auto;max-height: 75%; display: flex;" src="../img/beta_did.png"></a>
+			<!-- <br> -->
+			<a href="../files/Hanson_Kontz_TheRealCostOfBenchmarking.pdf" target="_blank"><img style="float: center;max-width: 100%; min-width: 85%; height: auto;max-height: 75%; display: flex;" src="../img/beta_did.png"></a>
 	</div>
 </div>
-
 
 
 <!-- Horizontal Rule -->
@@ -93,7 +105,7 @@ published: true
 		<h4 style="color: black; font-size: 16px;">Abstract:</h4>
 		<div style="text-align: justify; min-width: 375px; max-width: 100%; display: grid; font-size: 15px;">
 			<p style="margin-bottom:.5cm;">
-				This paper studies the impact of environmental, social, and governance (ESG) investing on the real economy. Using within industry-year variation, I show that 1.) firms with high ESG ratings have low marginal revenue products of capital (MRPK), while, 2.) firms with high sales per tCO2 emission have high MRPKs. This implies that reallocating capital to firms with high ESG ratings lowers allocative efficiency while reallocating capital to greener firms increases it. I further document that 3.) capital investment by firms with high ESG ratings is less sensitive to Tobin’s Q, 4.) capital allocation decisions of ESG mutual funds are not sensitive to the MRPK of their portfolio firms. Motivated by these facts, I structurally estimate a dynamic investment model featuring convenience yields on ESG assets and a CO2 externality. I use the model to explore the implications of ESG investing for misallocation of capital, aggregate total factor productivity, and as a tool for climate change mitigation. I simulate a counterfactual economy where capital investors internalize the CO2 emission instead of ESG convenience yields.</p>
+				This paper studies the impact of environmental, social, and governance (ESG) investing on the real economy. Using within industry-year variation, I show that 1.) firms with high ESG ratings have low marginal revenue products of capital (MRPK), while, 2.) firms with high sales per tCO2 emission have high MRPKs. This implies that reallocating capital to firms with high ESG ratings lowers allocative efficiency while reallocating capital to greener firms increases it. Additionally, I document that that 3.) capital investment by firms with high ESG ratings is less sensitive to Tobin's Q, 4.) ESG mutual funds' capital allocation decisions are not sensitive to the MRPK of their portfolio firms. Motivated by these facts, I structurally estimate a dynamic investment model featuring convenience yields on ESG assets and a CO2 externality. I use the model to explore the implications of ESG investing for capital misallocation, aggregate total factor productivity, and climate change mitigation. I simulate a counterfactual economy where investors internalize CO2 emissions instead of ESG convenience yields.</p>
 		</div>
 		<br>
 	<!-- <a href="mailto:ckontz@stanford.edu" target="_blank" style="font-size: 15px;">[Preliminary draft available upon request]</a> -->
@@ -101,12 +113,10 @@ published: true
 	</div>
 	<div class="side">
 			<br>
-			<br>
-			<a target="_blank"><img style="float: center;max-width: 110%; min-width: 75%; height: auto;max-height: 75%; display: flex;" src="../img/esg_co2_mpk.png"></a>
+			<!-- <br> -->
+			<a target="_blank"><img style="float: center;max-width: 100%; min-width: 75%; height: auto;max-height: 75%; display: flex;" src="../img/esg_co2_mpk.png"></a>
 	</div>
 </div>
-
-
 
 <br>
 <br>
@@ -114,11 +124,18 @@ published: true
 <!-- BIBTEX SCRIPTS -->
 <script>
 function show(id) {
-	var x = document.getElementById(id);
-	if (x.style.display === "none") {
-		x.style.display = "block";
-	} else {
-		x.style.display = "none";
-	}
+		event.preventDefault();
+		var element = document.getElementById(id);
+		if (element.style.display === "none") {
+				element.style.display = "block";
+		} else {
+				element.style.display = "none";
+		}
 }
 </script>
+
+<style>
+.half-br {
+		height: 0.5em; /* Adjust the height as needed */
+}
+</style>
