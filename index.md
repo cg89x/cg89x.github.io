@@ -32,7 +32,7 @@ contact: passive
 <!-- <br> -->
 <ul>
 <li>
-<a style="color:black; font-weight: bold;" href="../files/Hanson_Kontz_TheRealCostOfBenchmarking.pdf">"The Real Cost of Benchmarking"  [New 05/2024]</a> (with <a href="https://shanson93.github.io/">Sebastian Hanson</a>)
+<a style="color:black; font-weight: bold;" href="../files/Hanson_Kontz_TheRealCostOfBenchmarking.pdf" target="_blank">"The Real Cost of Benchmarking"  [New 05/2024]</a> (with <a href="https://shanson93.github.io/">Sebastian Hanson</a>)
 </li>
 <a id="[Abstract]" href="#" onclick="show('bmiabstract');">[Abstract]</a>
 &#160;
