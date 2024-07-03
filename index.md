@@ -38,7 +38,7 @@ contact: passive
 &#160;
 <a href="../files/Hanson_Kontz_TheRealCostOfBenchmarking.pdf" target="_blank">[Draft]</a>
 &#160;
-<a href="https://ssrn.com/abstract=4883489" target="_blank">[SSRN]</a>
+<a href="https://ssrn.com/abstract=4884602" target="_blank">[SSRN]</a>
 &#160;
 <a id="[BibTex]" href="#" onclick="show('hansonkontz2024');">[BibTex]</a>
 <div id="bmiabstract" style="display: none; text-align: justify;">

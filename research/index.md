@@ -66,7 +66,7 @@ published: true
 	<!-- <a href="mailto:ckontz@stanford.edu" target="_blank" style="font-size: 15px;">[Draft available upon request]</a> -->
 	<a href="../files/Hanson_Kontz_TheRealCostOfBenchmarking.pdf" target="_blank" style="font-size: 15px;">[Draft]</a>
 &#160;
-<a href="https://ssrn.com/abstract=4883489" target="_blank" style="font-size: 15px;">[SSRN]</a>
+<a href="https://ssrn.com/abstract=4884602" target="_blank" style="font-size: 15px;">[SSRN]</a>
 &#160;
 	<a id="[BibTex]" href="#" onclick="show('hansonkontz2024');" style="font-size: 15px;">[BibTex]</a>
 &#160;
