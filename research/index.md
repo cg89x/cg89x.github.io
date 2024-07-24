@@ -36,7 +36,10 @@ published: true
 </div> 
 	<div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presentations: FIRS Conference 2024 (main program), GRASFI 2024 (main program, scheduled), SoFiE Conference 2024 (main program), FMA Conference 2024 (main program, scheduled) CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (main program, scheduled), UC Santa Cruz, Harvard Climate Economics Workshop, UChicago, USC Marshall, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Conference 2022</i> 
+		<i>Presentations: FIRS Conference 2024 (main program), GRASFI 2024* (main program), SoFiE Conference 2024 (main program), FMA Conference 2024* (main program) CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation* (main program), Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Conference 2022
+			<br>
+			(* scheduled)
+			</i> 
 </div>
 <div class="half-br"></div>
 <div style="text-align: justify;font-size: small;">
@@ -60,7 +63,7 @@ published: true
 		<p>with <a href="https://shanson93.github.io/">Sebastian Hanson</a></p>
 		<h4 style="color: black; font-size: 16px;">Abstract:</h4>
 		<div style="text-align: justify; min-width: 375px; max-width: 100%; display: grid; font-size: 15px;">
-				This paper provides causal evidence that benchmarking-induced asset price distortions affect firm investment. We use changes in a stock's benchmarking intensity around Russell index cutoffs as exogenous variation to show that increased exposure to benchmark-linked capital flows raises a stock's CAPM &beta;. Firm managers perceive this as an increase in their cost of capital and reduce investment. Treated firms have 7.1% less physical and 8.4% less intangible capital after six years. At the aggregate level, the asset price distortions caused by benchmarking can explain a 7.6% reduction in capital accumulation from 2000 to 2016. Our findings highlight how the rise of passive investing affects capital allocation in the real economy.
+			This paper provides causal evidence that benchmarking-induced asset price distortions have real effects on corporate investment. We exploit exogenous variation in stocks' benchmarking intensity around Russell index reconstitutions to establish causality. We find that increased exposure to benchmark-linked capital flows causes stocks' CAPM &beta; to rise. Firm managers perceive this as an increase in their cost of capital and reduce investment. Treated firms have 7.1% less physical and 8.4% less intangible capital after six years. At the aggregate level, the asset price distortions caused by benchmarking can explain 10.7% lower capital accumulation from 2000 to 2016. Our findings highlight how benchmark-linked investing affects capital allocation in the real economy.
 		</div>
 		<!-- <br> -->
 	<!-- <a href="mailto:ckontz@stanford.edu" target="_blank" style="font-size: 15px;">[Draft available upon request]</a> -->
@@ -83,7 +86,10 @@ published: true
 </div>
 <div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presentations: Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars (scheduled), Inter-Finance PhD Seminar</i> 
+		<i>Presentations: Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars*, Inter-Finance PhD Seminar 
+		<br>
+		(* scheduled) 
+	</i>
 	</div>
 	</div>
 	<div class="side">

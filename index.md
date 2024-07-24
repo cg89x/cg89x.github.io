@@ -22,6 +22,8 @@ contact: passive
 		<br>
 		I spend most of my time thinking about the implications of climate change, ESG and sustainability, and innovation for asset prices and corporate finance. You can learn more about my research <a href="/research">here</a>.
 			<br>
+			<br>
+		I am co-organizing the virtual <a href="https://sites.google.com/view/ifphd" target="_blank">Inter-Finance PhD Seminar</a> together with Jake (Jiacheng) Liu and Tim Seida this academic year. If you are a PhD student in finance and would like to present your work, please reach out to me or <a href="https://sites.google.com/view/ifphd/present" target="_blank">sign up here</a>.
 	</div>
 </div>
 <br>
@@ -42,7 +44,7 @@ contact: passive
 &#160;
 <a id="[BibTex]" href="#" onclick="show('hansonkontz2024');">[BibTex]</a>
 <div id="bmiabstract" style="display: none; text-align: justify;">
-	This paper provides causal evidence that benchmarking-induced asset price distortions affect firm investment. We use changes in a stock's benchmarking intensity around Russell index cutoffs as exogenous variation to show that increased exposure to benchmark-linked capital flows raises a stock's CAPM &beta;. Firm managers perceive this as an increase in their cost of capital and reduce investment. Treated firms have 7.1% less physical and 8.4% less intangible capital after six years. At the aggregate level, the asset price distortions caused by benchmarking can explain a 7.6% reduction in capital accumulation from 2000 to 2016. Our findings highlight how the rise of passive investing affects capital allocation in the real economy.
+	This paper provides causal evidence that benchmarking-induced asset price distortions have real effects on corporate investment. We exploit exogenous variation in stocks' benchmarking intensity around Russell index reconstitutions to establish causality. We find that increased exposure to benchmark-linked capital flows causes stocks' CAPM &beta; to rise. Firm managers perceive this as an increase in their cost of capital and reduce investment. Treated firms have 7.1% less physical and 8.4% less intangible capital after six years. At the aggregate level, the asset price distortions caused by benchmarking can explain 10.7% lower capital accumulation from 2000 to 2016. Our findings highlight how benchmark-linked investing affects capital allocation in the real economy.
 	</div>
 	<br>
 	<div id="hansonkontz2024" style="display: none;">
