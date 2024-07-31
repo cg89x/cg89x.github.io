@@ -36,10 +36,15 @@ published: true
 </div> 
 	<div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presentations: FIRS Conference 2024 (main program), GRASFI 2024* (main program), SoFiE Conference 2024 (main program), FMA Conference 2024* (main program) CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation* (main program), Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Conference 2022
-			<br>
-			(* scheduled)
-			</i> 
+		<i>Invited Presentations: FIRS Conference 2024 (main program), 
+		SoFiE Conference 2024 (main program),
+		GRASFI 2024* (main program),
+		SITE New Research in Asset Pricing<sup>&dagger;</sup>,
+		FMA Conference 2024* (main program),
+		CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (main program), Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Conference 2022
+		<br>
+		(*scheduled, <sup>&dagger;</sup>declined)
+		</i> 
 </div>
 <div class="half-br"></div>
 <div style="text-align: justify;font-size: small;">
@@ -86,9 +91,9 @@ published: true
 </div>
 <div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presentations: Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars*, Inter-Finance PhD Seminar 
+		<i>Presentations: Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars, Inter-Finance PhD Seminar 
 		<br>
-		(* scheduled) 
+		<!-- (* scheduled)  -->
 	</i>
 	</div>
 	</div>
@@ -107,19 +112,15 @@ published: true
 <div class="colnew">
 	<h4 style="font-size: 22px; padding: 10px;"> ESG induced capital misallocation: Is ESG doing good, by doing well?</h4>
 	<div class="main">
-		<!-- <p>Christian Kontz (2024)</p> -->
 		<h4 style="color: black; font-size: 16px;">Abstract:</h4>
 		<div style="text-align: justify; min-width: 375px; max-width: 100%; display: grid; font-size: 15px;">
 			<p style="margin-bottom:.5cm;">
 				This paper studies the impact of environmental, social, and governance (ESG) investing on the real economy. Using within industry-year variation, I show that 1.) firms with high ESG ratings have low marginal revenue products of capital (MRPK), while, 2.) firms with high sales per tCO2 emission have high MRPKs. This implies that reallocating capital to firms with high ESG ratings lowers allocative efficiency while reallocating capital to greener firms increases it. Additionally, I document that that 3.) capital investment by firms with high ESG ratings is less sensitive to Tobin's Q, 4.) ESG mutual funds' capital allocation decisions are not sensitive to the MRPK of their portfolio firms. Motivated by these facts, I structurally estimate a dynamic investment model featuring convenience yields on ESG assets and a CO2 externality. I use the model to explore the implications of ESG investing for capital misallocation, aggregate total factor productivity, and climate change mitigation.</p>
 		</div>
 		<br>
-	<!-- <a href="mailto:ckontz@stanford.edu" target="_blank" style="font-size: 15px;">[Preliminary draft available upon request]</a> -->
-	<!-- <p style="margin-bottom:0.5cm;"></p> -->
 	</div>
 	<div class="side">
 			<br>
-			<!-- <br> -->
 			<a target="_blank"><img style="float: center;max-width: 100%; min-width: 75%; height: auto;max-height: 75%; display: flex;" src="../img/esg_co2_mpk.png"></a>
 	</div>
 </div>
