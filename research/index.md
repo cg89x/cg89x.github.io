@@ -36,14 +36,16 @@ published: true
 </div> 
 	<div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
-		<i>Invited Presentations: FIRS Conference 2024 (main program), 
-		SoFiE Conference 2024 (main program),
-		GRASFI 2024* (main program),
+		<i>Invited Presentations:
+		FIRS Conference 2024 (main program), 
+		OU-RFS Climate and Energy Conference 2024*,
 		SITE New Research in Asset Pricing<sup>&dagger;</sup>,
+		GRASFI 2024* (main program),
+		SoFiE Conference 2024 (main program),
 		FMA Conference 2024* (main program),
 		CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (main program), Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Conference 2022
 		<br>
-		(*scheduled, <sup>&dagger;</sup>declined)
+		(*scheduled, <sup>&dagger;</sup>declined/scheduling conflict)
 		</i> 
 </div>
 <div class="half-br"></div>
