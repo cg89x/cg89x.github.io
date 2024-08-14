@@ -59,7 +59,7 @@ contact: passive
 </div>
 <br>
 <li>
-	<a style="color:black; font-weight: bold;" href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">"Do ESG investors care about carbon emissions? Evidence from securitized auto loans" [Updated 05/2024]
+	<a style="color:black; font-weight: bold;" href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">"Do ESG Investors Care About Carbon Emissions? Evidence from Securitized Auto Loans" [Updated 08/2024]
 	</a> 
 	<br>
 	<a id="[Abstract]" href="#" onclick="show('esgabstract');">[Abstract]</a>
@@ -70,13 +70,13 @@ contact: passive
 	&#160;
 	<a id="[BibTex]" href="#" onclick="show('kontz2023esg');">[BibTex]</a>
 	<div id="esgabstract" style="display: none; text-align: justify;">
-		Securitized auto loans present a clean empirical setting to study the effects of ESG investing on equilibrium asset prices and quantities. I find that the convenience yield of ESG investments increased almost threefold from 0.14% in 2017 to 0.39% p.a. in 2022. The pass-through of this convenience yield to consumer interest rates can be substantial for captive lenders, with implied changes in consumer loan demand ranging from 1.05% to 4.77%. However, I document that the market's focus on firm-level ESG scores, rather than the collateral's CO2 emissions, lowers the cost of capital for high-emission auto ABS by 6 basis points; due to a positive correlation between ESG scores and CO2 emissions. ESG mutual funds allocate more capital to auto ABS from issuers with higher ESG scores, even if those securities finance higher-emission vehicles. These findings highlight that while green premia can have a meaningful impact, they do not necessarily increase the cost of emitting CO2.
+		Securitized auto loans present a unique setting to measure the effects of ESG investing. I find that the ESG convenience yield almost quadrupled from 0.12% in 2017 to 0.46% in 2022. Consumers financing vehicles with loans from captive lenders benefit from the ESG convenience yield through lower borrowing costs. ESG mutual funds allocate more capital to securitizations from issuers with high ESG scores even if the securitizations finance high-emissions vehicles. The focus on ESG scores, rather than CO2, lowers the cost of capital for high-emissions vehicles. The findings suggest that green premia affect real quantities but do not raise the cost of CO2 emissions.
 	</div>
 	<br>
 	<div id="kontz2023esg" style="display: none;">
 		<br>
 @techreport{kontz2023esg,<br>
-	&#160;&#160;&#160;title={Do ESG investors care about carbon emissions? Evidence from securitized auto loans},<br>
+	&#160;&#160;&#160;title={{Do ESG Investors Care About Carbon Emissions? Evidence from Securitized Auto Loans}},<br>
 	&#160;&#160;&#160;author={Kontz, Christian},<br>
 	&#160;&#160;&#160;type={Working Paper},<br>
 	&#160;&#160;&#160;institution={Stanford University},<br>
@@ -91,11 +91,11 @@ contact: passive
 <h3> Work in Progress </h3>
 <ul>
 <li>
-<a style="color:black; font-weight: bold;" href="/research">"ESG induced capital misallocation: Is ESG doing good, by doing well?"</a>
+<a style="color:black; font-weight: bold;" href="/research">"ESG Induced Capital Misallocation: Is ESG Doing Good, by Doing Well?"</a>
 </li>
 <a id="[Abstract]" href="#" onclick="show('mrkabstract');">[Abstract]</a>
 <div id="mrkabstract" style="display: none; text-align: justify;">
-	This paper studies the impact of environmental, social, and governance (ESG) investing on the real economy. Using within industry-year variation, I show that 1.) firms with high ESG ratings have low marginal revenue products of capital (MRPK), while, 2.) firms with high sales per tCO2 emission have high MRPKs. This implies that reallocating capital to firms with high ESG ratings lowers allocative efficiency while reallocating capital to greener firms increases it. Additionally, I document that that 3.) capital investment by firms with high ESG ratings is less sensitive to Tobin's Q, 4.) ESG mutual funds' capital allocation decisions are not sensitive to the MRPK of their portfolio firms. Motivated by these facts, I structurally estimate a dynamic investment model featuring convenience yields on ESG assets and a CO2 externality. I use the model to explore the implications of ESG investing for capital misallocation, aggregate total factor productivity, and climate change mitigation.
+	This paper studies the impact of environmental, social, and governance (ESG) investing on the real economy. Using within industry-year variation, I find that 1.) firms with high ESG ratings have low marginal revenue products of capital (MRPK), while, 2.) firms with high sales per tCO2 emission have high MRPKs. This implies that reallocating capital to firms with high ESG ratings lowers allocative efficiency while reallocating capital to greener firms increases it. Motivated by these facts, I structurally estimate a dynamic investment model featuring convenience yields on ESG assets and a CO2 externality to explore the implications of ESG investing for capital misallocation and climate change mitigation.
 	</div>
 <br>
 <br>
