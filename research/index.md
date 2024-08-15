@@ -9,7 +9,7 @@ published: true
 ---
 <!-- /* DO ESG INVESTORS CARE ABOUT CARBON EMISSIONS  */ -->
 <div class="colnew">
-	<h4 style="font-size: 22px; padding: 10px;"> <a href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">Do ESG Investors Care About Carbon Emissions? Evidence from Securitized Auto Loans</a></h4>
+	<h4 style="font-size: 22px; padding: 10px;"> <a href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans</a></h4>
 	<div class="main">
 	<!-- <p>Christian Kontz (2023)</p> -->
 		<h4 style="color: black; font-size: 16px;">Abstract:</h4>
@@ -26,7 +26,7 @@ published: true
 	<div id="kontz2023esg" style="display: none;">
 		<br>
 @techreport{kontz2023esg,<br>
-	&#160;&#160;&#160;title={{Do ESG Investors Care About Carbon Emissions? Evidence from Securitized Auto Loans}},<br>
+	&#160;&#160;&#160;title={{Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans}},<br>
 	&#160;&#160;&#160;author={Kontz, Christian},<br>
 	&#160;&#160;&#160;type={Working Paper},<br>
 	&#160;&#160;&#160;institution={Stanford University},<br>
@@ -112,7 +112,7 @@ published: true
 
 <!-- /* ESG induced capital misallocation  */ -->
 <div class="colnew">
-	<h4 style="font-size: 22px; padding: 10px;">ESG Induced Capital Misallocation: Is ESG Doing Good, by Doing Well?</h4>
+	<h4 style="font-size: 22px; padding: 10px;">ESG Induced Capital Misallocation: is ESG Doing Good, by Doing Well?</h4>
 	<div class="main">
 		<h4 style="color: black; font-size: 16px;">Abstract:</h4>
 		<div style="text-align: justify; min-width: 375px; max-width: 100%; display: grid; font-size: 15px;">

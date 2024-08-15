@@ -59,7 +59,7 @@ contact: passive
 </div>
 <br>
 <li>
-	<a style="color:black; font-weight: bold;" href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">"Do ESG Investors Care About Carbon Emissions? Evidence from Securitized Auto Loans" [Updated 08/2024]
+	<a style="color:black; font-weight: bold;" href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">"Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans" [Updated 08/2024]
 	</a> 
 	<br>
 	<a id="[Abstract]" href="#" onclick="show('esgabstract');">[Abstract]</a>
@@ -76,7 +76,7 @@ contact: passive
 	<div id="kontz2023esg" style="display: none;">
 		<br>
 @techreport{kontz2023esg,<br>
-	&#160;&#160;&#160;title={{Do ESG Investors Care About Carbon Emissions? Evidence from Securitized Auto Loans}},<br>
+	&#160;&#160;&#160;title={{Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans}},<br>
 	&#160;&#160;&#160;author={Kontz, Christian},<br>
 	&#160;&#160;&#160;type={Working Paper},<br>
 	&#160;&#160;&#160;institution={Stanford University},<br>
@@ -91,7 +91,7 @@ contact: passive
 <h3> Work in Progress </h3>
 <ul>
 <li>
-<a style="color:black; font-weight: bold;" href="/research">"ESG Induced Capital Misallocation: Is ESG Doing Good, by Doing Well?"</a>
+<a style="color:black; font-weight: bold;" href="/research">"ESG Induced Capital Misallocation: is ESG Doing Good, by Doing Well?"</a>
 </li>
 <a id="[Abstract]" href="#" onclick="show('mrkabstract');">[Abstract]</a>
 <div id="mrkabstract" style="display: none; text-align: justify;">
