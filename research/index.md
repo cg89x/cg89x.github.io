@@ -39,6 +39,7 @@ published: true
 		<i>Invited Presentations:
 		FIRS Conference 2024 (main program), 
 		OU-RFS Climate and Energy Conference 2024*,
+		AFA Meeting 2025*,
 		SITE New Research in Asset Pricing<sup>&dagger;</sup>,
 		GRASFI 2024 (main program),
 		SoFiE Conference 2024 (main program),
@@ -95,9 +96,11 @@ published: true
 </div>
 <div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presentations: Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars, Inter-Finance PhD Seminar 
+		<i>Presentations: 
+			AFA Meeting 2025*,
+			Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars, Inter-Finance PhD Seminar 
 		<br>
-		<!-- (* scheduled)  -->
+		(* scheduled)
 	</i>
 	</div>
 	</div>
