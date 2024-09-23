@@ -20,7 +20,7 @@ contact: passive
 		</b>
 		<br>
 		<br>
-		I spend most of my time thinking about the implications of climate change, ESG and sustainability, and innovation for asset prices and corporate finance. You can learn more about my research <a href="/research">here</a>.
+		My research lies at the intersection of empirical Corporate Finance and Asset Pricing, exploring how financial markets and corporate decision-making interact. You can learn more about my work <a href="/research">here</a>.
 			<br>
 			<br>
 		I am co-organizing the virtual <a href="https://sites.google.com/view/ifphd" target="_blank">Inter-Finance PhD Seminar</a> together with Jake (Jiacheng) Liu and Tim Seida this academic year. If you are a PhD student in finance and would like to present your work, please reach out to me or <a href="https://sites.google.com/view/ifphd/present" target="_blank">sign up here</a>.
