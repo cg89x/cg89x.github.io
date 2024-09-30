@@ -44,7 +44,7 @@ published: true
 		GRASFI 2024 (main program),
 		SoFiE Conference 2024 (main program),
 		FMA Conference 2024* (main program),
-		CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (main program), Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Conference 2022
+		CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (main program), Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Winter Meeting 2022
 		<br>
 		(*scheduled, <sup>&dagger;</sup>declined/scheduling conflict)
 		</i> 
@@ -97,7 +97,8 @@ published: true
 <div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
 		<i>Presentations: 
-			AFA Meeting 2025*,
+			AFA Meeting 2025*, 
+			GEA Winter Meeting 2024*,
 			Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars, Inter-Finance PhD Seminar 
 		<br>
 		(* scheduled)
