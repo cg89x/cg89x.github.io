@@ -96,8 +96,9 @@ published: true
 		SITE New Research in Asset Pricing<sup>&dagger;</sup>,
 		GRASFI 2024 (main program),
 		SoFiE Conference 2024 (main program),
-		FMA Conference 2024* (main program),
-		CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (main program), Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Winter Meeting 2022
+		CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (main program), 
+		FMA Conference 2024 (main program),
+		Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Winter Meeting 2022
 		<br>
 		(*scheduled, <sup>&dagger;</sup>declined/scheduling conflict)
 		</i> 
