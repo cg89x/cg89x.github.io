@@ -76,7 +76,7 @@ contact: passive
 	<div id="kontz2023esg" style="display: none;">
 		<br>
 @techreport{kontz2023esg,<br>
-	&#160;&#160;&#160;title={{Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans}},<br>
+	&#160;&#160;&#160;title={Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans},<br>
 	&#160;&#160;&#160;author={Kontz, Christian},<br>
 	&#160;&#160;&#160;type={Working Paper},<br>
 	&#160;&#160;&#160;institution={Stanford University},<br>

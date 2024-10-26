@@ -40,7 +40,7 @@ published: true
 	<div style="text-align: justify;font-size: small;">
 		<i>Presentations: 
 			AFA Meeting 2025*, 
-			GEA Winter Meeting 2024*,
+			GEA Winter Meeting 2024 (CESifo)*,
 			Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars, Inter-Finance PhD Seminar 
 		<br>
 		(* scheduled)
@@ -89,7 +89,7 @@ published: true
 </div> 
 	<div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
-		<i>Invited Presentations:
+		<i>Presentations:
 		FIRS Conference 2024 (main program), 
 		OU-RFS Climate and Energy Conference 2024*,
 		AFA Meeting 2025*,
@@ -98,7 +98,7 @@ published: true
 		SoFiE Conference 2024 (main program),
 		CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (main program), 
 		FMA Conference 2024 (main program),
-		Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Winter Meeting 2022
+		Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Winter Meeting 2022 (DIW)
 		<br>
 		(*scheduled, <sup>&dagger;</sup>declined/scheduling conflict)
 		</i> 
