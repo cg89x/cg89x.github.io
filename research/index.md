@@ -90,15 +90,15 @@ published: true
 	<div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
 		<i>Presentations:
-		FIRS Conference 2024 (main program), 
-		OU-RFS Climate and Energy Conference 2024*,
 		AFA Meeting 2025*,
+		FIRS Conference 2024 (main program), 
+		OU-RFS Climate and Energy Conference 2024,
 		SITE New Research in Asset Pricing<sup>&dagger;</sup>,
 		GRASFI 2024 (main program),
 		SoFiE Conference 2024 (main program),
 		CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (main program), 
-		FMA Conference 2024 (main program),
-		Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference, NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Winter Meeting 2022 (DIW)
+		Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference,
+		FMA Conference 2024 (main program), NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Winter Meeting 2022 (DIW)
 		<br>
 		(*scheduled, <sup>&dagger;</sup>declined/scheduling conflict)
 		</i> 
