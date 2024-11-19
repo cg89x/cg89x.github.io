@@ -6,6 +6,23 @@ cv: passive
 research: passive
 contact: passive
 ---
+<head>
+		<style>
+				* {
+						margin: 0;
+						padding: 0;
+				}
+				.imgbox {
+						display: grid;
+						height: 100%;
+				}
+				.center-fit {
+						max-width: 90%;
+						max-height: 100vh;
+						margin: auto;
+				}
+		</style>
+</head>
 <div class="colnew">
 	<div class="side">
 		<img src="img/ckontz-300px.jpg" alt="Christian Kontz" class="img-circle" style="float: center; padding:25px; max-width: 95%;  min-width: 65%; height: auto;">
@@ -14,7 +31,7 @@ contact: passive
 	<div class="main">
 		<div style="color:black; font-size: larger; text-align: justify; display:inline-block;  min-width: 75%;"> 
 		<!-- <br> -->
-		<br>
+		<!-- <br> -->
 		<b>
 		Hi, I'm Christian Kontz. I'm a Ph.D. candidate in Finance at the Stanford Graduate School of Business.
 		</b>
@@ -27,12 +44,14 @@ contact: passive
 	</div>
 </div>
 <br>
-<br>
+<!-- <br> -->
 <hr class="styled-hr" style="width:100%;">
 <div>
 <h3> Working Papers </h3>
 <!-- <br> -->
 <ul>
+<!-- <IMG SRC="../files/Beta_BMI_over_time.gif" width="500"> -->
+<!-- <br> -->
 <li>
 <a style="color:black; font-weight: bold;" href="../files/Hanson_Kontz_TheRealCostOfBenchmarking.pdf" target="_blank">"The Real Cost of Benchmarking"  [New 07/2024]</a> (with <a href="https://shanson93.github.io/">Sebastian Hanson</a>)
 </li>
@@ -57,6 +76,11 @@ contact: passive
 	&#160;&#160;&#160;year={2024},<br>
 }<br>
 </div>
+<body>
+<div class="imgbox">
+		<img class="center-fit" src="../files/Beta_BMI_over_time.gif">
+</div>
+</body>
 <br>
 <li>
 	<a style="color:black; font-weight: bold;" href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">"Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans" [Updated 08/2024]
