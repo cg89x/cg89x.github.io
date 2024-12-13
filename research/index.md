@@ -39,11 +39,11 @@ published: true
 <div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
 		<i>Presentations: 
-			AFA Meeting 2025*, Citadel Securities*,
-			GEA Winter Meeting 2024 (CESifo)*,
+			AFA Meeting 2025*, Citadel<sup>c</sup>,
+			GEA Winter Meeting 2024 (CESifo),
 			Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars, Inter-Finance PhD Seminar 
 		<br>
-		(* scheduled)
+		(* scheduled, <sup>c</sup> co-author)
 	</i>
 	</div>
 	</div>
@@ -100,7 +100,7 @@ published: true
 		Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference,
 		FMA Conference 2024 (main program), NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Winter Meeting 2022 (DIW)
 		<br>
-		(*scheduled, <sup>&dagger;</sup>declined/scheduling conflict)
+		(* scheduled, <sup>&dagger;</sup> declined/scheduling conflict)
 		</i> 
 </div>
 <div class="half-br"></div>
