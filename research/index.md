@@ -39,7 +39,7 @@ published: true
 <div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
 		<i>Presentations: 
-			AFA Meeting 2025*, Citadel<sup>c</sup>,
+			AFA Meeting 2025, Citadel<sup>c</sup>,
 			GEA Winter Meeting 2024 (CESifo),
 			Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars, Inter-Finance PhD Seminar 
 		<br>
@@ -90,7 +90,7 @@ published: true
 	<div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
 		<i>Presentations:
-		AFA Meeting 2025*,
+		AFA Meeting 2025,
 		FIRS Conference 2024 (main program), 
 		OU-RFS Climate and Energy Conference 2024,
 		SITE New Research in Asset Pricing<sup>&dagger;</sup>,

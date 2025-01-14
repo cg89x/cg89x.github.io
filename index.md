@@ -53,7 +53,7 @@ contact: passive
 <!-- <IMG SRC="../files/Beta_BMI_over_time.gif" width="500"> -->
 <!-- <br> -->
 <li>
-<a style="color:black; font-weight: bold;" href="../files/Hanson_Kontz_TheRealCostOfBenchmarking.pdf" target="_blank">"The Real Cost of Benchmarking"  [New 07/2024]</a> (with <a href="https://shanson93.github.io/">Sebastian Hanson</a>)
+<a style="color:black; font-weight: bold;" href="../files/Hanson_Kontz_TheRealCostOfBenchmarking.pdf" target="_blank">"The Real Cost of Benchmarking"  [Updated 12/2024]</a> (with <a href="https://shanson93.github.io/">Sebastian Hanson</a>)
 </li>
 <a id="[Abstract]" href="#" onclick="show('bmiabstract');">[Abstract]</a>
 &#160;
@@ -83,7 +83,7 @@ contact: passive
 </body>
 <br>
 <li>
-	<a style="color:black; font-weight: bold;" href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">"Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans" [Updated 08/2024]
+	<a style="color:black; font-weight: bold;" href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">"Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans" [Updated 01/2025]
 	</a> 
 	<br>
 	<a id="[Abstract]" href="#" onclick="show('esgabstract');">[Abstract]</a>
