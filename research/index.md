@@ -67,7 +67,7 @@ published: true
 	<!-- <p>Christian Kontz (2023)</p> -->
 		<h4 style="color: black; font-size: 16px;">Abstract:</h4>
 		<div style="text-align: justify; min-width: 375px; max-width: 100%; display: grid; font-size: 15px;" >
-			Securitized auto loans present a unique setting to measure the effects of ESG investing. I find that the ESG convenience yield almost quadrupled from 0.12% in 2017 to 0.46% in 2022. Consumers financing vehicles with loans from captive lenders benefit from the ESG convenience yield through lower borrowing costs. ESG mutual funds allocate more capital to securitizations from issuers with high ESG scores even if the securitizations finance high-emissions vehicles. The focus on ESG scores, rather than CO2, lowers the cost of capital for high-emissions vehicles. The findings suggest that ESG investing affects real quantities but does not raise the cost of CO2 emissions.
+			The ESG convenience yield in auto loan securitizations rose from 0.03% in 2017 to 0.54% in 2022. Consumers financing vehicles through captive lenders benefit from lower borrowing costs. However, the focus on ESG scores also lowers the cost of capital for high-emissions vehicles. ESG funds allocate more capital to securitizations from issuers with high ESG scores even when they finance high-emissions vehicles. A model of subjective beliefs in which investors heuristically infer CO2 emissions from ESG scores can explain the observed effects. These findings suggest that ESG investing affects real quantities but does not raise the cost of emitting CO2.
 		</div>
 		<!-- <br> -->
 	<a href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank" style="font-size: 15px;">[Draft]</a>
