@@ -38,12 +38,14 @@ published: true
 </div>
 <div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presentations: 
-			AFA Meeting 2025, Citadel<sup>c</sup>,
-			GEA Winter Meeting 2024 (CESifo),
-			Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars, Inter-Finance PhD Seminar 
+		<i>Selected Presentations: 
+			AFA Meeting 2025,
+			Citadel<sup>c</sup>
+			<!-- GEA Winter Meeting 2024 -->
+			<!-- Macro Finance Research Program (MFR) 2024 Summer Session for Young Scholars -->
+			<!-- Inter-Finance PhD Seminar  -->
 		<br>
-		(* scheduled, <sup>c</sup> co-author)
+		( * scheduled, <sup>c</sup> co-author)
 	</i>
 	</div>
 	</div>
@@ -89,18 +91,23 @@ published: true
 </div> 
 	<div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
-		<i>Presentations:
+		<i>Selected Presentations:
 		AFA Meeting 2025,
-		FIRS Conference 2024 (main program), 
+		FIRS Conference 2024, 
 		OU-RFS Climate and Energy Conference 2024,
-		SITE New Research in Asset Pricing<sup>&dagger;</sup>,
-		GRASFI 2024 (main program),
-		SoFiE Conference 2024 (main program),
-		CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation (main program), 
-		Harvard Climate Economics Workshop, UChicago, UC Santa Cruz, USC Marshall PhD Conference,
-		FMA Conference 2024 (main program), NYU Shanghai/SoFiE Summer School, MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference, Inter-Finance PhD Seminar, GEA Winter Meeting 2022 (DIW)
+		<!-- SITE New Research in Asset Pricing<sup>&dagger;</sup>, -->
+		GRASFI Conference 2024,
+		SoFiE Conference 2024,
+		CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation, 
+		Harvard Climate Economics Workshop, UC Santa Cruz
+		 <!-- USC Marshall PhD Conference, -->
+		<!-- FMA Conference 2024, -->
+		 <!-- NYU Shanghai/SoFiE Summer School, -->
+			<!-- MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference,  -->
+		<!-- Inter-Finance PhD Seminar,  -->
+		<!-- GEA Winter Meeting 2022 (DIW) -->
 		<br>
-		(* scheduled, <sup>&dagger;</sup> declined/scheduling conflict)
+		<!-- (* scheduled, <sup>&dagger;</sup> declined/scheduling conflict) -->
 		</i> 
 </div>
 <div class="half-br"></div>
