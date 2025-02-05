@@ -39,6 +39,7 @@ published: true
 <div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
 		<i>Selected Presentations: 
+			Northeastern University Finance Conference 2025*,
 			AFA Meeting 2025,
 			Citadel<sup>c</sup>
 			<!-- GEA Winter Meeting 2024 -->
