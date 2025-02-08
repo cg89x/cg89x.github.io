@@ -127,7 +127,7 @@ contact: passive
 <a style="color:black; font-weight: bold;" >"The Term Structure of Transition Risk"</a> (with Florian Fiaux)
 </li> -->
 <li>
-<a style="color:black; font-weight: bold;" >"From Markets to Meters: How Passive Affects Utility Rates"</a> (with <a href="https://shanson93.github.io/">Sebastian Hanson</a>)
+<a style="color:black; font-weight: bold;" >"From Markets to Meters: How Passive Investing Affects Utility Rates"</a> (with <a href="https://shanson93.github.io/">Sebastian Hanson</a>)
 </li>
 <br>
 <li>
