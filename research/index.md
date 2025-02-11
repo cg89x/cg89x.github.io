@@ -39,7 +39,7 @@ published: true
 <div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
 		<i>Selected Presentations: 
-			SFS Cavalcade 2025*,
+			SFS Cavalcade NA 2025*,
 			Northeastern University Finance Conference 2025*,
 			AFA Meeting 2025,
 			Citadel<sup>c</sup>
