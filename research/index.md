@@ -43,6 +43,7 @@ published: true
 			FIRS 2025*,
 			Four Corners Center*,
 			Northeastern University Finance Conference 2025*,
+			UIC Finance Conference 2025<sup>*,c</sup>,
 			<!-- AFA Meeting 2025, -->
 			Citadel<sup>c</sup>
 			<!-- GEA Winter Meeting 2024 -->
@@ -96,7 +97,6 @@ published: true
 	<div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
 		<i>Selected Presentations:
-		AFA Meeting 2025,
 		FIRS Conference 2024, 
 		OU-RFS Climate and Energy Conference 2024,
 		<!-- SITE New Research in Asset Pricing<sup>&dagger;</sup>, -->
