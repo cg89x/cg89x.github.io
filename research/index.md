@@ -118,7 +118,8 @@ published: true
 <div style="text-align: justify;font-size: small;">
 		<i>Awards: FIRS Conference 2024 Prize for PhD Students,
 		GRASFI Conference 2024 Best PhD Paper Award,
-		Myron S. Scholes PhD Prize 2024</i> 
+		Myron S. Scholes PhD Prize 2024,
+		Finalist 5th Annual Sustainable Finance in Fixed Income Research Competition (FIASI)</i> 
 </div>
 	</div>
 	<div class="side">

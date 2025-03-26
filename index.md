@@ -83,7 +83,7 @@ contact: passive
 </body>
 <br>
 <li>
-	<a style="color:black; font-weight: bold;" href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">"Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans" [Updated 01/2025]
+	<a style="color:black; font-weight: bold;" href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">"Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans" [Updated 1/2025]
 	</a> 
 	<br>
 	<a id="[Abstract]" href="#" onclick="show('esgabstract');">[Abstract]</a>
