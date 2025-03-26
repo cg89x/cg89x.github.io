@@ -130,6 +130,11 @@ contact: passive
 <li>
 <a style="color:black; font-weight: bold;" >"From Markets to Meters: How Passive Investing Affects Utility Rates"</a>
 </li>
+<a id="[Abstract]" href="#" onclick="show('mmabstract');">[Abstract]</a>
+<div id="mmabstract" style="display: none; text-align: justify;">
+	This paper investigates how the rise of passive investing has affected regulated utility rates and energy prices by increasing utilities’ CAPM &beta;s. Exploiting exogenous variation around stock index reconstitutions, I show that increased passive ownership raises the CAPM &beta;s of U.S. investor-owned utilities. Because regulators set allowed returns on equity using the CAPM, higher &beta;s translate into higher authorized returns on equity. Investor-owned utilities pass these increased returns on equity through to the rates they charge consumers. I estimate that this mechanism has resulted in over $60 billion in additional costs to consumers over the past two decades. Evidence from regulated railroads corroborates the effect of passive investing on the cost of equity in regulated industries.
+	</div>
+<br>
 <br>
 <!-- <li> -->
 <!-- <a style="color:black; font-weight: bold;" >"Passive Flows and Market (In-)Elasticity Across The Size Distribution"</a> -->
