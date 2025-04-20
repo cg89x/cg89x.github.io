@@ -141,7 +141,7 @@ contact: passive
 <!-- </li> -->
 <!-- <br> -->
 <li>
-<a style="color:black; font-weight: bold;" >"Explaining Prices"</a> (with <a href="https://gsb-faculty.stanford.edu/hanno-lustig/">Hanno Lustig</a>)
+<a style="color:black; font-weight: bold;" >"The Cross-section of Prices"</a> (with <a href="https://gsb-faculty.stanford.edu/hanno-lustig/">Hanno Lustig</a> and Miguel Chumbo)
 </li>
 <br>
 </ul>
