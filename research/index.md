@@ -41,7 +41,7 @@ published: true
 		<i>Selected Presentations: 
 			SFS Cavalcade NA 2025*,
 			FIRS 2025*,
-			Four Corners Center*,
+			Four Corners/FMRC Conference on Indexing,
 			Northeastern University Finance Conference 2025*,
 			UIC Finance Conference 2025<sup>*,c</sup>,
 			<!-- AFA Meeting 2025, -->
