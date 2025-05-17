@@ -41,9 +41,10 @@ published: true
 		<i>Selected Presentations: 
 			SFS Cavalcade NA 2025*,
 			FIRS 2025*,
+			Investment Company Institute<sup>*</sup>,
 			Four Corners/FMRC Conference on Indexing,
-			Northeastern University Finance Conference 2025*,
-			UIC Finance Conference 2025<sup>*,c</sup>,
+			Northeastern University Finance Conference 2025,
+			UIC Finance Conference 2025<sup>c</sup>,
 			<!-- AFA Meeting 2025, -->
 			Citadel<sup>c</sup>
 			<!-- GEA Winter Meeting 2024 -->
