@@ -39,10 +39,10 @@ published: true
 <div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
 		<i>Selected Presentations: 
-			SFS Cavalcade NA 2025*,
-			FIRS 2025*,
-			Investment Company Institute<sup>*</sup>,
+			SFS Cavalcade NA 2025,
+			FIRS 2025,
 			Four Corners/FMRC Conference on Indexing,
+			Investment Company Institute<sup>*</sup>,
 			Northeastern University Finance Conference 2025,
 			UIC Finance Conference 2025<sup>c</sup>,
 			<!-- AFA Meeting 2025, -->
