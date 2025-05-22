@@ -39,7 +39,7 @@ published: true
 <div class="half-br"></div>
 	<div style="text-align: justify;font-size: small;">
 		<i>Selected Presentations: 
-			AFA Annual Meeting 2026,
+			AFA Annual Meeting 2026<sup>*</sup>,
 			SFS Cavalcade NA 2025,
 			FIRS 2025,
 			Four Corners/FMRC Conference on Indexing,
