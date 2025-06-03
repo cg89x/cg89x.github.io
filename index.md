@@ -76,11 +76,11 @@ contact: passive
 	&#160;&#160;&#160;year={2024},<br>
 }<br>
 </div>
-<body>
+<!-- <body>
 <div class="imgbox">
 	<a href="../files/Kontz_Hanson_TheRealCostOfBenchmarking.pdf" target="_blank"><img class="center-fit" src="../files/Beta_BMI_over_time.gif"></a>
 </div>
-</body>
+</body> -->
 <br>
 <li>
 	<a style="color:black; font-weight: bold;" href="../files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">"Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans" [Updated 1/2025]
