@@ -58,7 +58,7 @@ published: true
 	<!-- </div> -->
 	<div class="half-br"></div>
 		<div style="text-align: justify;font-size: small;">
-			<i>Awards: FIRS Conference 2025 Prize for PhD Students</i> 
+			<i>Awards: SFS Cavalcade PhD Student Award, FIRS Conference 2025 Prize for PhD Students</i> 
 	</div>
 	</div>
 	<div class="side">
