@@ -43,7 +43,7 @@ published: true
 			SFS Cavalcade NA 2025,
 			FIRS 2025,
 			Four Corners/FMRC Conference on Indexing,
-			Investment Company Institute<sup>*</sup>,
+			Investment Company Institute,
 			Northeastern University Finance Conference 2025,
 			UIC Finance Conference 2025<sup>c</sup>,
 			<!-- AFA Meeting 2025, -->
