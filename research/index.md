@@ -123,7 +123,8 @@ published: true
 </div>
 <div class="half-br"></div>
 <div style="text-align: justify;font-size: small;">
-		<i>Awards: FIRS Conference 2024 Prize for PhD Students,
+		<i>Awards: PRI Best PhD Student Paper Award 2025,
+		FIRS Conference 2024 Prize for PhD Students,
 		GRASFI Conference 2024 Best PhD Paper Award,
 		Myron S. Scholes PhD Prize 2024,
 		Finalist 5th Annual Sustainable Finance in Fixed Income Research Competition (FIASI)</i> 
