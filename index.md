@@ -1,6 +1,6 @@
 ---
 layout: default
-title: home
+title:
 home: active
 cv: passive
 research: passive
