@@ -132,8 +132,6 @@ contact: passive
 </div>
 	<div class="main">
 		<div style="color:black; font-size: large; text-align: justify; display:inline-block;  min-width: 75%;"> 
-		<!-- <br> -->
-		<!-- <br> -->
 		<b>
 		Hi, I'm Christian Kontz. I'm a Ph.D. candidate in Finance at the Stanford Graduate School of Business.
 		</b>
@@ -141,7 +139,6 @@ contact: passive
 		<br>
 		My research lies at the intersection of empirical Corporate Finance and Asset Pricing, exploring how financial markets and corporate decision-making interact. 
 		<!-- Specifically, I study how financial market structures, such as the rise of passive investing and sustainable investing, affect the cost of capital and corporate investment decisions.  -->
-		<!-- You can learn more about my work <a href="/research">here</a>. -->
 <br>
 <br>
 <div class="contact-icons">
@@ -203,11 +200,8 @@ contact: passive
 		</svg>
 	</a>
 </div>
-			<!-- <br> -->
-			<!-- <br> -->
 	</div>
 </div>
-<!-- <br> -->
 
 <!-- PAPER SECTION -->
 
@@ -345,8 +339,6 @@ contact: passive
 				</div>
 			</div>
 			<div class="side">
-				<br>
-				<br>
 				<a href="/files/Kontz_Hanson_TheRealCostOfBenchmarking.pdf" target="_blank">
 					<img style="float:center;max-width:100%;min-width:85%;height:auto;max-height:75%;display:flex;"
 							 src="/img/beta_did.png" alt="Benchmarking figure">
