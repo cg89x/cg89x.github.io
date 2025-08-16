@@ -5,8 +5,9 @@ home: passive
 cv: passive
 research: active
 contact: passive
-published: true
+published: false
 ---
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 
 <!-- /* The Real Cost of Benchmarking  */ -->
 <div class="colnew">
@@ -107,17 +108,10 @@ published: true
 		<i>Selected Presentations:
 		FIRS Conference 2024, 
 		OU-RFS Climate and Energy Conference 2024,
-		<!-- SITE New Research in Asset Pricing<sup>&dagger;</sup>, -->
 		GRASFI Conference 2024,
 		SoFiE Conference 2024,
 		CEPR-ESSEC-Luxembourg Conference on Sustainable Financial Intermediation, 
 		Harvard Climate Economics Workshop, UC Santa Cruz
-		 <!-- USC Marshall PhD Conference, -->
-		<!-- FMA Conference 2024, -->
-		 <!-- NYU Shanghai/SoFiE Summer School, -->
-			<!-- MFR/IMSI "Assessing the Economic and Environmental Consequences of Climate Change" Conference,  -->
-		<!-- Inter-Finance PhD Seminar,  -->
-		<!-- GEA Winter Meeting 2022 (DIW) -->
 		<br>
 		<!-- (* scheduled, <sup>&dagger;</sup> declined/scheduling conflict) -->
 		</i> 
