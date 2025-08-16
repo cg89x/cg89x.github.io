@@ -404,16 +404,13 @@ contact: passive
 </details>
 <hr class="styled-hr" style="width:100%;margin:6px 0;">
 
-
-<h3 id="research" class="section-title">Work-in-Progress</h3>
-<hr class="section-rule">
-
 <!-- Paper 3: Markets to Meters -->
 <details class="paper">
 	<summary>From Markets to Meters: How Index Investing Affects Electricity Prices</summary>
 	<div class="paper-body">
 		<div class="colnew">
 			<div class="main">
+				<a href="#/" style="font-size:20px;">[Preliminary draft available upon request]</a>
 				<h4 style="color:black;font-size:16px;">Abstract:</h4>
 				<div style="text-align:justify;min-width:375px;max-width:100%;display:grid;font-size:15px;">
 					<p style="margin-bottom:.5cm;">
@@ -424,7 +421,6 @@ contact: passive
 						Evidence from the regulated railroad industry confirms the mechanism's external validity, highlighting a significant, previously undocumented consequence of modern financial market structure on regulated industries.
 					</p>
 				</div>
-				<a href="#/" style="font-size:15px;">[Preliminary draft available upon request]</a>
 			</div>
 			<div class="side">
 				<img style="float:center;max-width:100%;min-width:95%;height:auto;max-height:95%;display:flex;"
@@ -434,6 +430,11 @@ contact: passive
 	</div>
 </details>
 <hr class="styled-hr" style="width:100%;margin:6px 0;">
+
+<h3 id="research" class="section-title">Work-in-Progress</h3>
+<hr class="section-rule">
+
+
 
 <!-- Paper 4: ESG Induced Capital Misallocation -->
 <details class="paper">
