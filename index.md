@@ -403,19 +403,25 @@ contact: passive
 </details>
 <hr class="styled-hr" style="width:100%;margin:6px 0;">
 
+
+
+<h3 id="research" class="section-title">Work-in-Progress</h3>
+<hr class="section-rule">
+
+
 <!-- Paper 3: Markets to Meters -->
 <details class="paper">
 	<summary>From Markets to Meters: How Index Investing Affects Electricity Prices</summary>
 	<div class="paper-body">
 		<div class="colnew">
 			<div class="main">
-				<a href="#/" style="font-size:18px;">[Preliminary draft available upon request]</a>
+				<a href="mailto:ckontz@stanford.edu?subject=Request%20for%20Draft" style="font-size:18px;">[Preliminary draft available upon request]</a>
 				<h4 style="color:black;font-size:16px;">Abstract:</h4>
 				<div style="text-align:justify;min-width:375px;max-width:100%;display:grid;font-size:15px;">
 					<p style="margin-bottom:.5cm;">
 						This paper documents that index investing distort risk measures used in regulatory price-setting. 
 						Exploiting quasi-experimental variation from Russell index reconstitutions, we find that a utility's inclusion in a more heavily benchmarked index inflates its CAPM &beta;. 
-						We then show this distortion leads regulators to authorize higher returns on equity, which are ultimately passed on to consumers. 
+						We then show this effect leads regulators to authorize higher returns on equity, which are ultimately passed on to consumers. 
 						This mechanism has substantial aggregate consequences, generating over $85 billion in total economic costs from 1998-2018. 
 						Evidence from the regulated railroad industry confirms the mechanism's external validity, highlighting a significant, previously undocumented consequence of modern financial market structure on regulated industries.
 					</p>
@@ -430,27 +436,48 @@ contact: passive
 </details>
 <hr class="styled-hr" style="width:100%;margin:6px 0;">
 
-<h3 id="research" class="section-title">Work-in-Progress</h3>
-<hr class="section-rule">
-
-
+<!-- Paper 5: Option Implied Expected Returns -->
+<details class="paper">
+	<summary>Does Index Investing Lower Expected Returns? Evidence From Option Markets</summary>
+	<div class="paper-body">
+		<div class="colnew">
+			<div class="main">
+				<a href="mailto:ckontz@stanford.edu?subject=Request%20for%20Draft" style="font-size:18px;">[Preliminary draft available upon request]</a>
+				<h4 style="color:black;font-size:16px;">Abstract:</h4>
+				<div style="text-align:justify;min-width:375px;max-width:100%;display:grid;font-size:15px;">
+					<p style="margin-bottom:.5cm;">
+						Using the option-implied expected excess returns of a risk-averse representative
+						investor whose wealth is fully invested in equities, I find that the lower bound on
+						expected excess returns <em>increases</em> when a stock is added to a benchmark index
+						and <em>decreases</em> when it is removed. 
+						This finding is robust to controls for firm characteristics, industry-time effects, and size effects, and it holds for the S&P 500, Nasdaq 100, Russell 1000, and Russell 2000 indices.
+					</p>
+				</div>
+				<!-- <a href="#/" style="font-size:15px;">[Draft coming soon]</a> -->
+			</div>
+			<div class="side">
+				<img style="float:center;max-width:100%;min-width:95%;height:auto;max-height:95%;display:flex;"
+						 src="/img/exp_ret_abs.png" alt="Expected Returns figure">
+			</div>
+		</div>
+	</div>
+</details>
+<hr class="styled-hr" style="width:100%;margin:6px 0;">
 
 <!-- Paper 4: ESG Induced Capital Misallocation -->
 <details class="paper">
 	<summary>ESG Induced Capital Misallocation: is ESG Doing Good, by Doing Well?</summary>
-
 	<div class="paper-body">
 		<div class="colnew">
 			<div class="main">
 				<h4 style="color:black;font-size:16px;">Abstract:</h4>
 				<div style="text-align:justify;min-width:375px;max-width:100%;display:grid;font-size:15px;">
 					<p style="margin-bottom:.5cm;">
-						This paper studies the impact of environmental, social, and governance (ESG) investing on the real economy. Using within industry-year variation, I find that 1.) firms with high ESG ratings have low marginal revenue products of capital (MRPK), while, 2.) firms with high sales per tCO2 emission have high MRPKs. This implies that reallocating capital to firms with high ESG ratings lowers allocative efficiency while reallocating capital to greener firms increases it. Motivated by these facts, I estimate a dynamic investment model featuring convenience yields on ESG assets and a CO2 externality to explore the implications of ESG investing for capital misallocation and climate change mitigation.
+						This paper studies the impact of environmental, social, and governance (ESG) investing on the real economy. Using within industry-year variation, I find that 1.) firms with high ESG ratings have low marginal revenue products of capital (MRPK), while, 2.) firms with high sales per tCO2 emission have high MRPKs. This suggests that reallocating capital to firms with high ESG ratings lowers allocative efficiency while reallocating capital to greener firms increases it. Motivated by these facts, I estimate a dynamic investment model featuring convenience yields on ESG assets and a CO2 externality to explore the implications of ESG investing for capital misallocation and climate change mitigation.
 					</p>
 				</div>
-				<a href="#/" style="font-size:15px;">[Draft coming soon]</a>
+				<!-- <a href="#/" style="font-size:15px;">[Draft coming soon]</a> -->
 			</div>
-
 			<div class="side">
 				<img style="float:center;max-width:100%;min-width:95%;height:auto;max-height:95%;display:flex;"
 						 src="/img/esg_co2_mpk.png" alt="ESG CO2 MPK figure">
