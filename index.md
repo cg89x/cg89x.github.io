@@ -297,7 +297,7 @@ contact: passive
 	<summary>
 		 <span class="paper-heading">
 			<span class="paper-title">
-		<a>
+		<a href="/files/Kontz_Hanson_TheRealCostOfBenchmarking.pdf">
 			The Real Cost of Benchmarking
 		</a>
 		<span style="font-weight:400;">(with <a href="https://shanson93.github.io/">Sebastian Hanson</a>)</span>
@@ -327,11 +327,11 @@ contact: passive
 				<br>
 				<h4 style="color:black;font-size:17px;">Abstract:</h4>
 				<div style="text-align:justify;min-width:375px;max-width:100%;display:grid;font-size:16px;">
-					<!-- This paper provides causal evidence that asset price distortions caused by benchmarking affect corporate investment decisions. We document that the rise in benchmark-linked investing over the past two decades fundamentally changed the cross-section of CAPM &beta;s. Exploiting exogenous variation from Russell index reconstitutions, we show inclusion in benchmark indices leads to higher CAPM &beta;s, with larger effects observed among stocks facing greater benchmarking intensity. Firm managers interpret the resulting higher CAPM &beta; as an increase in their firm's cost of capital, leading them to reduce investment. Six years after inclusion, firms experience 7.1% and 8.4% declines in physical and intangible capital, respectively. Supporting evidence shows that benchmark-inclusion similarly increases the perceived cost of equity among stock analysts and regulators. We find consistent results at the industry level. Industries which experienced greater increases in CAPM &beta;s due to benchmarking accumulated less capital over the past two decades. Moreover, benchmarking creates excess dispersion in the cost of capital within industries, causing inefficient capital allocation across firms. The rise in CAPM &beta;s largely offset the decline in the risk-free rate over the past decades and can explain 57% of the “missing investment” puzzle. -->
-					Benchmark-linked capital flows reduce firm investment by raising managers’ perceived cost of equity. Using exogenous variation from Russell and S&P 500 reconstitution, we show that benchmark inclusion raises CAPM &beta;s, which managers interpret as a higher cost of equity and respond to by reducing investment. Consistent with this mechanism, benchmark inclusion also raises the perceived cost of equity among stock analysts and regulators. Industries with larger increases in CAPM &beta;s due to benchmarking accumulated less capital over the past two decades. Notably, benchmarking-induced changes in the cross-section of CAPM &beta;s do not cancel out but affect aggregate investment because higher discount rates fall on a majority of elastic firms while lower discount rates benefit a few large but inelastic firms, helping explain the missing investment puzzle.
+				Benchmark-linked capital flows increase firms' CAPM &beta;s, thereby raising managers' perceived cost of equity and reducing investment. Using exogenous variation from Russell and S&P 500 reconstitutions, we show that inclusion in a benchmark stock index increases a stock's CAPM &beta;. Managers interpret the higher &beta; as a higher cost of equity and reduce investment. Consistent with this mechanism, benchmark inclusion also raises the perceived cost of equity among stock analysts and regulators. Industries with larger increases in &beta;s due to benchmarking have accumulated less capital over the past two decades. Benchmark-induced changes in the cross-section of CAPM &beta;s do not cancel out but affect aggregate investment because higher &beta;s fall on many firms with high investment elasticities, while lower &beta;s benefit a few large but inelastic firms. This mechanism can account for the majority of the missing investment puzzle.
 				</div>
 				<div style="text-align:justify;font-size:small;margin-top:.5rem;">
-					<i><b>Selected Presentations:</b> AFA Annual Meeting 2026<sup>*</sup>, Carey Finance Conference<sup>*</sup>, SFS Cavalcade 2025, FIRS 2025, Four Corners/FMRC Conference on Indexing, Investment Company Institute, Northeastern University Finance Conference 2025, UIC Finance Conference 2025<sup>c</sup>, Citadel<sup>c</sup> 
+					<i><b>Selected Presentations:</b> AFA Annual Meeting 2026<sup>*</sup>, Carey Finance Conference<sup>*</sup>, SFS Cavalcade 2025, FIRS 2025, Four Corners/FMRC Conference on Indexing, Investment Company Institute, Northeastern University Finance Conference 2025, UIC Finance Conference 2025<sup>c</sup>
+					<!-- , Citadel<sup>c</sup>  -->
 					<br>
 					(* scheduled, <sup>c</sup> co-author)</i>
 				</div>
