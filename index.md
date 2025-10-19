@@ -200,7 +200,15 @@ contact: passive
 	</a>
 </div>
 	</div>
+<div class="main">
+	<a href="mailto:ckontz@stanford.edu">E-mail: ckontz@stanford.edu</a>
 </div>
+</div>
+
+
+
+
+
 
 <!-- PAPER SECTION -->
 
