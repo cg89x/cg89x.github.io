@@ -136,8 +136,7 @@ contact: passive
 		</b>
 		<br>
 		<br>
-		My research lies at the intersection of empirical Corporate Finance and Asset Pricing, exploring how financial markets and corporate decision-making interact. 
-		<!-- Specifically, I study how financial market structures, such as the rise of passive investing and sustainable investing, affect the cost of capital and corporate investment decisions.  -->
+		My research sits at the intersection of empirical corporate finance and asset pricing. I study how delegated asset management, the growth of passive investing, and emerging trends like ESG investing shape firms’ decisions and real economic outcomes.
 <br>
 <br>
 <div class="contact-icons">
