@@ -137,6 +137,10 @@ contact: passive
 		<br>
 		<br>
 		My research sits at the intersection of empirical corporate finance and asset pricing. I study how delegated asset management, the growth of passive investing, and emerging trends like ESG investing shape firms’ decisions and real economic outcomes.
+		<br>
+		<br>
+		<b>
+		I am on the 2025/2026 Job Market.</b>
 <br>
 <br>
 <div class="contact-icons">
