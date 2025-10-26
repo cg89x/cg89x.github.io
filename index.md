@@ -308,7 +308,7 @@ contact: passive
 	<summary>
 		 <span class="paper-heading">
 			<span class="paper-title">
-		<a href="/files/Kontz_Hanson_TheRealCostOfBenchmarking.pdf">
+		<a href="/files/JMP_Christian_Kontz_TheRealCostOfBenchmarking.pdf">
 			The Real Cost of Benchmarking
 		</a>
 		<span style="font-weight:400;">(with <a href="https://shanson93.github.io/">Sebastian Hanson</a>)</span>
@@ -323,7 +323,7 @@ contact: passive
 	<div class="paper-body">
 		<div class="colnew">
 			<div class="main">
-				<a href="/files/Kontz_Hanson_TheRealCostOfBenchmarking.pdf" target="_blank" style="font-size:18px;">[Draft]</a>&#160;
+				<a href="/files/JMP_Christian_Kontz_TheRealCostOfBenchmarking.pdf" target="_blank" style="font-size:18px;">[Draft]</a>&#160;
 				<a href="https://ssrn.com/abstract=4884602" target="_blank" style="font-size:18px;">[SSRN]</a>&#160;
 				<a href="#" onclick="show('kontzhanson2024');" style="font-size:18px;">[BibTex]</a>
 				<div id="kontzhanson2024" style="display:none;"><br>
@@ -351,7 +351,7 @@ contact: passive
 				</div>
 			</div>
 			<div class="side">
-				<a href="/files/Kontz_Hanson_TheRealCostOfBenchmarking.pdf" target="_blank">
+				<a href="/files/JMP_Christian_Kontz_TheRealCostOfBenchmarking.pdf" target="_blank">
 					<img style="float:center;max-width:100%;min-width:85%;height:auto;max-height:75%;display:flex;"
 							 src="/img/beta_did.png" alt="Benchmarking figure">
 				</a>
