@@ -341,13 +341,15 @@ contact: passive
 				Benchmark-linked capital flows increase firms' CAPM &beta;s, thereby raising managers' perceived cost of equity and reducing investment. Using exogenous variation from Russell and S&P 500 reconstitutions, we show that inclusion in a benchmark stock index increases a stock's CAPM &beta;. Managers interpret the higher &beta; as a higher cost of equity and reduce investment. Consistent with this mechanism, benchmark inclusion also raises the perceived cost of equity among stock analysts and regulators. Industries with larger increases in &beta;s due to benchmarking have accumulated less capital over the past two decades. Benchmark-induced changes in the cross-section of CAPM &beta;s do not cancel out but affect aggregate investment because higher &beta;s fall on many firms with high investment elasticities, while lower &beta;s benefit a few large but inelastic firms. This mechanism can account for the majority of the missing investment puzzle.
 				</div>
 				<div style="text-align:justify;font-size:small;margin-top:.5rem;">
-					<i><b>Selected Presentations:</b> AFA Annual Meeting 2026<sup>*</sup>, Carey Finance Conference<sup>*</sup>, SFS Cavalcade 2025, FIRS 2025, Four Corners/FMRC Conference on Indexing, Investment Company Institute, Northeastern University Finance Conference 2025, UIC Finance Conference 2025<sup>c</sup>
+					<i><b>Selected Presentations:</b> AFA Annual Meeting 2026<sup>*</sup>, Johns Hopkins Carey Finance Conference, SFS Cavalcade 2025, FIRS 2025, Four Corners/FMRC Conference on Indexing, Investment Company Institute, Northeastern University Finance Conference 2025, UIC Finance Conference 2025<sup>c</sup>
 					<!-- , Citadel<sup>c</sup>  -->
 					<br>
 					(* scheduled, <sup>c</sup> co-author)</i>
 				</div>
 				<div style="text-align:justify;font-size:small;margin-top:.25rem;">
 					<i><b>Awards:</b>  SFS Cavalcade PhD Student Award, FIRS Conference 2025 Prize for PhD Students, Shortlisted for Brandes Center Prize</i>
+					<br>
+					<i><b>Media Coverage:</b> <a href="https://www.bloomberg.com/opinion/newsletters/2025-10-28/all-public-companies-are-alike" >Bloomberg's Matt Levine Money Stuff</a> </i>
 				</div>
 			</div>
 			<div class="side">
