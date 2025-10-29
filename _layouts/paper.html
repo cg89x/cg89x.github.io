@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<!doctype html>
+<html lang="en">
+<body>
+	<main>
+		<h1>{{ page.title }}</h1>
+		<p><strong>Authors:</strong> {{ page.citation_authors | join: ", " }}</p>
+		{% if page.date %}<p><strong>Date:</strong> {{ page.date }}</p>{% endif %}
+		<p><a href="{{ page.citation_pdf_url }}">Download PDF</a></p>
+		<h2>Abstract</h2>
+		{{ content }}
+	</main>
+</body>
+</html>

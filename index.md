@@ -118,29 +118,9 @@ contact: passive
 		font-weight: 700;
 		font-family: sans-serif;
 	}
-
-
 	</style>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 </head>
-
-<!-- <script>
-(async () => {
-	const id = "W4320489119"; // your paper’s OpenAlex ID
-	const url = `https://api.openalex.org/works/${id}`;
-	try {
-		const r = await fetch(url);
-		if (!r.ok) throw new Error(r.status);
-		const j = await r.json();
-		const cites = j.cited_by_count;
-		if (Number.isFinite(cites)) {
-			document.getElementById("oa-cites").textContent = cites.toLocaleString();
-		}
-	} catch (e) {
-		console.error("OpenAlex fetch failed:", e);
-	}
-})();
-</script> -->
 
 <div class="colnew">
 	<div class="side">
@@ -163,14 +143,6 @@ contact: passive
 <br>
 <br>
 <div class="contact-icons">
-	<!-- CV (Document Icon) -->
-	<!-- <a href="/files/ChristianKontzCV.pdf" target="_blank" class="icon-btn" aria-label="Download CV"> -->
-		<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="white"> -->
-			<!-- <path d="M6 2a2 2 0 0 0-2 2v16a2  -->
-			<!-- 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6H6z"/> -->
-		<!-- </svg> -->
-	<!-- </a> -->
-	<!-- CV (text instead of icon) -->
 	<a href="/files/ChristianKontzCV.pdf" target="_blank" class="icon-btn" aria-label="Download CV">
 		<span class="cv-text">CV</span>
 	</a>
@@ -226,10 +198,6 @@ contact: passive
 	<a href="mailto:ckontz@stanford.edu">E-mail: ckontz@stanford.edu</a>
 </div>
 </div>
-
-
-
-
 
 
 <!-- PAPER SECTION -->
@@ -361,7 +329,6 @@ contact: passive
 				</div>
 				<div style="text-align:justify;font-size:small;margin-top:.5rem;">
 					<i><b>Selected Presentations:</b> AFA Annual Meeting 2026<sup>*</sup>, Johns Hopkins Carey Finance Conference, SFS Cavalcade 2025, FIRS 2025, Four Corners/FMRC Conference on Indexing, Investment Company Institute, Northeastern University Finance Conference 2025, UIC Finance Conference 2025<sup>c</sup>
-					<!-- , Citadel<sup>c</sup>  -->
 					<br>
 					(* scheduled, <sup>c</sup> co-author)</i>
 				</div>
@@ -386,9 +353,6 @@ contact: passive
 
 <h3 id="research" class="section-title">Working Papers</h3>
 <hr class="section-rule">
-
-
-
 
 <!-- Paper 2 : Do ESG Investors Care About Carbon Emissions?-->
 <details class="paper">
@@ -522,7 +486,6 @@ contact: passive
 						This paper studies the impact of environmental, social, and governance (ESG) investing on the real economy. Using within industry-year variation, I find that 1.) firms with high ESG ratings have low marginal revenue products of capital (MRPK), while, 2.) firms with high sales per tCO2 emission have high MRPKs. This suggests that reallocating capital to firms with high ESG ratings lowers allocative efficiency while reallocating capital to greener firms increases it. Motivated by these facts, I estimate a dynamic investment model featuring convenience yields on ESG assets and a CO2 externality to explore the implications of ESG investing for capital misallocation and climate change mitigation.
 					</p>
 				</div>
-				<!-- <a href="#/" style="font-size:15px;">[Draft coming soon]</a> -->
 			</div>
 			<div class="side">
 				<img style="float:center;max-width:100%;min-width:95%;height:auto;max-height:95%;display:flex;"

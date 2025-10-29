@@ -1,1 +1,9 @@
+User-agent: Googlebot
+Disallow: /abstracts/
+Disallow: /cv/
+
+User-agent: GoogleScholar
+Allow: /abstracts/
+
 User-agent: *
+Disallow:
