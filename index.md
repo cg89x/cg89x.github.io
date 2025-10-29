@@ -119,9 +119,28 @@ contact: passive
 		font-family: sans-serif;
 	}
 
+
 	</style>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 </head>
+
+<!-- <script>
+(async () => {
+	const id = "W4320489119"; // your paper’s OpenAlex ID
+	const url = `https://api.openalex.org/works/${id}`;
+	try {
+		const r = await fetch(url);
+		if (!r.ok) throw new Error(r.status);
+		const j = await r.json();
+		const cites = j.cited_by_count;
+		if (Number.isFinite(cites)) {
+			document.getElementById("oa-cites").textContent = cites.toLocaleString();
+		}
+	} catch (e) {
+		console.error("OpenAlex fetch failed:", e);
+	}
+})();
+</script> -->
 
 <div class="colnew">
 	<div class="side">
@@ -132,7 +151,7 @@ contact: passive
 	<div class="main">
 		<div style="color:black; font-size: large; text-align: justify; display:inline-block;  min-width: 75%;"> 
 		<b>
-		Hi, I'm Christian Kontz. I'm a Ph.D. candidate in Finance at the Stanford Graduate School of Business.
+		Hi, I'm Christian Kontz. I'm a Ph.D. candidate in Finance at the Stanford Graduate School of Business. 
 		</b>
 		<br>
 		<br>
@@ -384,6 +403,7 @@ contact: passive
 				<span class="award-pill">GRASFI Best PhD Paper ’24</span>
 				<span class="award-pill">FIRS PhD Paper Prize ’24</span>
 				<span class="award-pill">Myron Scholes PhD Prize ’24</span>
+				<span class="award-pill" data-openalex="W4320489119"><a href="https://openalex.org/W4320489119" target="_blank" class="award-pill-link">Citations: <span class="count">—</span></a></span>
 			</span>
 		</span>
 	</summary>
@@ -542,6 +562,38 @@ document.querySelectorAll('.paper').forEach(paper => {
 				behavior: 'smooth',
 				block: 'center'   // centers the element on screen
 			});
+		}
+	});
+});
+</script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+	const badges = document.querySelectorAll('[data-openalex]');
+	badges.forEach(async (b) => {
+		const id = (b.dataset.openalex || '').trim();          // e.g., "W4320489119"
+		if (!/^W\d+$/i.test(id)) return;                        // sanity check
+
+		// find or create the output span
+		let out = b.querySelector('.count');
+		if (!out) {
+			out = document.createElement('span');
+			out.className = 'count';
+			out.textContent = '—';
+			b.appendChild(out);
+		}
+
+		try {
+			const url = `https://api.openalex.org/works/${id.toUpperCase()}?mailto=you@example.com`;
+			const r = await fetch(url, { headers: { 'Accept': 'application/json' } });
+			if (!r.ok) throw new Error(`HTTP ${r.status}`);
+			const j = await r.json();
+			const n = j.cited_by_count;
+			if (Number.isFinite(n)) out.textContent = n.toLocaleString();
+		} catch (e) {
+			console.error('OpenAlex fetch failed for', id, e);
+			out.textContent = '—';
 		}
 	});
 });
