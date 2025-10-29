@@ -308,7 +308,7 @@ contact: passive
 	<summary>
 		 <span class="paper-heading">
 			<span class="paper-title">
-		<a href="/files/JMP_Christian_Kontz_TheRealCostOfBenchmarking.pdf">
+		<a href="https://ssrn.com/abstract=4884602">
 			The Real Cost of Benchmarking
 		</a>
 		<span style="font-weight:400;">(with <a href="https://shanson93.github.io/">Sebastian Hanson</a>)</span>
@@ -353,7 +353,7 @@ contact: passive
 				</div>
 			</div>
 			<div class="side">
-				<a href="/files/JMP_Christian_Kontz_TheRealCostOfBenchmarking.pdf" target="_blank">
+				<a href="https://ssrn.com/abstract=4884602" target="_blank">
 					<img style="float:center;max-width:100%;min-width:85%;height:auto;max-height:75%;display:flex;"
 							 src="/img/beta_did.png" alt="Benchmarking figure">
 				</a>
@@ -414,7 +414,7 @@ contact: passive
 				</div>
 			</div>
 			<div class="side">
-				<a href="/files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf" target="_blank">
+				<a href="https://ssrn.com/abstract=4357312" target="_blank">
 					<img style="float:center;max-width:100%;min-width:75%;height:auto;max-height:75%;display:flex;"
 							 src="/img/autoABS.png" alt="Auto ABS figure">
 				</a>
