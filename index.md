@@ -321,7 +321,8 @@ contact: passive
 &nbsp;&nbsp;&nbsp;institution={Stanford University},<br>
 &nbsp;&nbsp;&nbsp;year={2024},<br>
 }
-				</div>
+				</div>&#160;
+				<a href="/betasim.html" target="_blank" style="font-size:18px;">[CAPM &beta; Simulator]</a>&#160;
 				<br>
 				<h4 style="color:black;font-size:17px;">Abstract:</h4>
 				<div style="text-align:justify;min-width:375px;max-width:100%;display:grid;font-size:16px;">
