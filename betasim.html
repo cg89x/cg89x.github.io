@@ -241,9 +241,9 @@
 				<div class="control-group">
 					<label>
 						N Stocks
-						<span id="val_n_stocks" class="value-display">4000</span>
+						<span id="val_n_stocks" class="value-display">3500</span>
 					</label>
-					<input type="range" id="input_n_stocks" min="500" max="10000" step="100" value="4000">
+					<input type="range" id="input_n_stocks" min="500" max="10000" step="100" value="3500">
 				</div>
 
 				<div class="control-group">
@@ -282,32 +282,34 @@
 			<!-- Shock 1 Settings -->
 			<div class="control-section">
 				<div class="section-title">
-					Comovement Shock 1 
-					<span id="val_mkt_share_1" style="font-weight:normal; font-size:0.8em; color:#666; text-transform: none;"></span>
+					<span>Comovement Shock 1 <span id="val_mkt_share_1" style="font-weight:normal; font-size:0.8em; color:#666; text-transform: none;"></span></span>
+					<input type="checkbox" id="input_use_shock_1" checked>
 				</div>
 				
-				<div class="control-group">
-					<label>
-						Start Rank
-						<span id="val_start" class="value-display">1000</span>
-					</label>
-					<input type="range" id="input_start" min="0" max="4000" step="100" value="1000">
-				</div>
+				<div id="group_shock_1">
+					<div class="control-group">
+						<label>
+							Start Rank
+							<span id="val_start" class="value-display">1000</span>
+						</label>
+						<input type="range" id="input_start" min="0" max="4000" step="100" value="1000">
+					</div>
 
-				<div class="control-group">
-					<label>
-						End Rank
-						<span id="val_end" class="value-display">3000</span>
-					</label>
-					<input type="range" id="input_end" min="0" max="4000" step="100" value="3000">
-				</div>
+					<div class="control-group">
+						<label>
+							End Rank
+							<span id="val_end" class="value-display">3000</span>
+						</label>
+						<input type="range" id="input_end" min="0" max="4000" step="100" value="3000">
+					</div>
 
-				<div class="control-group">
-					<label>
-						Rho Shock (+Δρ)
-						<span id="val_shock_rho" class="value-display">0.00</span>
-					</label>
-					<input type="range" id="input_shock_rho" min="-0.10" max="0.75" step="0.01" value="0.0">
+					<div class="control-group">
+						<label>
+							Rho Shock (+Δρ)
+							<span id="val_shock_rho" class="value-display">0.10</span>
+						</label>
+						<input type="range" id="input_shock_rho" min="-0.10" max="0.75" step="0.01" value="0.10">
+					</div>
 				</div>
 			</div>
 
@@ -322,25 +324,25 @@
 					<div class="control-group">
 						<label>
 							Start Rank
-							<span id="val_start_2" class="value-display">3000</span>
+							<span id="val_start_2" class="value-display">200</span>
 						</label>
-						<input type="range" id="input_start_2" min="0" max="4000" step="50" value="3000">
+						<input type="range" id="input_start_2" min="0" max="4000" step="50" value="200">
 					</div>
 
 					<div class="control-group">
 						<label>
 							End Rank
-							<span id="val_end_2" class="value-display">4000</span>
+							<span id="val_end_2" class="value-display">1000</span>
 						</label>
-						<input type="range" id="input_end_2" min="0" max="4000" step="50" value="4000">
+						<input type="range" id="input_end_2" min="0" max="4000" step="50" value="1000">
 					</div>
 
 					<div class="control-group">
 						<label>
 							Rho Shock (+Δρ)
-							<span id="val_shock_rho_2" class="value-display">0.00</span>
+							<span id="val_shock_rho_2" class="value-display">0.05</span>
 						</label>
-						<input type="range" id="input_shock_rho_2" min="-0.10" max="0.75" step="0.01" value="0.0">
+						<input type="range" id="input_shock_rho_2" min="-0.10" max="0.75" step="0.01" value="0.05">
 					</div>
 				</div>
 			</div>
@@ -362,6 +364,13 @@
 					</label>
 					<input type="range" id="input_bins" min="10" max="200" step="5" value="100">
 				</div>
+
+								<div class="control-group" style="flex-direction: row; align-items: center; justify-content: start; gap: 10px; margin-top: 10px;">
+										<input type="checkbox" id="input_excess_return">
+										<label for="input_excess_return" style="width: auto; font-weight: normal; font-size: 0.9em;">
+												Show as Excess Return (ERP = 6%)
+										</label>
+								</div>
 			</div>
 
 		</div>
@@ -393,7 +402,7 @@
 			<p style="font-size:0.9em; margin-bottom: 10px;">
 				<strong>1. Market Structure (Log-Normal):</strong><br>
 				Stock markets have a heavy-tailed size distribution. We simulate this using a Log-Normal($\mu, \sigma$) distribution for market caps.
-				The U.S. stock market can be approximated with $N=4000$ stocks and $\sigma\approx2$, such that the 1,000 largest firms account for about 90% of total market capitalization.
+				The U.S. stock market can be approximated with $N=3500$ stocks and $\sigma\approx2$, such that the 1,000 largest firms account for about 90% of total market capitalization.
 			</p>
 
 			<p style="font-size:0.9em; margin-bottom: 10px;">
@@ -411,7 +420,7 @@
 
 	<script>
 		// 1. Initialize Constants & State
-		let nStocks = 4000;
+		let nStocks = 3500;
 		let weights = new Float64Array(nStocks);
 		let ranks = new Float64Array(nStocks);
 		let currentPlotMode = 'beta'; // 'beta', 'weights', 'cum_weights'
@@ -464,7 +473,7 @@
 		}
 
 		// 2. Beta Calculation Engine
-		function calculateBetas(base_rho, decay_rho, decay_min, shock1_rho, s1_start, s1_end, use_shock2, shock2_rho, s2_start, s2_end) {
+		function calculateBetas(base_rho, decay_rho, decay_min, use_shock1, shock1_rho, s1_start, s1_end, use_shock2, shock2_rho, s2_start, s2_end) {
 			
 			// SHOCK 1 Bounds
 			let s1_s = Math.min(s1_start, s1_end);
@@ -507,7 +516,7 @@
 			}
 
 			// Apply Shock 1
-			if (s1_idx_e > s1_idx_s) {
+			if (use_shock1 && s1_idx_e > s1_idx_s) {
 				for(let i = s1_idx_s; i < s1_idx_e; i++) {
 					rhos[i] += shock1_rho;
 					// Clamp to [-1, 1]
@@ -595,12 +604,13 @@
 			log_sigma: document.getElementById('input_log_sigma'),
 			rho: document.getElementById('input_rho'),
 			decay_rho: document.getElementById('input_decay_rho'),
-						decay_min: document.getElementById('input_decay_min'), // New Input
+			decay_min: document.getElementById('input_decay_min'), // New Input
 			
 			// Shock 1
 			start: document.getElementById('input_start'),
 			end: document.getElementById('input_end'),
 			shock_rho: document.getElementById('input_shock_rho'),
+						use_shock_1: document.getElementById('input_use_shock_1'), // New checkbox
 			
 			// Shock 2
 			use_shock_2: document.getElementById('input_use_shock_2'),
@@ -608,17 +618,19 @@
 			end_2: document.getElementById('input_end_2'),
 			shock_rho_2: document.getElementById('input_shock_rho_2'),
 			
-			bins: document.getElementById('input_bins')
+			bins: document.getElementById('input_bins'),
+						excess_return: document.getElementById('input_excess_return')
 		};
 		
+				const groupShock1 = document.getElementById('group_shock_1'); // New group
 		const groupShock2 = document.getElementById('group_shock_2');
-				const groupDecay = document.getElementById('group_decay_param');
+		const groupDecay = document.getElementById('group_decay_param');
 
 		const displays = {
 			n_stocks: document.getElementById('val_n_stocks'),
 			log_sigma: document.getElementById('val_log_sigma'),
 			rho: document.getElementById('val_rho'),
-						decay_min: document.getElementById('val_decay_min'), // New Display
+			decay_min: document.getElementById('val_decay_min'), // New Display
 			
 			// Shock 1
 			start: document.getElementById('val_start'),
@@ -638,7 +650,7 @@
 		const btnCumWeights = document.getElementById('btn_plot_cum_weights');
 
 		// Initialize market with default values
-		initMarket(4000, 2.0, 1989);
+		initMarket(3500, 2.0, 1989);
 
 		function updatePlot(event) {
 			// Read values
@@ -647,8 +659,9 @@
 				log_sigma: parseFloat(inputs.log_sigma.value),
 				rho: parseFloat(inputs.rho.value),
 				decay_rho: inputs.decay_rho.checked,
-								decay_min: parseFloat(inputs.decay_min.value),
+				decay_min: parseFloat(inputs.decay_min.value),
 				
+								use_shock_1: inputs.use_shock_1.checked,
 				start: parseInt(inputs.start.value),
 				end: parseInt(inputs.end.value),
 				shock_rho: parseFloat(inputs.shock_rho.value),
@@ -658,14 +671,15 @@
 				end_2: parseInt(inputs.end_2.value),
 				shock_rho_2: parseFloat(inputs.shock_rho_2.value),
 
-				bins: parseInt(inputs.bins.value)
+				bins: parseInt(inputs.bins.value),
+								showExcess: inputs.excess_return.checked
 			};
 
 			// Update displays
 			displays.n_stocks.textContent = p.n_stocks;
 			displays.log_sigma.textContent = p.log_sigma.toFixed(1);
 			displays.rho.textContent = p.rho.toFixed(2);
-						displays.decay_min.textContent = p.decay_min.toFixed(2);
+			displays.decay_min.textContent = p.decay_min.toFixed(2);
 			
 			displays.start.textContent = p.start;
 			displays.end.textContent = p.end;
@@ -677,6 +691,13 @@
 
 			displays.bins.textContent = p.bins;
 
+						// Toggle Visual State of Shock 1
+			if(p.use_shock_1) {
+				groupShock1.classList.remove('disabled-group');
+			} else {
+				groupShock1.classList.add('disabled-group');
+			}
+
 			// Toggle Visual State of Shock 2
 			if(p.use_shock_2) {
 				groupShock2.classList.remove('disabled-group');
@@ -684,12 +705,12 @@
 				groupShock2.classList.add('disabled-group');
 			}
 
-						// Toggle Visual State of Decay Slider
-						if(p.decay_rho) {
-								groupDecay.style.display = 'flex';
-						} else {
-								groupDecay.style.display = 'none';
-						}
+			// Toggle Visual State of Decay Slider
+			if(p.decay_rho) {
+					groupDecay.style.display = 'flex';
+			} else {
+					groupDecay.style.display = 'none';
+			}
 
 			// Check if we need to regenerate market structure
 			let marketChanged = false;
@@ -751,21 +772,53 @@
 				// Calc
 				const result = calculateBetas(
 					p.rho, p.decay_rho, p.decay_min, // Passed decay_min
-					p.shock_rho, p.start, p.end, 
+										p.use_shock_1, p.shock_rho, p.start, p.end, // Passed use_shock_1
 					p.use_shock_2, p.shock_rho_2, p.start_2, p.end_2
 				);
 				
 				// Bin
 				const data = binData(ranks, result.betas, p.bins);
 
+								// Transform to Excess Returns if toggle is active
+								let plotY = data.y;
+								let yTitle = 'CAPM Beta';
+								let plotTitlePrefix = 'Simulated CAPM Betas';
+								let yRange = [0.5, 1.5];
+								let dtickVal = 0.1;
+								let refLineY = 1.0;
+								let vwStat = result.valueWeightedBeta;
+								let ewStat = result.equalWeightedBeta;
+								let statLabelVW = 'Value-Weighted β';
+								let statLabelEW = 'Equal-Weighted β';
+				let statVWText, statEWText;
+
+								if (p.showExcess) {
+										const ERP = 0.06; // 6% Equity Risk Premium
+										plotY = data.y.map(b => b * ERP);
+										yTitle = 'Expected Excess Return (E[r] - rf)';
+										plotTitlePrefix = 'Simulated Expected Excess Returns';
+										yRange = [0.03, 0.09]; // Map 0.5->3%, 1.5->9%
+										dtickVal = 0.01; // 1% ticks
+										refLineY = 1.0 * ERP;
+										vwStat = result.valueWeightedBeta * ERP;
+										ewStat = result.equalWeightedBeta * ERP;
+										statLabelVW = 'V.W. Excess Ret';
+										statLabelEW = 'E.W. Excess Ret';
+					statVWText = (vwStat * 100).toFixed(2) + '%';
+					statEWText = (ewStat * 100).toFixed(2) + '%';
+								} else {
+					statVWText = vwStat.toFixed(3);
+					statEWText = ewStat.toFixed(3);
+				}
+
 				trace = {
 					x: data.x,
-					y: data.y,
+					y: plotY,
 					mode: 'lines+markers',
 					type: 'scatter',
 					marker: { size: 10, color: '#0066cc' },
 					line: { shape: 'spline', smoothing: 0.5 },
-					name: 'Beta'
+					name: p.showExcess ? 'Excess Return' : 'Beta'
 				};
 
 								// DEFINE ANNOTATIONS HERE
@@ -800,8 +853,7 @@
 						y: 0.98,
 						xanchor: 'right',
 						yanchor: 'top',
-						text: `<b>Aggregates</b><br>Value-Weighted β: ${result.valueWeightedBeta.toFixed(3)}<br>Equal-Weighted β: ${result.equalWeightedBeta.toFixed(3)}
-						<br>Market Variance: ${result.marketVar.toFixed(4)}`,
+						text: `<b>Aggregates</b><br>${statLabelVW}: ${statVWText}<br>${statLabelEW}: ${statEWText}<br>Market Variance: ${result.marketVar.toFixed(4)}`,
 						showarrow: false,
 						bgcolor: 'rgba(255, 255, 255, 0.9)',
 						bordercolor: '#333',
@@ -813,7 +865,7 @@
 
 				layout = {
 					title: {
-						text: 'Cross-Section of Simulated CAPM Betas',
+						text: plotTitlePrefix,
 						font: { family: fontStyle.family, size: 20 }
 					},
 					xaxis: { 
@@ -822,16 +874,17 @@
 						tickfont: { family: fontStyle.family, size: 16 }
 					},
 					yaxis: { 
-						title: { text: 'CAPM Beta', font: { family: fontStyle.family, size: 18 } }, 
-						range: [0.5, 1.5],
-						dtick: 0.1,
-						tickfont: { family: fontStyle.family, size: 16 }
+						title: { text: yTitle, font: { family: fontStyle.family, size: 18 } }, 
+						range: yRange,
+						dtick: dtickVal,
+						tickfont: { family: fontStyle.family, size: 16 },
+												tickformat: p.showExcess ? '.0%' : '' // Format as percentage if excess return
 					},
-					margin: { t: 50, r: 20, b: 90, l: 70 }, // Increased bottom margin to 90
+					margin: { t: 50, r: 20, b: 90, l: 90 }, // Increased left margin for label
 					hovermode: 'closest',
 										annotations: axisAnnotations, // Added Annotations
 					shapes: [
-						{ type: 'line', x0: 0, x1: p.n_stocks, y0: 1, y1: 1, line: { color: 'black', width: 1, dash: 'dash' } }
+						{ type: 'line', x0: 0, x1: p.n_stocks, y0: refLineY, y1: refLineY, line: { color: 'black', width: 1, dash: 'dash' } }
 										]
 				};
 			} else if (currentPlotMode === 'cum_weights') {
@@ -885,12 +938,12 @@
 						font: { family: fontStyle.family, size: 20 }
 					},
 					xaxis: { 
-						title: { text: 'Market Capitalization Rank', font: { family: fontStyle.family, size: 18 } }, 
+						title: { text: 'Market Cap Rank', font: { family: fontStyle.family, size: 18 } }, 
 						range: [0, p.n_stocks],
 						tickfont: { family: fontStyle.family, size: 14 }
 					},
 					yaxis: { 
-						title: { text: 'Cumulative Market Cap. Weight', font: { family: fontStyle.family, size: 18 } }, 
+						title: { text: 'Cumulative Weight (0-1)', font: { family: fontStyle.family, size: 18 } }, 
 						range: [0, 1.05],
 						tickfont: { family: fontStyle.family, size: 14 }
 					},
@@ -942,12 +995,12 @@
 						font: { family: fontStyle.family, size: 20 }
 					},
 					xaxis: { 
-						title: { text: 'Market Capitalization Rank', font: { family: fontStyle.family, size: 18 } }, 
+						title: { text: 'Market Cap Rank', font: { family: fontStyle.family, size: 18 } }, 
 						range: [0, p.n_stocks],
 						tickfont: { family: fontStyle.family, size: 14 }
 					},
 					yaxis: { 
-						title: { text: 'Market Capitalization Weight', font: { family: fontStyle.family, size: 18 } }, 
+						title: { text: 'Weight (Fraction)', font: { family: fontStyle.family, size: 18 } }, 
 						type: 'linear',
 						tickfont: { family: fontStyle.family, size: 14 }
 					},
