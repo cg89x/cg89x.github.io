@@ -10,11 +10,11 @@
 	
 	<!-- MathJax Config: Enable single dollar sign for inline math -->
 	<script>
-	  window.MathJax = {
+		window.MathJax = {
 		tex: {
-		  inlineMath: [['$', '$'], ['\\(', '\\)']]
+			inlineMath: [['$', '$'], ['\\(', '\\)']]
 		}
-	  };
+		};
 	</script>
 	<!-- Load MathJax -->
 	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -257,9 +257,9 @@
 				<div class="control-group">
 					<label>
 						Global Correlation (ρ)
-						<span id="val_rho" class="value-display">0.30</span>
+						<span id="val_rho" class="value-display">0.20</span>
 					</label>
-					<input type="range" id="input_rho" min="0" max="0.9" step="0.05" value="0.30">
+					<input type="range" id="input_rho" min="0" max="0.9" step="0.05" value="0.20">
 				</div>
 
 				<div class="control-group" style="flex-direction: row; align-items: center; justify-content: start; gap: 10px; margin-top: 5px;">
@@ -267,6 +267,15 @@
 					<label for="input_decay_rho" style="width: auto; font-weight: normal; font-size: 0.9em;">
 						Size-Dependent Correlation
 					</label>
+				</div>
+
+				<!-- New Decay Parameter Slider (Hidden by default) -->
+				<div id="group_decay_param" class="control-group" style="display: none; padding-left: 10px; border-left: 2px solid #eee;">
+					<label>
+						Min Corr. Factor
+						<span id="val_decay_min" class="value-display">0.30</span>
+					</label>
+					<input type="range" id="input_decay_min" min="0.0" max="1.0" step="0.05" value="0.3">
 				</div>
 			</div>
 
@@ -282,7 +291,7 @@
 						Start Rank
 						<span id="val_start" class="value-display">1000</span>
 					</label>
-					<input type="range" id="input_start" min="1" max="4000" step="100" value="1000">
+					<input type="range" id="input_start" min="0" max="4000" step="100" value="1000">
 				</div>
 
 				<div class="control-group">
@@ -290,7 +299,7 @@
 						End Rank
 						<span id="val_end" class="value-display">3000</span>
 					</label>
-					<input type="range" id="input_end" min="1" max="4000" step="100" value="3000">
+					<input type="range" id="input_end" min="0" max="4000" step="100" value="3000">
 				</div>
 
 				<div class="control-group">
@@ -298,7 +307,7 @@
 						Rho Shock (+Δρ)
 						<span id="val_shock_rho" class="value-display">0.00</span>
 					</label>
-					<input type="range" id="input_shock_rho" min="-0.5" max="0.5" step="0.01" value="0.0">
+					<input type="range" id="input_shock_rho" min="-0.10" max="0.75" step="0.01" value="0.0">
 				</div>
 			</div>
 
@@ -315,7 +324,7 @@
 							Start Rank
 							<span id="val_start_2" class="value-display">3000</span>
 						</label>
-						<input type="range" id="input_start_2" min="1" max="4000" step="50" value="3000">
+						<input type="range" id="input_start_2" min="0" max="4000" step="50" value="3000">
 					</div>
 
 					<div class="control-group">
@@ -323,7 +332,7 @@
 							End Rank
 							<span id="val_end_2" class="value-display">4000</span>
 						</label>
-						<input type="range" id="input_end_2" min="1" max="4000" step="50" value="4000">
+						<input type="range" id="input_end_2" min="0" max="4000" step="50" value="4000">
 					</div>
 
 					<div class="control-group">
@@ -331,7 +340,7 @@
 							Rho Shock (+Δρ)
 							<span id="val_shock_rho_2" class="value-display">0.00</span>
 						</label>
-						<input type="range" id="input_shock_rho_2" min="-.50" max="0.5" step="0.01" value="0.0">
+						<input type="range" id="input_shock_rho_2" min="-0.10" max="0.75" step="0.01" value="0.0">
 					</div>
 				</div>
 			</div>
@@ -341,9 +350,9 @@
 				<div class="section-title">Visualization</div>
 				
 				<div class="control-group mode-container">
-					<button id="btn_plot_beta" class="mode-btn active">Beta Profile</button>
-					<button id="btn_plot_weights" class="mode-btn">Weights</button>
-					<button id="btn_plot_cum_weights" class="mode-btn">Cumulative</button>
+					<button id="btn_plot_beta" class="mode-btn active">CAPM Beta Cross-section</button>
+					<button id="btn_plot_weights" class="mode-btn">Market Cap. Weights</button>
+					<button id="btn_plot_cum_weights" class="mode-btn">Cumulative Market Cap. Weights</button>
 				</div>
 
 				<div class="control-group">
@@ -364,23 +373,27 @@
 		<div class="description-sidebar">
 			<h3 style="margin-top:0; font-size:1.1em; border-bottom:1px solid #eee; padding-bottom:10px;">Simulation Mechanics</h3>
 			
-			<p>This tool visualizes how the market's correlation structure affects CAPM &beta;s in the cross-section.</p>
-			<p> We decompose stock $i$'s CAPM $\beta_i$ as</p>
+			<p>This tool visualizes how the market's correlation structure affect CAPM &beta;s in the cross-section.</p>
+
+			<p> We simulate stock $i$'s CAPM $\beta_i$ as</p>
 					<p style="text-align:center; font-size:1.2em; overflow-x:auto;">
 				$$ \beta_i = \frac{\sigma_i}{\sigma_M^2} \sum_{j=1}^{N} w_j \sigma_j \color{red}{\rho_{ij}} $$
 			</p>
+
 			<p>where:</p>
 			<ul style="padding-left:20px; font-size:0.9em; color:#555;">
 				<li>$w_j$: Market weight of stock $j$</li>
 				<li>$\color{red}{\rho_{ij}}$: Pairwise correlation between $i$ and $j$</li>
 				<li>$\sigma_M^2$: Total market variance</li>
+				<li>$\sigma_i$: Volatility of stock $i$ <br>($\sigma_i=0.3 \ \forall \ i \in N$) </li>
 			</ul>
 
 			<h4 style="margin-top:20px; font-size:1em; border-bottom:1px solid #eee; padding-bottom:5px;">Simulation Ingredients</h4>
 			
 			<p style="font-size:0.9em; margin-bottom: 10px;">
 				<strong>1. Market Structure (Log-Normal):</strong><br>
-				Stocks markets exhibit a heavy-tailed size distribution, which we model using a Log-Normal($\mu$, $\sigma$) distribution. The U.S. stock market can be approximated with $\sigma\approx 2$, where the 1,000 largest firms hold about 90% of total market capitalization.
+				Stock markets have a heavy-tailed size distribution. We simulate this using a Log-Normal($\mu, \sigma$) distribution for market caps.
+				The U.S. stock market can be approximated with $N=4000$ stocks and $\sigma\approx2$, such that the 1,000 largest firms account for about 90% of total market capitalization.
 			</p>
 
 			<p style="font-size:0.9em; margin-bottom: 10px;">
@@ -389,7 +402,7 @@
 			</p>
 
 			<p style="font-size:0.9em; margin-bottom: 10px;">
-				<strong>3. Excess Comovement (+$\Delta\rho$):</strong><br>
+				<strong>3. Comovement Shocks (+$\Delta\rho$):</strong><br>
 				Passive flows cause stocks within an index to move together, increasing their pairwise correlations $\rho_{ij}$. Use the Shock sliders to apply this excess comovement to specific rank ranges (e.g., stocks ranked 1,000–3,000).
 			</p>
 		</div>
@@ -402,7 +415,7 @@
 		let weights = new Float64Array(nStocks);
 		let ranks = new Float64Array(nStocks);
 		let currentPlotMode = 'beta'; // 'beta', 'weights', 'cum_weights'
-		const FIXED_VOL = 0.35; // Global Volatility Hardcoded
+		const FIXED_VOL = 0.30; // Global Volatility Hardcoded
 		
 		let SEED = 1989; // Default seed
 
@@ -451,7 +464,7 @@
 		}
 
 		// 2. Beta Calculation Engine
-		function calculateBetas(base_rho, decay_rho, shock1_rho, s1_start, s1_end, use_shock2, shock2_rho, s2_start, s2_end) {
+		function calculateBetas(base_rho, decay_rho, decay_min, shock1_rho, s1_start, s1_end, use_shock2, shock2_rho, s2_start, s2_end) {
 			
 			// SHOCK 1 Bounds
 			let s1_s = Math.min(s1_start, s1_end);
@@ -484,8 +497,10 @@
 
 				for(let i=0; i<nStocks; i++) {
 					let logW = Math.log(weights[i]);
-					let scale = (logW - minLog) / range;
-					rhos[i] = base_rho * (0.2 + 0.8 * scale);
+					let scale = (logW - minLog) / range; // 1.0 for largest, 0.0 for smallest
+					// Apply user-defined floor (decay_min)
+										// rho = base * (min + (1-min)*scale)
+					rhos[i] = base_rho * (decay_min + (1.0 - decay_min) * scale);
 				}
 			} else {
 				rhos.fill(base_rho);
@@ -533,13 +548,17 @@
 			// Final Betas
 			let betas = new Float64Array(nStocks);
 			let valueWeightedBeta = 0; 
+			let equalWeightedBeta = 0; // New Accumulator
 			
 			for(let i=0; i<nStocks; i++) {
 				betas[i] = numerator[i] / denominator;
 				valueWeightedBeta += weights[i] * betas[i]; 
+				equalWeightedBeta += betas[i]; // Sum Betas
 			}
 			
-			return { betas: betas, marketVar: denominator, valueWeightedBeta: valueWeightedBeta }; 
+			equalWeightedBeta = equalWeightedBeta / nStocks; // Average
+
+			return { betas: betas, marketVar: denominator, valueWeightedBeta: valueWeightedBeta, equalWeightedBeta: equalWeightedBeta }; 
 		}
 
 		// 3. Visualization Helper (Binning)
@@ -576,6 +595,7 @@
 			log_sigma: document.getElementById('input_log_sigma'),
 			rho: document.getElementById('input_rho'),
 			decay_rho: document.getElementById('input_decay_rho'),
+						decay_min: document.getElementById('input_decay_min'), // New Input
 			
 			// Shock 1
 			start: document.getElementById('input_start'),
@@ -592,11 +612,13 @@
 		};
 		
 		const groupShock2 = document.getElementById('group_shock_2');
+				const groupDecay = document.getElementById('group_decay_param');
 
 		const displays = {
 			n_stocks: document.getElementById('val_n_stocks'),
 			log_sigma: document.getElementById('val_log_sigma'),
 			rho: document.getElementById('val_rho'),
+						decay_min: document.getElementById('val_decay_min'), // New Display
 			
 			// Shock 1
 			start: document.getElementById('val_start'),
@@ -625,6 +647,7 @@
 				log_sigma: parseFloat(inputs.log_sigma.value),
 				rho: parseFloat(inputs.rho.value),
 				decay_rho: inputs.decay_rho.checked,
+								decay_min: parseFloat(inputs.decay_min.value),
 				
 				start: parseInt(inputs.start.value),
 				end: parseInt(inputs.end.value),
@@ -642,6 +665,7 @@
 			displays.n_stocks.textContent = p.n_stocks;
 			displays.log_sigma.textContent = p.log_sigma.toFixed(1);
 			displays.rho.textContent = p.rho.toFixed(2);
+						displays.decay_min.textContent = p.decay_min.toFixed(2);
 			
 			displays.start.textContent = p.start;
 			displays.end.textContent = p.end;
@@ -660,14 +684,21 @@
 				groupShock2.classList.add('disabled-group');
 			}
 
+						// Toggle Visual State of Decay Slider
+						if(p.decay_rho) {
+								groupDecay.style.display = 'flex';
+						} else {
+								groupDecay.style.display = 'none';
+						}
+
 			// Check if we need to regenerate market structure
 			let marketChanged = false;
 			
 			if (event) {
-			   if(event.target.id === 'input_n_stocks' || 
-				  event.target.id === 'input_log_sigma') {
-				   marketChanged = true;
-			   }
+				 if(event.target.id === 'input_n_stocks' || 
+					event.target.id === 'input_log_sigma') {
+					 marketChanged = true;
+				 }
 			}
 
 			if (marketChanged) {
@@ -691,7 +722,7 @@
 			for(let i = s1_idx_s; i < s1_idx_e; i++) {
 				s1_share += weights[i];
 			}
-			document.getElementById('val_mkt_share_1').textContent = '(' + (s1_share * 100).toFixed(1) + '% of Total Mkt Cap)';
+			document.getElementById('val_mkt_share_1').textContent = '(' + (s1_share * 100).toFixed(1) + '% Mkt Cap)';
 
 			// Shock 2
 			let s2_share = 0;
@@ -703,7 +734,7 @@
 			for(let i = s2_idx_s; i < s2_idx_e; i++) {
 				s2_share += weights[i];
 			}
-			document.getElementById('val_mkt_share_2').textContent = '(' + (s2_share * 100).toFixed(1) + '% of Total Mkt Cap)';
+			document.getElementById('val_mkt_share_2').textContent = '(' + (s2_share * 100).toFixed(1) + '% Mkt Cap)';
 
 
 			// PLOTTING LOGIC
@@ -719,7 +750,7 @@
 			if (currentPlotMode === 'beta') {
 				// Calc
 				const result = calculateBetas(
-					p.rho, p.decay_rho, 
+					p.rho, p.decay_rho, p.decay_min, // Passed decay_min
 					p.shock_rho, p.start, p.end, 
 					p.use_shock_2, p.shock_rho_2, p.start_2, p.end_2
 				);
@@ -737,35 +768,52 @@
 					name: 'Beta'
 				};
 
-				// DEFINE ANNOTATIONS HERE
-				const axisAnnotations = [
+								// DEFINE ANNOTATIONS HERE
+								const axisAnnotations = [
+										{
+												xref: 'paper',
+												yref: 'paper',
+												x: 0.05,
+												y: -0.05,
+												xanchor: 'left',
+												yanchor: 'top',
+												text: '&#8592; Larger Stocks',
+												showarrow: false,
+												font: { family: fontStyle.family, size: 14, color: '#555' }
+										},
+										{
+												xref: 'paper',
+												yref: 'paper',
+												x: 0.95,
+												y: -0.05,
+												xanchor: 'right',
+												yanchor: 'top',
+												text: 'Smaller Stocks &#8594;',
+												showarrow: false,
+												font: { family: fontStyle.family, size: 14, color: '#555' }
+										},
+										// Aggregates Box
 					{
 						xref: 'paper',
 						yref: 'paper',
-						x: 0.0,
-						y: -0.15,
-						xanchor: 'left',
-						yanchor: 'top',
-						text: '&#8592; Larger Stocks',
-						showarrow: false,
-						font: { family: fontStyle.family, size: 12, color: '#555' }
-					},
-					{
-						xref: 'paper',
-						yref: 'paper',
-						x: 1.0,
-						y: -0.15,
+						x: 0.98,
+						y: 0.98,
 						xanchor: 'right',
 						yanchor: 'top',
-						text: 'Smaller Stocks &#8594;',
+						text: `<b>Aggregates</b><br>Value-Weighted β: ${result.valueWeightedBeta.toFixed(3)}<br>Equal-Weighted β: ${result.equalWeightedBeta.toFixed(3)}
+						<br>Market Variance: ${result.marketVar.toFixed(4)}`,
 						showarrow: false,
-						font: { family: fontStyle.family, size: 12, color: '#555' }
+						bgcolor: 'rgba(255, 255, 255, 0.9)',
+						bordercolor: '#333',
+						borderwidth: 1,
+						align: 'left',
+						font: { family: fontStyle.family, size: 18, color: '#333' }
 					}
-				];
+								];
 
 				layout = {
 					title: {
-						text: 'Simulated CAPM Betas (Market Variance: ' + result.marketVar.toFixed(4) + ')',
+						text: 'Cross-Section of Simulated CAPM Betas',
 						font: { family: fontStyle.family, size: 20 }
 					},
 					xaxis: { 
@@ -781,13 +829,10 @@
 					},
 					margin: { t: 50, r: 20, b: 90, l: 70 }, // Increased bottom margin to 90
 					hovermode: 'closest',
-					annotations: axisAnnotations, // Added Annotations
-					shapes: [{
-						type: 'line',
-						x0: 0, x1: p.n_stocks,
-						y0: 1, y1: 1,
-						line: { color: 'black', width: 1, dash: 'dash' }
-					}]
+										annotations: axisAnnotations, // Added Annotations
+					shapes: [
+						{ type: 'line', x0: 0, x1: p.n_stocks, y0: 1, y1: 1, line: { color: 'black', width: 1, dash: 'dash' } }
+										]
 				};
 			} else if (currentPlotMode === 'cum_weights') {
 				// CUMULATIVE WEIGHTS
@@ -808,35 +853,35 @@
 					name: 'Cumulative Weight'
 				};
 
-				// Re-use annotations logic 
-				const axisAnnotations = [
-					{
-						xref: 'paper',
-						yref: 'paper',
-						x: 0.0,
-						y: -0.15,
-						xanchor: 'left',
-						yanchor: 'top',
-						text: '&#8592; Larger Stocks',
-						showarrow: false,
-						font: { family: fontStyle.family, size: 12, color: '#555' }
-					},
-					{
-						xref: 'paper',
-						yref: 'paper',
-						x: 1.0,
-						y: -0.15,
-						xanchor: 'right',
-						yanchor: 'top',
-						text: 'Smaller Stocks &#8594;',
-						showarrow: false,
-						font: { family: fontStyle.family, size: 12, color: '#555' }
-					}
-				];
+								// Re-use annotations logic 
+								const axisAnnotations = [
+										{
+												xref: 'paper',
+												yref: 'paper',
+												x: 0.05,
+												y: -0.05,
+												xanchor: 'left',
+												yanchor: 'top',
+												text: '&#8592; Larger Stocks',
+												showarrow: false,
+												font: { family: fontStyle.family, size: 14, color: '#555' }
+										},
+										{
+												xref: 'paper',
+												yref: 'paper',
+												x: 0.95,
+												y: -0.05,
+												xanchor: 'right',
+												yanchor: 'top',
+												text: 'Smaller Stocks &#8594;',
+												showarrow: false,
+												font: { family: fontStyle.family, size: 14, color: '#555' }
+										}
+								];
 
 				layout = {
 					title: {
-						text: 'Cumulative Market Capitalization',
+						text: 'Cumulative Market Capitalization Weights',
 						font: { family: fontStyle.family, size: 20 }
 					},
 					xaxis: { 
@@ -845,12 +890,12 @@
 						tickfont: { family: fontStyle.family, size: 14 }
 					},
 					yaxis: { 
-						title: { text: 'Cumulative Weight (0-1)', font: { family: fontStyle.family, size: 18 } }, 
+						title: { text: 'Cumulative Market Cap. Weight', font: { family: fontStyle.family, size: 18 } }, 
 						range: [0, 1.05],
 						tickfont: { family: fontStyle.family, size: 14 }
 					},
 					margin: { t: 50, r: 20, b: 90, l: 70 }, // Increased margin
-					annotations: axisAnnotations,
+										annotations: axisAnnotations,
 					hovermode: 'closest'
 				};
 
@@ -865,31 +910,31 @@
 					name: 'Weight'
 				};
 
-				// Re-use annotations logic
-				const axisAnnotations = [
-					{
-						xref: 'paper',
-						yref: 'paper',
-						x: 0.0,
-						y: -0.15,
-						xanchor: 'left',
-						yanchor: 'top',
-						text: '&#8592; Larger Stocks',
-						showarrow: false,
-						font: { family: fontStyle.family, size: 12, color: '#555' }
-					},
-					{
-						xref: 'paper',
-						yref: 'paper',
-						x: 1.0,
-						y: -0.15,
-						xanchor: 'right',
-						yanchor: 'top',
-						text: 'Smaller Stocks &#8594;',
-						showarrow: false,
-						font: { family: fontStyle.family, size: 12, color: '#555' }
-					}
-				];
+								// Re-use annotations logic
+								const axisAnnotations = [
+										{
+												xref: 'paper',
+												yref: 'paper',
+												x: 0.05,
+												y: -0.05,
+												xanchor: 'left',
+												yanchor: 'top',
+												text: '&#8592; Larger Stocks',
+												showarrow: false,
+												font: { family: fontStyle.family, size: 14, color: '#555' }
+										},
+										{
+												xref: 'paper',
+												yref: 'paper',
+												x: 0.95,
+												y: -0.05,
+												xanchor: 'right',
+												yanchor: 'top',
+												text: 'Smaller Stocks &#8594;',
+												showarrow: false,
+												font: { family: fontStyle.family, size: 14, color: '#555' }
+										}
+								];
 
 				layout = {
 					title: {
@@ -902,12 +947,12 @@
 						tickfont: { family: fontStyle.family, size: 14 }
 					},
 					yaxis: { 
-						title: { text: 'Weight (Fraction)', font: { family: fontStyle.family, size: 18 } }, 
+						title: { text: 'Market Capitalization Weight', font: { family: fontStyle.family, size: 18 } }, 
 						type: 'linear',
 						tickfont: { family: fontStyle.family, size: 14 }
 					},
 					margin: { t: 50, r: 20, b: 90, l: 80 }, // Increased margin
-					annotations: axisAnnotations,
+										annotations: axisAnnotations,
 					hovermode: 'closest'
 				};
 			}
