@@ -433,9 +433,10 @@ contact: passive
 					</p>
 				</div>
 				<div style="text-align:justify;font-size:small;margin-top:.5rem;">
-					<i><b>Selected Presentations:</b> German Economist Abroad Annual Meeting (UHH)*
+					<i><b>Selected Presentations:</b> German Economist Abroad Annual Meeting (UHH)
 					<br>
-					(* scheduled)</i>
+					<!-- (* scheduled) -->
+				</i>
 				</div>
 			</div>
 			<div class="side">
