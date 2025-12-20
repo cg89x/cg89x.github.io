@@ -326,7 +326,7 @@ contact: passive
 				<br>
 				<h4 style="color:black;font-size:17px;">Abstract:</h4>
 				<div style="text-align:justify;min-width:375px;max-width:100%;display:grid;font-size:16px;">
-				Benchmark-linked capital flows increase firms' CAPM &beta;s, thereby raising managers' perceived cost of equity and reducing investment. Using exogenous variation from Russell and S&P 500 reconstitutions, we show that inclusion in a benchmark stock index increases a stock's CAPM &beta;. Managers interpret the higher &beta; as a higher cost of equity and reduce investment. Consistent with this mechanism, benchmark inclusion also raises the perceived cost of equity among stock analysts and regulators. Industries with larger increases in &beta;s due to benchmarking have accumulated less capital over the past two decades. Benchmark-induced changes in the cross-section of CAPM &beta;s do not cancel out but affect aggregate investment because higher &beta;s fall on many firms with high investment elasticities, while lower &beta;s benefit a few large but inelastic firms. This mechanism can account for the majority of the missing investment puzzle.
+				Benchmark-linked capital flows increase firms' CAPM &beta;s, thereby raising managers' perceived cost of equity and reducing investment. Using exogenous variation from Russell and S&P 500 reconstitutions, we show that inclusion in a benchmark stock index increases a stock's CAPM &beta;. Managers interpret the higher &beta; as a higher cost of equity and reduce investment. Consistent with this mechanism, benchmark inclusion also raises the perceived cost of equity among stock analysts and regulators. Industries with larger increases in &beta;s due to benchmarking have accumulated less capital over the past two decades. Benchmark-induced changes in the cross-section of CAPM &beta;s do not cancel out but affect aggregate investment because higher &beta;s fall on many firms with high investment elasticities, while lower &beta;s benefit a few large but inelastic firms.
 				</div>
 				<div style="text-align:justify;font-size:small;margin-top:.5rem;">
 					<i><b>Selected Presentations:</b> AFA Annual Meeting 2026<sup>*</sup>, Johns Hopkins Carey Finance Conference, SFS Cavalcade 2025, FIRS 2025, Four Corners/FMRC Conference on Indexing, Investment Company Institute, Northeastern University Finance Conference 2025, UIC Finance Conference 2025<sup>c</sup>
@@ -417,7 +417,7 @@ contact: passive
 
 <!-- Paper 3: Markets to Meters -->
 <details class="paper">
-	<summary>From Markets to Meters: How Index Investing Affects Electricity Prices</summary>
+	<summary>From Markets to Meters: How Index Investing Affects Utility Rates</summary>
 	<div class="paper-body">
 		<div class="colnew">
 			<div class="main">
@@ -425,7 +425,7 @@ contact: passive
 				<h4 style="color:black;font-size:16px;">Abstract:</h4>
 				<div style="text-align:justify;min-width:375px;max-width:100%;display:grid;font-size:15px;">
 					<p style="margin-bottom:.5cm;">
-						This paper documents that index investing distort risk measures used in regulatory price-setting. 
+						This paper documents that index investing affects risk measures used in regulatory price-setting. 
 						Exploiting quasi-experimental variation from Russell index reconstitutions, we find that a utility's inclusion in a more heavily benchmarked index increases its CAPM &beta;. 
 						We then show this effect leads regulators to authorize higher returns on equity, which are ultimately passed on to consumers. 
 						This mechanism generates over $85 billion in total economic costs from 1998-2018.
