@@ -448,34 +448,6 @@ contact: passive
 </details>
 <hr class="styled-hr" style="width:100%;margin:6px 0;">
 
-<!-- Paper 5: Option Implied Expected Returns -->
-<details class="paper">
-	<summary>Does Index Investing Lower Expected Returns? Evidence From Option Markets</summary>
-	<div class="paper-body">
-		<div class="colnew">
-			<div class="main">
-				<a href="mailto:ckontz@stanford.edu?subject=Request%20for%20Draft" style="font-size:18px;">[Preliminary draft available upon request]</a>
-				<h4 style="color:black;font-size:16px;">Abstract:</h4>
-				<div style="text-align:justify;min-width:375px;max-width:100%;display:grid;font-size:15px;">
-					<p style="margin-bottom:.5cm;">
-						Using the option-implied expected excess returns of a risk-averse representative
-						investor whose wealth is fully invested in equities, I find that the lower bound on
-						expected excess returns <em>increases</em> when a stock is added to a benchmark index
-						and <em>decreases</em> when it is removed. 
-						This finding is robust to controls for firm characteristics, industry-time effects, and size effects, and it holds for the S&P 500, Nasdaq 100, Russell 1000, and Russell 2000 indices.
-					</p>
-				</div>
-				<!-- <a href="#/" style="font-size:15px;">[Draft coming soon]</a> -->
-			</div>
-			<div class="side">
-				<img style="float:center;max-width:100%;min-width:95%;height:auto;max-height:95%;display:flex;"
-						 src="/img/exp_ret_abs.png" alt="Expected Returns figure">
-			</div>
-		</div>
-	</div>
-</details>
-<hr class="styled-hr" style="width:100%;margin:6px 0;">
-
 <!-- Paper 4: ESG Induced Capital Misallocation -->
 <details class="paper">
 	<summary>ESG Induced Capital Misallocation: is ESG Doing Good, by Doing Well?</summary>
