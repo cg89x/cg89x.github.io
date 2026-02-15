@@ -6,121 +6,116 @@ cv: passive
 research: passive
 contact: passive
 ---
-<head>	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-				* {
-						margin: 0;
-						padding: 0;
-				}
-				.imgbox {
-						display: grid;
-						height: 100%;
-				}
-				.center-fit {
-						max-width: 90%;
-						max-height: 100vh;
-						margin: auto;
-				}
+<style>
+		* {
+				margin: 0;
+				padding: 0;
+		}
+		.imgbox {
+				display: grid;
+				height: 100%;
+		}
+		.center-fit {
+				max-width: 90%;
+				max-height: 100vh;
+				margin: auto;
+		}
 
-				.contact-box {
-					border-top: 1px solid #ccc;
-					margin: 20px 25px;
-					padding-top: 15px;
-					/*font-size: 0.9em;*/
-					font-size: 1em;
-					line-height: 1.5em;
-					color: #333;
-				}
-				.contact-box a {
-					color: #2C6593; /* same red as your header */
-					text-decoration: none;
-				}
-				.contact-box a:hover {
-					text-decoration: underline;
-				}
-				.half-br { height: 0.5em; }
+		.contact-box {
+			border-top: 1px solid #ccc;
+			margin: 20px 25px;
+			padding-top: 15px;
+			font-size: 1em;
+			line-height: 1.5em;
+			color: #333;
+		}
+		.contact-box a {
+			color: #2C6593;
+			text-decoration: none;
+		}
+		.contact-box a:hover {
+			text-decoration: underline;
+		}
+		.half-br { height: 0.5em; }
 
-				:root{
-		--accent:#2C6593;        /* your red */
-		--text:#111; 
-		--rule:#2C6593;
+		:root{
+	--accent:#2C6593;
+	--text:#111;
+	--rule:#2C6593;
+}
+
+	/* Research section header */
+	.section-title{
+		color: var(--accent);
+		font-weight: 800;
+		margin-top: 20px;
+	}
+	.section-rule{
+		border: 0;
+		height: 2px;
+		background: var(--rule);
+		width: 100%;
+		margin: 4px 0 12px 0;
 	}
 
-		/* Research section header */
-		.section-title{
-			color: var(--accent);
-			font-weight: 800;
-			margin-top: 20px;
-		}
-		.section-rule{
-			border: 0;
-			height: 2px;
-			background: var(--rule);
-			width: 100%;
-			margin: 4px 0 12px 0;
-		}
-
-		/* Accordion */
-		.paper{ padding: 8px 0; /* no border line */ }
-		.paper > summary{
-			list-style:none;
-			cursor:pointer;
-			font-size:18px;
-			font-weight:700;
-			color: var(--accent);              /* use site red */
-			display:flex; align-items:center; gap:.5rem;
-			text-decoration: ;
-		}
-		.paper > summary a{ color: inherit; text-decoration: inherit; }
-		.paper > summary::-webkit-details-marker{ display:none; }
-		.paper > summary::after{
-			content:"▾"; margin-left:auto; color: var(--accent);
-			transition: transform .15s ease-in-out;
-		}
-		.paper[open] > summary::after{ transform: rotate(180deg); }
-
-		/* Body and links */
-		.paper-body{ padding-top:10px; color: var(--text); }
-		.paper-body a{ color: var(--accent); }
-		.paper-body a:hover{ text-decoration: underline; }
-		.paper-body .colnew { margin-top: 10px; }
-
-		.contact-icons {
-		margin: 20px 25px;
-		display: flex;
-		gap: 12px;
-	}
-
-	.icon-btn {
-		background-color: #2C6593;   /* your red */
-		width: 44px;
-		height: 44px;
-		border-radius: 50%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
+	/* Accordion */
+	.paper{ padding: 8px 0; }
+	.paper > summary{
+		list-style:none;
+		cursor:pointer;
+		font-size:18px;
+		font-weight:700;
+		color: var(--accent);
+		display:flex; align-items:center; gap:.5rem;
 		text-decoration: none;
-		transition: background-color 0.2s ease;
 	}
+	.paper > summary a{ color: inherit; text-decoration: inherit; }
+	.paper > summary::-webkit-details-marker{ display:none; }
+	.paper > summary::after{
+		content:"▾"; margin-left:auto; color: var(--accent);
+		transition: transform .15s ease-in-out;
+	}
+	.paper[open] > summary::after{ transform: rotate(180deg); }
 
-	.icon-btn:hover {
-		background-color: #000;      /* hover to black */
-	}
+	/* Body and links */
+	.paper-body{ padding-top:10px; color: var(--text); }
+	.paper-body a{ color: var(--accent); }
+	.paper-body a:hover{ text-decoration: underline; }
+	.paper-body .colnew { margin-top: 10px; }
 
-	.icon-btn svg {
-		display: block;
-	}
+	.contact-icons {
+	margin: 20px 25px;
+	display: flex;
+	gap: 12px;
+}
 
-	.cv-text {
-		color: #fff;          /* white text */
-		font-size: 20px;
-		font-weight: 700;
-		font-family: sans-serif;
-	}
-	</style>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
-</head>
+.icon-btn {
+	background-color: #2C6593;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	transition: background-color 0.2s ease;
+}
+
+.icon-btn:hover {
+	background-color: #000;
+}
+
+.icon-btn svg {
+	display: block;
+}
+
+.cv-text {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+</style>
 
 <div class="colnew">
 	<div class="side">
@@ -204,29 +199,25 @@ contact: passive
 
 <style>
 	/* Accordion styling */
-	/*.paper { border-top: 1px solid #ccc; padding: 12px 0; }*/
 	.paper:first-of-type { border-top: none; }
 	.paper > summary {
 	list-style: none;
 	cursor: pointer;
 	font-size: 18px;
 	font-weight: 700;
-	/*font-style: italic;         italic titles */
-	color: var(--accent);      
-	/*color: black;*/
+	color: var(--accent);
 	display: flex;
 	align-items: center;
 	gap: .5rem;
-	text-decoration: none;     /* remove underline */
+	text-decoration: none;
 	}
 	.paper > summary a {
 		color: inherit;
-		text-decoration: none;     /* no underline for link inside */
+		text-decoration: none;
 	}
 	.paper > summary a:hover {
-		text-decoration: underline; /* optional hover effect */
+		text-decoration: underline;
 	}
-	/*.paper > summary a { color: inherit; text-decoration: underline; }*/
 	.paper > summary::-webkit-details-marker { display: none; }
 	.paper > summary::after {
 		content: "▾";
@@ -236,11 +227,10 @@ contact: passive
 	.paper[open] > summary::after { transform: rotate(180deg); }
 	.paper-body { padding: 10px 0 0 0; }
 
-	/* Optional: two-column inside the open panel, reuse your layout */
 	.paper-body .colnew { margin-top: 10px; }
 
 	#research.section-title {
-	color: #000;   /* black */
+	color: #000;
 	font-weight: 800;
 }
 </style>
@@ -252,18 +242,15 @@ contact: passive
 		display: flex;
 		flex-wrap: wrap;
 		gap: 6px;
-		display:flex;
-		flex-wrap:wrap;
-		gap:6px; 
 	}
 	.award-pill {
 		display: inline-block;
 		background: #2C6593;
 		color: #fff;
 		padding: 4px 10px;
-		font-size:13px; 
+		font-size:13px;
 		font-weight:700;
-		line-height:1.3; 
+		line-height:1.3;
 		border-radius:999px;
 	}
 
@@ -271,7 +258,6 @@ contact: passive
 		list-style:none; cursor:pointer;
 		display:flex; align-items:flex-start; gap:.5rem;
 		font-size:18px; font-weight:700; font-style:italic;
-		/*color:#2C6593;*/
 		 text-decoration:none;
 	}
 	.paper > summary a{ color:inherit; text-decoration:none; }
@@ -285,7 +271,6 @@ contact: passive
 	/* stack title above pills */
 	.paper-heading{ display:flex; flex-direction:column; gap:6px; }
 </style>
-
 
 <h3 id="research" class="section-title">Job Market Paper</h3>
 <hr class="section-rule">
@@ -329,7 +314,21 @@ contact: passive
 				Benchmark-linked capital flows increase firms' CAPM &beta;s, thereby raising managers' perceived cost of equity and reducing investment. Using exogenous variation from Russell and S&P 500 reconstitutions, we show that inclusion in a benchmark stock index increases a stock's CAPM &beta;. Managers interpret the higher &beta; as a higher cost of equity and reduce investment. Consistent with this mechanism, benchmark inclusion also raises the perceived cost of equity among stock analysts and regulators. Industries with larger increases in &beta;s due to benchmarking have accumulated less capital over the past two decades. Benchmark-induced changes in the cross-section of CAPM &beta;s do not cancel out but affect aggregate investment because higher &beta;s fall on many firms with high investment elasticities, while lower &beta;s benefit a few large but inelastic firms.
 				</div>
 				<div style="text-align:justify;font-size:small;margin-top:.5rem;">
-					<i><b>Selected Presentations:</b> AFA Annual Meeting 2026<sup>*</sup>, Johns Hopkins Carey Finance Conference, SFS Cavalcade 2025, FIRS 2025, Four Corners/FMRC Conference on Indexing, Investment Company Institute, Northeastern University Finance Conference 2025, UIC Finance Conference 2025<sup>c</sup>
+					<b>Seminars:</b> 
+						NYU Stern,
+						UT Austin,
+						Boston College Carroll, 
+						Ohio State University Fisher,
+						Notre Dame Mendoza,
+						Bocconi University,
+						University of Maryland Smith,
+						University of Virginia Darden,
+						National University of Singapore,
+						Einaudi Institute,
+						Copenhagen Business School,
+						Singapore Management University
+					<br>
+					<i><b>Conferences:</b> AFA Annual Meeting 2026, Johns Hopkins Carey Finance Conference, SFS Cavalcade 2025, FIRS 2025, Four Corners/FMRC Conference on Indexing, Investment Company Institute, Northeastern University Finance Conference 2025, UIC Finance Conference 2025<sup>c</sup>
 					<br>
 					(* scheduled, <sup>c</sup> co-author)</i>
 				</div>
@@ -522,7 +521,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 
 		try {
-			const url = `https://api.openalex.org/works/${id.toUpperCase()}?mailto=you@example.com`;
+			const url = `https://api.openalex.org/works/${id.toUpperCase()}?mailto=ckontz@stanford.edu`;
 			const r = await fetch(url, { headers: { 'Accept': 'application/json' } });
 			if (!r.ok) throw new Error(`HTTP ${r.status}`);
 			const j = await r.json();
