@@ -4,7 +4,7 @@ permalink: /abstracts/autoabs/
 title: "Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans"
 citation_title: "Do ESG Investors Care About Carbon Emissions? Evidence From Securitized Auto Loans"
 citation_authors:
-  - "Kontz, Christian"
+- "Kontz, Christian"
 citation_publication_date: "2022"
 citation_pdf_url: "https://www.christiankontz.com/files/KONTZ_DoESGInvestorsCareAboutCarbonEmissions.pdf"
 date: "2022-07-27"

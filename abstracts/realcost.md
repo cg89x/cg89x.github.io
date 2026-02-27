@@ -4,8 +4,8 @@ permalink: /abstracts/realcost/
 title: "The Real Cost of Benchmarking"
 citation_title: "The Real Cost of Benchmarking"
 citation_authors:
-	- "Kontz, Christian"
-	- "Hanson, Sebastian"
+- "Kontz, Christian"
+- "Hanson, Sebastian"
 citation_publication_date: "2024"
 citation_pdf_url: "https://www.christiankontz.com/files/Kontz_Hanson_TheRealCostOfBenchmarking.pdf"
 date: "2024-04-07"
