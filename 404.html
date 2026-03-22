@@ -1,9 +1,93 @@
----
-layout: default
-title: 404 Error | Sorry, this page does not exist.
---- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page Not Found — Christian Kontz</title>
+  <meta name="description" content="Page not found.">
 
-<div class="error">
-					<h1>Whoah, that's a 404 Error</h1>
-					<p class="lead">Hey, sorry, but the page you're trying to access doesn't exist. Try <a href="/" title="">going back to the homepage</a>, or use the navigation menu above to find what you're looking for.</p>
-</div>
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CL595QMXQ9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CL595QMXQ9');
+  </script>
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Soft gradient strip -->
+  <div class="gradient-strip" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="/" class="nav-name">Christian Kontz</a>
+    <ul class="nav-pills">
+      <li><a href="/">Home</a></li>
+      <li><a href="/#research">Research</a></li>
+      <li><a href="/#media">Media</a></li>
+      <li><a href="/#code">Code &amp; Data</a></li>
+      <li><a href="/files/ChristianKontzCV.pdf" target="_blank" rel="noopener">CV</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main id="main">
+    <div class="container">
+      <div class="not-found">
+        <h1>404</h1>
+        <p>Page Not Found</p>
+        <a href="/">Back to Home</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p><a href="mailto:ckontz@stanford.edu">ckontz@stanford.edu</a></p>
+    <p>Stanford Graduate School of Business / University of Notre Dame Mendoza College of Business (Fall 2026)</p>
+    <div class="footer-icons">
+      <!-- Email -->
+      <a href="mailto:ckontz@stanford.edu" class="footer-icon" aria-label="Email">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="13" height="13" fill="white">
+          <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+        </svg>
+      </a>
+      <!-- Google Scholar -->
+      <a href="https://scholar.google.com/citations?user=YFuScPwAAAAJ&amp;hl" target="_blank" rel="noopener" class="footer-icon" aria-label="Google Scholar">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="13" height="13" fill="white">
+          <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm0 11.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"/>
+        </svg>
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/christian-kontz-a16465141/" target="_blank" rel="noopener" class="footer-icon" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="13" height="13" fill="white">
+          <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V24h-4V8.5zM8.5 8.5h3.8v2.1h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V24h-4v-7.6c0-1.81-.03-4.14-2.52-4.14-2.52 0-2.9 1.96-2.9 4v7.74h-4V8.5z"/>
+        </svg>
+      </a>
+      <!-- Twitter/X -->
+      <a href="https://twitter.com/ChristianKontz" target="_blank" rel="noopener" class="footer-icon" aria-label="Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="13" height="13" fill="white">
+          <path d="M23.3 4.8c-.8.4-1.6.6-2.5.8.9-.6 1.6-1.4 1.9-2.5-.9.5-1.8.9-2.8 1.1C18.9 3.4 17.7 3 16.5 3c-2.5 0-4.5 2-4.5 4.5 0 .3 0 .7.1 1C8 8.3 4.3 6.4 1.7 3.3c-.4.6-.6 1.4-.6 2.2 0 1.5.8 2.9 2 3.7-.7 0-1.3-.2-1.9-.5v.1c0 2.1 1.5 3.9 3.5 4.3-.4.1-.8.2-1.3.2-.3 0-.6 0-.9-.1.6 1.9 2.4 3.3 4.6 3.4-1.6 1.3-3.6 2-5.7 2-.4 0-.7 0-1.1-.1 2 1.3 4.4 2.1 6.9 2.1 8.3 0 12.8-6.9 12.8-12.8v-.6c.9-.6 1.7-1.4 2.3-2.3z"/>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,20 +1,6 @@
-User-agent: Googlebot
-Disallow: /abstracts/
-Disallow: /cv/
-Disallow: /cs-explorer/
-Disallow: /editors/
-Disallow: /files/ChristianKontzCV.pdf
-Disallow: /files/JMP_presentation_75min.pdf
-Disallow: /files/KH_onlineappendix.pdf
-
-User-agent: GoogleScholar
-Allow: /abstracts/
-
 User-agent: *
-Disallow: /abstracts/
-Disallow: /cv/
+Allow: /abstracts/
 Disallow: /cs-explorer/
 Disallow: /editors/
 Disallow: /files/ChristianKontzCV.pdf
-Disallow: /files/JMP_presentation_75min.pdf
 Disallow: /files/KH_onlineappendix.pdf
