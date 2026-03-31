@@ -4,3 +4,4 @@ Disallow: /cs-explorer/
 Disallow: /editors/
 Disallow: /files/ChristianKontzCV.pdf
 Disallow: /files/KH_onlineappendix.pdf
+Disallow: /files/FrankfurterAllgemeineZeitung.pdf

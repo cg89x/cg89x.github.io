@@ -4,6 +4,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Interactive CAPM &beta; Simulator</title>
+	<meta name="description" content="Simulate how excess comovement from passive fund flows shifts CAPM betas across the cross-section of stocks.">
+	<link rel="canonical" href="https://www.christiankontz.com/betasim.html">
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Interactive CAPM Beta Simulator">
+	<meta property="og:description" content="Simulate how excess comovement from passive fund flows shifts CAPM betas across the cross-section of stocks.">
+	<meta property="og:image" content="https://www.christiankontz.com/img/beta_did.png">
+	<meta property="og:url" content="https://www.christiankontz.com/betasim.html">
+	<meta property="og:type" content="website">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Interactive CAPM Beta Simulator">
+	<meta name="twitter:description" content="Simulate how excess comovement from passive fund flows shifts CAPM betas across the cross-section of stocks.">
+	<meta name="twitter:image" content="https://www.christiankontz.com/img/beta_did.png">
 	
 	<!-- Load Plotly.js -->
 	<script src="https://cdn.plot.ly/plotly-2.27.0.min.js" integrity="sha384-Hl48Kq2HifOWdXEjMsKo6qxqvRLTYqIGbvlENBmkHAxZKIGCXv43H6W1jA671RzC" crossorigin="anonymous"></script>
@@ -17,7 +32,7 @@
 		};
 	</script>
 	<!-- Load MathJax -->
-	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha384-Wuix6BuhrWbjDBs24bXrjf4ZQ5aFeFWBuKkFekO2t8xFU0iNaLQfp2K6/1Nxveei" crossorigin="anonymous"></script>
 
 	<style>
 		body {
@@ -768,45 +783,71 @@
 				color: '#333'
 			};
 
+			// Shared axis annotations (used by all plot modes)
+			const baseAnnotations = [
+				{
+					xref: 'paper',
+					yref: 'paper',
+					x: 0.05,
+					y: -0.05,
+					xanchor: 'left',
+					yanchor: 'top',
+					text: '&#8592; Larger Stocks',
+					showarrow: false,
+					font: { family: fontStyle.family, size: 14, color: '#555' }
+				},
+				{
+					xref: 'paper',
+					yref: 'paper',
+					x: 0.95,
+					y: -0.05,
+					xanchor: 'right',
+					yanchor: 'top',
+					text: 'Smaller Stocks &#8594;',
+					showarrow: false,
+					font: { family: fontStyle.family, size: 14, color: '#555' }
+				}
+			];
+
 			if (currentPlotMode === 'beta') {
 				// Calc
 				const result = calculateBetas(
-					p.rho, p.decay_rho, p.decay_min, // Passed decay_min
-										p.use_shock_1, p.shock_rho, p.start, p.end, // Passed use_shock_1
+					p.rho, p.decay_rho, p.decay_min,
+					p.use_shock_1, p.shock_rho, p.start, p.end,
 					p.use_shock_2, p.shock_rho_2, p.start_2, p.end_2
 				);
-				
+
 				// Bin
 				const data = binData(ranks, result.betas, p.bins);
 
-								// Transform to Excess Returns if toggle is active
-								let plotY = data.y;
-								let yTitle = 'CAPM Beta';
-								let plotTitlePrefix = 'Simulated CAPM Betas';
-								let yRange = [0.5, 1.5];
-								let dtickVal = 0.1;
-								let refLineY = 1.0;
-								let vwStat = result.valueWeightedBeta;
-								let ewStat = result.equalWeightedBeta;
-								let statLabelVW = 'Value-Weighted β';
-								let statLabelEW = 'Equal-Weighted β';
+				// Transform to Excess Returns if toggle is active
+				let plotY = data.y;
+				let yTitle = 'CAPM Beta';
+				let plotTitlePrefix = 'Simulated CAPM Betas';
+				let yRange = [0.5, 1.5];
+				let dtickVal = 0.1;
+				let refLineY = 1.0;
+				let vwStat = result.valueWeightedBeta;
+				let ewStat = result.equalWeightedBeta;
+				let statLabelVW = 'Value-Weighted β';
+				let statLabelEW = 'Equal-Weighted β';
 				let statVWText, statEWText;
 
-								if (p.showExcess) {
-										const ERP = 0.06; // 6% Equity Risk Premium
-										plotY = data.y.map(b => b * ERP);
-										yTitle = 'Expected Excess Return (E[r] - rf)';
-										plotTitlePrefix = 'Simulated Expected Excess Returns';
-										yRange = [0.03, 0.09]; // Map 0.5->3%, 1.5->9%
-										dtickVal = 0.01; // 1% ticks
-										refLineY = 1.0 * ERP;
-										vwStat = result.valueWeightedBeta * ERP;
-										ewStat = result.equalWeightedBeta * ERP;
-										statLabelVW = 'V.W. Excess Ret';
-										statLabelEW = 'E.W. Excess Ret';
+				if (p.showExcess) {
+					const ERP = 0.06; // 6% Equity Risk Premium
+					plotY = data.y.map(b => b * ERP);
+					yTitle = 'Expected Excess Return (E[r] - rf)';
+					plotTitlePrefix = 'Simulated Expected Excess Returns';
+					yRange = [0.03, 0.09]; // Map 0.5->3%, 1.5->9%
+					dtickVal = 0.01; // 1% ticks
+					refLineY = 1.0 * ERP;
+					vwStat = result.valueWeightedBeta * ERP;
+					ewStat = result.equalWeightedBeta * ERP;
+					statLabelVW = 'V.W. Excess Ret';
+					statLabelEW = 'E.W. Excess Ret';
 					statVWText = (vwStat * 100).toFixed(2) + '%';
 					statEWText = (ewStat * 100).toFixed(2) + '%';
-								} else {
+				} else {
 					statVWText = vwStat.toFixed(3);
 					statEWText = ewStat.toFixed(3);
 				}
@@ -821,32 +862,26 @@
 					name: p.showExcess ? 'Excess Return' : 'Beta'
 				};
 
-								// DEFINE ANNOTATIONS HERE
-								const axisAnnotations = [
-										{
-												xref: 'paper',
-												yref: 'paper',
-												x: 0.05,
-												y: -0.05,
-												xanchor: 'left',
-												yanchor: 'top',
-												text: '&#8592; Larger Stocks',
-												showarrow: false,
-												font: { family: fontStyle.family, size: 14, color: '#555' }
-										},
-										{
-												xref: 'paper',
-												yref: 'paper',
-												x: 0.95,
-												y: -0.05,
-												xanchor: 'right',
-												yanchor: 'top',
-												text: 'Smaller Stocks &#8594;',
-												showarrow: false,
-												font: { family: fontStyle.family, size: 14, color: '#555' }
-										},
-										// Aggregates Box
-					{
+				layout = {
+					title: {
+						text: plotTitlePrefix,
+						font: { family: fontStyle.family, size: 20 }
+					},
+					xaxis: {
+						title: { text: 'Market Capitalization Rank', font: { family: fontStyle.family, size: 18 } },
+						range: [0, p.n_stocks],
+						tickfont: { family: fontStyle.family, size: 16 }
+					},
+					yaxis: {
+						title: { text: yTitle, font: { family: fontStyle.family, size: 18 } },
+						range: yRange,
+						dtick: dtickVal,
+						tickfont: { family: fontStyle.family, size: 16 },
+						tickformat: p.showExcess ? '.0%' : ''
+					},
+					margin: { t: 50, r: 20, b: 90, l: 90 },
+					hovermode: 'closest',
+					annotations: baseAnnotations.concat([{
 						xref: 'paper',
 						yref: 'paper',
 						x: 0.98,
@@ -860,32 +895,10 @@
 						borderwidth: 1,
 						align: 'left',
 						font: { family: fontStyle.family, size: 18, color: '#333' }
-					}
-								];
-
-				layout = {
-					title: {
-						text: plotTitlePrefix,
-						font: { family: fontStyle.family, size: 20 }
-					},
-					xaxis: { 
-						title: { text: 'Market Capitalization Rank', font: { family: fontStyle.family, size: 18 } }, 
-						range: [0, p.n_stocks],
-						tickfont: { family: fontStyle.family, size: 16 }
-					},
-					yaxis: { 
-						title: { text: yTitle, font: { family: fontStyle.family, size: 18 } }, 
-						range: yRange,
-						dtick: dtickVal,
-						tickfont: { family: fontStyle.family, size: 16 },
-												tickformat: p.showExcess ? '.0%' : '' // Format as percentage if excess return
-					},
-					margin: { t: 50, r: 20, b: 90, l: 90 }, // Increased left margin for label
-					hovermode: 'closest',
-										annotations: axisAnnotations, // Added Annotations
+					}]),
 					shapes: [
 						{ type: 'line', x0: 0, x1: p.n_stocks, y0: refLineY, y1: refLineY, line: { color: 'black', width: 1, dash: 'dash' } }
-										]
+					]
 				};
 			} else if (currentPlotMode === 'cum_weights') {
 				// CUMULATIVE WEIGHTS
@@ -906,49 +919,23 @@
 					name: 'Cumulative Weight'
 				};
 
-								// Re-use annotations logic 
-								const axisAnnotations = [
-										{
-												xref: 'paper',
-												yref: 'paper',
-												x: 0.05,
-												y: -0.05,
-												xanchor: 'left',
-												yanchor: 'top',
-												text: '&#8592; Larger Stocks',
-												showarrow: false,
-												font: { family: fontStyle.family, size: 14, color: '#555' }
-										},
-										{
-												xref: 'paper',
-												yref: 'paper',
-												x: 0.95,
-												y: -0.05,
-												xanchor: 'right',
-												yanchor: 'top',
-												text: 'Smaller Stocks &#8594;',
-												showarrow: false,
-												font: { family: fontStyle.family, size: 14, color: '#555' }
-										}
-								];
-
 				layout = {
 					title: {
 						text: 'Cumulative Market Capitalization Weights',
 						font: { family: fontStyle.family, size: 20 }
 					},
-					xaxis: { 
-						title: { text: 'Market Cap Rank', font: { family: fontStyle.family, size: 18 } }, 
+					xaxis: {
+						title: { text: 'Market Cap Rank', font: { family: fontStyle.family, size: 18 } },
 						range: [0, p.n_stocks],
 						tickfont: { family: fontStyle.family, size: 14 }
 					},
-					yaxis: { 
-						title: { text: 'Cumulative Weight (0-1)', font: { family: fontStyle.family, size: 18 } }, 
+					yaxis: {
+						title: { text: 'Cumulative Weight (0-1)', font: { family: fontStyle.family, size: 18 } },
 						range: [0, 1.05],
 						tickfont: { family: fontStyle.family, size: 14 }
 					},
-					margin: { t: 50, r: 20, b: 90, l: 70 }, // Increased margin
-										annotations: axisAnnotations,
+					margin: { t: 50, r: 20, b: 90, l: 70 },
+					annotations: baseAnnotations,
 					hovermode: 'closest'
 				};
 
@@ -963,49 +950,23 @@
 					name: 'Weight'
 				};
 
-								// Re-use annotations logic
-								const axisAnnotations = [
-										{
-												xref: 'paper',
-												yref: 'paper',
-												x: 0.05,
-												y: -0.05,
-												xanchor: 'left',
-												yanchor: 'top',
-												text: '&#8592; Larger Stocks',
-												showarrow: false,
-												font: { family: fontStyle.family, size: 14, color: '#555' }
-										},
-										{
-												xref: 'paper',
-												yref: 'paper',
-												x: 0.95,
-												y: -0.05,
-												xanchor: 'right',
-												yanchor: 'top',
-												text: 'Smaller Stocks &#8594;',
-												showarrow: false,
-												font: { family: fontStyle.family, size: 14, color: '#555' }
-										}
-								];
-
 				layout = {
 					title: {
 						text: 'Market Capitalization Weights',
 						font: { family: fontStyle.family, size: 20 }
 					},
-					xaxis: { 
-						title: { text: 'Market Cap Rank', font: { family: fontStyle.family, size: 18 } }, 
+					xaxis: {
+						title: { text: 'Market Cap Rank', font: { family: fontStyle.family, size: 18 } },
 						range: [0, p.n_stocks],
 						tickfont: { family: fontStyle.family, size: 14 }
 					},
-					yaxis: { 
-						title: { text: 'Weight (Fraction)', font: { family: fontStyle.family, size: 18 } }, 
+					yaxis: {
+						title: { text: 'Weight (Fraction)', font: { family: fontStyle.family, size: 18 } },
 						type: 'linear',
 						tickfont: { family: fontStyle.family, size: 14 }
 					},
-					margin: { t: 50, r: 20, b: 90, l: 80 }, // Increased margin
-										annotations: axisAnnotations,
+					margin: { t: 50, r: 20, b: 90, l: 80 },
+					annotations: baseAnnotations,
 					hovermode: 'closest'
 				};
 			}

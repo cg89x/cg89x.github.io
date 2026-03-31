@@ -70,18 +70,18 @@
   }
 
   /* ----------------------------------------------------------
-     3. BibTeX toggle
+     3. BibTeX toggle (event delegation)
      ---------------------------------------------------------- */
-  window.show = function (id, event) {
-    if (event) event.preventDefault();
-    var el = document.getElementById(id);
+  document.addEventListener('click', function (e) {
+    var trigger = e.target.closest('[data-bibtex]');
+    if (!trigger) return;
+    e.preventDefault();
+    var el = document.getElementById(trigger.dataset.bibtex);
     if (!el) return;
     var isOpen = el.style.display !== 'block';
     el.style.display = isOpen ? 'block' : 'none';
-    if (event && event.currentTarget) {
-      event.currentTarget.setAttribute('aria-expanded', String(isOpen));
-    }
-  };
+    trigger.setAttribute('aria-expanded', String(isOpen));
+  });
 
   /* ----------------------------------------------------------
      4. OpenAlex citation fetch
