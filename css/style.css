@@ -194,8 +194,6 @@ nav {
 	transition: background-color 0.2s, color 0.2s;
 }
 
-.nav-short { display: none; }
-
 .nav-pills a:hover {
 	border-color: var(--accent);
 }
@@ -971,9 +969,6 @@ footer a:hover {
 		display: flex;
 		align-items: center;
 	}
-
-	.nav-full { display: none; }
-	.nav-short { display: inline; }
 
 	.hero-bio h1 {
 		font-size: 28px;

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk ls *)",
+      "Bash(rtk wc *)",
+      "WebFetch(domain:www.christiankontz.com)",
+      "Bash(rtk gh *)",
+      "Bash(rtk git *)",
+      "Bash(rtk grep *)"
+    ]
+  }
+}

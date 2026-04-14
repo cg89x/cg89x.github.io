@@ -48,16 +48,19 @@
   var navPills = document.querySelectorAll('.nav-pills a[href^="#"]');
 
   if (sections.length && navPills.length && 'IntersectionObserver' in window) {
+    var setActivePill = function (id) {
+      navPills.forEach(function (pill) {
+        pill.classList.remove('active');
+        if (pill.getAttribute('href') === '#' + id) {
+          pill.classList.add('active');
+        }
+      });
+    };
+
     var sectionObserver = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
-          var id = entry.target.getAttribute('id');
-          navPills.forEach(function (pill) {
-            pill.classList.remove('active');
-            if (pill.getAttribute('href') === '#' + id) {
-              pill.classList.add('active');
-            }
-          });
+          setActivePill(entry.target.getAttribute('id'));
         }
       });
     }, {
@@ -67,6 +70,18 @@
     sections.forEach(function (section) {
       sectionObserver.observe(section);
     });
+
+    /* Fallback: when scrolled near the bottom, the last section may never
+       cross the observer band because the page runs out of scroll first.
+       Force-activate the last section's pill in that case. */
+    var lastSectionId = sections[sections.length - 1].getAttribute('id');
+    var handleBottomScroll = function () {
+      var nearBottom = window.innerHeight + window.scrollY >=
+        document.documentElement.scrollHeight - 4;
+      if (nearBottom) setActivePill(lastSectionId);
+    };
+    window.addEventListener('scroll', handleBottomScroll, { passive: true });
+    window.addEventListener('resize', handleBottomScroll);
   }
 
   /* ----------------------------------------------------------
