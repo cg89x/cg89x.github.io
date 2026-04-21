@@ -6,7 +6,8 @@
       "WebFetch(domain:www.christiankontz.com)",
       "Bash(rtk gh *)",
       "Bash(rtk git *)",
-      "Bash(rtk grep *)"
+      "Bash(rtk grep *)",
+      "Bash(python3 *)"
     ]
   }
 }
