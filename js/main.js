@@ -9,9 +9,15 @@
   var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   /* ----------------------------------------------------------
-     1. Fade-in observer
+     1. Fade-in reveal
+        Above-the-fold hero content (everything inside #home) is
+        revealed on load instead of on scroll. Otherwise, on a
+        phone, the tall stacked hero can sit below the observer's
+        threshold at scroll 0, so the name/affiliation only fade in
+        after a nudge. Everything else still reveals as it scrolls in.
      ---------------------------------------------------------- */
   var fadeEls = document.querySelectorAll('.fade-in');
+  var heroFadeEls = document.querySelectorAll('#home .fade-in');
 
   if (prefersReducedMotion) {
     /* If user prefers reduced motion, make all visible immediately */
@@ -32,7 +38,18 @@
     });
 
     fadeEls.forEach(function (el) {
+      if (el.closest('#home')) return; /* hero content is revealed on load, not on scroll */
       fadeObserver.observe(el);
+    });
+
+    /* Reveal hero content on load — paint once at opacity 0, then add
+       .visible on the next frame so the fade transition still plays. */
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        heroFadeEls.forEach(function (el) {
+          el.classList.add('visible');
+        });
+      });
     });
   } else {
     /* Fallback for browsers without IntersectionObserver */
