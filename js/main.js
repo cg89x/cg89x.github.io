@@ -142,5 +142,78 @@
     });
   });
 
+  /* ----------------------------------------------------------
+     6. Recent News -> paper links: open the target paper and
+        scroll to it exactly once. In-page #paper-* clicks are
+        intercepted so we don't get BOTH the browser's native
+        anchor scroll AND the accordion toggle scroll (which the
+        two competing smooth animations would make janky).
+     ---------------------------------------------------------- */
+  function revealPaper(target) {
+    if (!target) return;
+    if (target.tagName === 'DETAILS' && !target.open) {
+      target.open = true; /* toggle handler (section 5) scrolls it into view */
+    } else {
+      target.scrollIntoView({
+        behavior: prefersReducedMotion ? 'auto' : 'smooth',
+        block: 'start'
+      });
+    }
+  }
+
+  document.addEventListener('click', function (e) {
+    var link = e.target.closest('a[href^="#paper-"]');
+    if (!link) return;
+    var id = link.getAttribute('href');
+    var target;
+    try {
+      target = document.querySelector(id);
+    } catch (err) {
+      return;
+    }
+    if (!target) return;
+    e.preventDefault();
+    revealPaper(target);
+    if (window.history && history.pushState) {
+      history.pushState(null, '', id);
+    } else {
+      window.location.hash = id;
+    }
+  });
+
+  /* Deep links / back-forward: open the targeted paper on load and on hashchange. */
+  function openHashTarget() {
+    var hash = window.location.hash;
+    if (!hash || hash.length < 2) return;
+    var target;
+    try {
+      target = document.querySelector(hash);
+    } catch (e) {
+      return;
+    }
+    if (target && target.tagName === 'DETAILS' && !target.open) {
+      target.open = true;
+    }
+  }
+
+  window.addEventListener('hashchange', openHashTarget);
+  openHashTarget();
+
+  /* ----------------------------------------------------------
+     7. Keep scroll-padding-top in sync with the ACTUAL nav
+        height. The sticky nav wraps to 2-3 rows on tablet/phone,
+        growing well past --nav-height, which would otherwise let
+        a section heading hide behind it after an anchor jump.
+     ---------------------------------------------------------- */
+  var navEl = document.querySelector('nav');
+  if (navEl) {
+    var syncNavOffset = function () {
+      document.documentElement.style.scrollPaddingTop =
+        (navEl.offsetHeight + 24) + 'px';
+    };
+    syncNavOffset();
+    window.addEventListener('resize', syncNavOffset);
+    window.addEventListener('load', syncNavOffset);
+  }
 
 })();

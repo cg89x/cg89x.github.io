@@ -8,7 +8,7 @@
 	<link rel="canonical" href="https://www.christiankontz.com/betasim.html">
 
 	<!-- Security headers (meta-tag fallbacks; GitHub Pages cannot set HTTP headers) -->
-	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.plot.ly https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data:; connect-src 'self' https://cdn.jsdelivr.net; frame-ancestors 'none'; base-uri 'self'; form-action 'self'">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.plot.ly https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; font-src 'self' data: https://cdn.jsdelivr.net; img-src 'self' data:; connect-src 'self' https://cdn.jsdelivr.net; frame-ancestors 'none'; base-uri 'self'; form-action 'self'">
 	<meta name="referrer" content="strict-origin-when-cross-origin">
 	<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), interest-cohort=()">
 
@@ -263,7 +263,7 @@
 						Number of Stocks
 						<span id="val_n_stocks" class="value-display">3500</span>
 					</label>
-					<input type="range" id="input_n_stocks" min="500" max="10000" step="100" value="3500">
+					<input type="range" id="input_n_stocks" aria-label="Number of Stocks" min="500" max="10000" step="100" value="3500">
 				</div>
 
 				<div class="control-group">
@@ -271,7 +271,7 @@
 						Size Distribution (σ of Log-Normal) 
 						<span id="val_log_sigma" class="value-display">2.0</span>
 					</label>
-					<input type="range" id="input_log_sigma" min="0.1" max="4.0" step="0.1" value="2.0">
+					<input type="range" id="input_log_sigma" aria-label="Size Distribution (sigma of log-normal)" min="0.1" max="4.0" step="0.1" value="2.0">
 				</div>
 
 				<div class="control-group">
@@ -279,7 +279,7 @@
 						Baseline Common Correlation (ρ)
 						<span id="val_rho" class="value-display">0.20</span>
 					</label>
-					<input type="range" id="input_rho" min="0" max="0.9" step="0.05" value="0.20">
+					<input type="range" id="input_rho" aria-label="Baseline Common Correlation (rho)" min="0" max="0.9" step="0.05" value="0.20">
 				</div>
 
 				<div class="control-group" style="flex-direction: row; align-items: center; justify-content: start; gap: 10px; margin-top: 5px;">
@@ -295,7 +295,7 @@
 						Min Corr. Factor
 						<span id="val_decay_min" class="value-display">0.30</span>
 					</label>
-					<input type="range" id="input_decay_min" min="0.0" max="1.0" step="0.05" value="0.3">
+					<input type="range" id="input_decay_min" aria-label="Minimum Correlation Factor" min="0.0" max="1.0" step="0.05" value="0.3">
 				</div>
 			</div>
 
@@ -303,7 +303,7 @@
 			<div class="control-section">
 				<div class="section-title">
 					<span>Comovement Shock 1 <span id="val_mkt_share_1" style="font-weight:normal; font-size:0.8em; color:#666; text-transform: none;"></span></span>
-					<input type="checkbox" id="input_use_shock_1" checked>
+					<input type="checkbox" id="input_use_shock_1" aria-label="Enable Comovement Shock 1" checked>
 				</div>
 				
 				<div id="group_shock_1">
@@ -312,7 +312,7 @@
 							Start Rank
 							<span id="val_start" class="value-display">1000</span>
 						</label>
-						<input type="range" id="input_start" min="0" max="4000" step="100" value="1000">
+						<input type="range" id="input_start" aria-label="Shock 1 Start Rank" min="0" max="4000" step="100" value="1000">
 					</div>
 
 					<div class="control-group">
@@ -320,7 +320,7 @@
 							End Rank
 							<span id="val_end" class="value-display">3000</span>
 						</label>
-						<input type="range" id="input_end" min="0" max="4000" step="100" value="3000">
+						<input type="range" id="input_end" aria-label="Shock 1 End Rank" min="0" max="4000" step="100" value="3000">
 					</div>
 
 					<div class="control-group">
@@ -328,7 +328,7 @@
 							Rho Shock (+Δρ)
 							<span id="val_shock_rho" class="value-display">0.08</span>
 						</label>
-						<input type="range" id="input_shock_rho" min="-0.10" max="0.75" step="0.01" value="0.08">
+						<input type="range" id="input_shock_rho" aria-label="Shock 1 Rho Shock" min="-0.10" max="0.75" step="0.01" value="0.08">
 					</div>
 				</div>
 			</div>
@@ -337,7 +337,7 @@
 			<div class="control-section">
 				<div class="section-title">
 					<span>Comovement Shock 2 <span id="val_mkt_share_2" style="font-weight:normal; font-size:0.8em; color:#666; text-transform: none;"></span></span>
-					<input type="checkbox" id="input_use_shock_2" checked>
+					<input type="checkbox" id="input_use_shock_2" aria-label="Enable Comovement Shock 2" checked>
 				</div>
 				
 				<div id="group_shock_2" class="disabled-group">
@@ -346,7 +346,7 @@
 							Start Rank
 							<span id="val_start_2" class="value-display">200</span>
 						</label>
-						<input type="range" id="input_start_2" min="0" max="4000" step="50" value="200">
+						<input type="range" id="input_start_2" aria-label="Shock 2 Start Rank" min="0" max="4000" step="50" value="200">
 					</div>
 
 					<div class="control-group">
@@ -354,7 +354,7 @@
 							End Rank
 							<span id="val_end_2" class="value-display">1000</span>
 						</label>
-						<input type="range" id="input_end_2" min="0" max="4000" step="50" value="1000">
+						<input type="range" id="input_end_2" aria-label="Shock 2 End Rank" min="0" max="4000" step="50" value="1000">
 					</div>
 
 					<div class="control-group">
@@ -362,7 +362,7 @@
 							Rho Shock (+Δρ)
 							<span id="val_shock_rho_2" class="value-display">0.04</span>
 						</label>
-						<input type="range" id="input_shock_rho_2" min="-0.10" max="0.75" step="0.01" value="0.04">
+						<input type="range" id="input_shock_rho_2" aria-label="Shock 2 Rho Shock" min="-0.10" max="0.75" step="0.01" value="0.04">
 					</div>
 				</div>
 			</div>
@@ -382,7 +382,7 @@
 						Number of Bins for Binned Scatter Plot
 						<span id="val_bins" class="value-display">70</span>
 					</label>
-					<input type="range" id="input_bins" min="10" max="200" step="5" value="70">
+					<input type="range" id="input_bins" aria-label="Number of Bins for Binned Scatter Plot" min="10" max="200" step="5" value="70">
 				</div>
 
 								<div class="control-group" style="flex-direction: row; align-items: center; justify-content: start; gap: 10px; margin-top: 10px;">
@@ -976,12 +976,7 @@
 				};
 			}
 
-			Plotly.newPlot('plot', [trace], layout, {responsive: true, displayModeBar: false});
-			
-			// Re-render math
-			if(window.MathJax && typeof window.MathJax.typesetPromise === 'function') {
-				MathJax.typesetPromise();
-			}
+			Plotly.react('plot', [trace], layout, {responsive: true, displayModeBar: false});
 		}
 
 		// Mode Switching
